@@ -1,0 +1,45 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerD {
+    height: 600px;
+    margin-bottom: 65px;
+    width: 100%;
+    background:$deepblue;
+    background-image: url("../../assets/team.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center center;
+  @media screen and (max-width:620px){
+  padding:12px 20px;
+
+}
+}
+.directory-buttton-pages{
+  text-align: center;
+  button{
+    color:#fff;
+  background-color:$lightblue2;
+border:none !important;
+margin:5px;
+padding:12px 40px;
+@media screen and (max-width:620px){
+  padding:12px 20px;
+
+}
+
+  }
+  
+}
+.icon{
+  p{
+    @media screen and (max-width:620px){
+      line-height:25px;
+    font-size:30px;
+    }
+  }
+}
+.directory{
+  h1{color:$lightblue}
+}

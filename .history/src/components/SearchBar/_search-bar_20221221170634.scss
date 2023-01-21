@@ -1,0 +1,16 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+input{
+    background-color: rgb(239, 243, 248) !important;
+    padding:6px !important;
+    border-radius: 5px !important;
+    width:300px
+}

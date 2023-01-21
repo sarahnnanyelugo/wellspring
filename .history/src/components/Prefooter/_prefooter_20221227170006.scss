@@ -1,0 +1,13 @@
+.prefooter-container{
+   .twitter-container {
+    height:320px !important;
+    padding-bottom:0 !important;
+    
+    .twitter-btn{
+        margin-bottom:95px !important;
+    }
+   }
+   @media screen and (max-width:620px){
+        height:fit-content !important;
+    }
+}

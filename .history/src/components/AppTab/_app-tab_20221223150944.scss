@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+.tab-container {
+//   max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  img{
+    height:80px;
+    width:80px;
+    margin-left:45%;
+    margin-bottom:20px;
+      filter: grayscale(100%);
+
+  }
+  .tabs {
+    position: relative;
+    display: flex;
+    min-height: 350px;
+    //   border-radius: 8px 8px 0 0;
+    overflow: hidden;
+  }
+  p {
+    margin: 0 0 15px;
+    line-height: 24px;
+  }
+  .btn1 {
+    margin-left: 100px;
+    @media screen and (max-width:620px){
+    margin-left:20;
+  }
+  }
+  .tabby-tab {
+    flex: 1;
+  }
+
+  .tabby-tab label {
+    display: block;
+    box-sizing: border-box;
+
+    border: solid 1px rgb(161, 159, 159);
+font-size:20px;
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: grey;
+    cursor: pointer;
+    transition: linear 1s ease;
+  }
+
+  .tabby-tab label:hover {
+    background: rgb(217, 213, 213);
+    color: white;
+  }
+
+  .tabby-content {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* clear the tab labels */
+    top: 100px;
+    padding: 20px;
+    //   border-radius: 0 0 8px 8px;
+    background: inherit;
+
+    transition: opacity 0.8s ease, transform 0.8s ease;
+
+    /* show/hide */
+    opacity: 0;
+    transform: scale(0.1);
+    transform-origin: top left;
+  }
+
+  .tabby-content img {
+    float: left;
+    margin-right: 20px;
+    //   border-radius: 8px;
+  }
+
+  /* MAKE IT WORK ----- */
+
+  .tabby-tab [type="radio"] {
+    display: none;
+  }
+  [type="radio"]:checked ~ label {
+    background: rgb(175, 177, 179);
+    z-index: 2;
+    color:#fff;
+  }
+
+  [type="radio"]:checked ~ label ~ .tabby-content {
+    z-index: 1;
+
+    /* show/hide */
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* BREAKPOINTS ----- */
+  @media screen and (max-width: 767px) {
+    .tabs {
+      min-height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .tabs {
+      min-height: 580px;
+    }
+    .tabby-tab label {
+      height: 60px;
+    }
+    .tabby-content {
+      top: 60px;
+    }
+    .tabby-content img {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  .tab-btn{
+    margin-left:30% !important;
+    margin-bottom:40px; 
+  }
+  .about-us-after {
+    background-image: url("../../assets/stripe.png");
+    background-repeat: repeat;
+    background-position: left top !important;
+    background-size: 5px;
+    height: 30px;
+    width: 100%;
+  }
+}
+

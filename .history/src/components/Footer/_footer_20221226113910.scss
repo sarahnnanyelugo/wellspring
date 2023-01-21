@@ -1,0 +1,45 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+
+
+.footer-container{
+    height:fit-content;
+color:#fff;
+    .links-container{
+        height:fit-content;padding:40px;
+        background-color:rgb(1,75,145);
+        ul li{
+            line-height: 35px;
+            
+        }
+    }
+    .footer-links-alteration{
+        color:#fff;
+        font-size:19px;
+        text-decoration: none;
+&:hover{
+    color:$yellow;
+}
+    }
+    .footer-logo-container{
+        height:fit-content;
+        padding:40px 10px;
+        background-color:$lightblue;
+    }
+
+    .address-container{
+        padding:40px 0;
+        height:fit-content;
+        background:$deepblue;
+      font-size:12px;
+        .link-alteration{
+              color:#fff !important;
+            font-weight:200;
+            font-size:14px;
+            &:hover{
+                color:$yellow !important;
+            }
+        }
+    }
+}

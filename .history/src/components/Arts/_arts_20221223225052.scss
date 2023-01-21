@@ -1,0 +1,16 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+
+
+
+
+.arts-container{
+    h4{color:$yellow !important}
+    p{color:b}
+    .link-ulteration{
+        color:$yellow;
+        text-decoration:none;
+        &:hover{color:#fff;}
+    }
+}

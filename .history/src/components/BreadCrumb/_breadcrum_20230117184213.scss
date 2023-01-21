@@ -1,0 +1,9 @@
+.breadcrumb-container {
+  background: rgb(210, 210, 206);
+  width: 250px;
+  padding-left: 15px;
+  .breadcrumb-item.active {
+    color: blue !important;
+    opacity: 0.9 !important;
+  }
+}

@@ -1,0 +1,112 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.footer-container {
+  height: fit-content;
+  border-bottom: solid 15px $yellow;
+  color: #fff;
+  .links-container {
+    height: 240px;
+    padding: 40px;
+    background-color: rgb(1, 75, 145);
+    ul li {
+      line-height: 35px;
+      @media screen and (max-width: 620px) {
+    }
+    }
+  }
+  .footer-links-alteration {
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    &:hover {
+      color: $yellow;
+    }
+  }
+  .footer-logo-container {
+    height: 438px;
+    padding: 40px 10px 130px 10px;
+    background-color: $lightblue2;
+    box-shadow: 0 0 2px 2px $lightblue2;
+    @media screen and (max-width: 620px) {
+      height: fit-content;
+    }
+  }
+
+  .address-container {
+    padding-top: 20px;
+    height: 200px;
+    background: $deepblue;
+    font-size: 12px;
+    
+    p {
+      font-weight: 300;
+      font-size: 14px;
+    }
+    .link-alteration {
+      color: #fff !important;
+      font-weight: 200;
+      font-size: 14px !important;
+      &:hover {
+        color: $yellow !important;
+      }
+    }
+  }
+
+  .footer-handles-container {
+    padding: 40px 60px;
+    height: 240px;
+    background-color: rgb(1, 75, 145);
+  }
+  .link-alteration {
+    color: white !important;
+    font-size: 20px !important;
+    &:hover {
+      color: $yellow !important;
+    }
+  }
+  .link-icon-alteration {
+    font-size: 30px;
+    &:hover {
+      color: rgb(186, 183, 183) !important;
+    }
+  }
+
+  .sighoff-container {
+    padding-top: 20px;
+    height: 200px;
+    background: $deepblue;
+    font-size: 12px;
+    .link-alteration {
+      color: #fff !important;
+      font-weight: 200;
+      font-size: 14px !important;
+      &:hover {
+        color: $yellow !important;
+      }
+    }
+    p {
+      font-weight: 200;
+      font-size: 15px;
+    }
+
+    .educare {
+      margin-top: 20px;
+      p {
+        font-size: 12px;
+        color: grey;
+        margin-top: 10px;
+        margin-right: 5px;
+        font-weight: 600 !important;
+      }
+      img {
+        width: 100px;
+      }
+    }
+  }
+  .message-box {
+    margin-top: 20%;
+    // position:fixed;
+    z-index: 60000000000000000000000000000000000000000000000000000000000000000000000000000;
+  }
+}

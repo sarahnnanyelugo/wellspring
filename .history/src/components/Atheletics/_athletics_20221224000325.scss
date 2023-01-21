@@ -1,0 +1,18 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+
+
+
+
+.athletics-container{
+    h4{color:$deepblue !important}
+    .link-ulteration{
+        color:$lightblue;
+        text-decoration:none;
+        &:hover{color:#fff;}
+    }
+    img{
+        border:solid 2px $deepblue;
+    }
+}

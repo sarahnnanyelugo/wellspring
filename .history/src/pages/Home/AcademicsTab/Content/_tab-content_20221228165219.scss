@@ -1,0 +1,21 @@
+@import "../../../../variables";
+@import "../../../../shared-styles";
+
+.tab-content-container {
+text-align: left !important;
+
+  .tab-content-paragraph {
+    p {
+      text-align: justify !important;
+      font-weight:300;
+      line-height:35px;
+      width:350px;
+    }
+    h4{
+        color:$yellow !important;
+    }
+    small{
+        font-weight:300;
+    }
+  }
+}

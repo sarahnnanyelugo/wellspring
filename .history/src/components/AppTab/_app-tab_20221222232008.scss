@@ -1,0 +1,116 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+
+
+.tab-container { 
+  max-width: 960px; 
+  height: 100%;
+  margin: 0 auto; 
+  padding: 20px;
+  .tabs {
+  position: relative;
+  display: flex;
+  min-height: 500px;
+//   border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  
+}
+p { margin: 0 0 15px; line-height: 24px; }
+.btn1{
+    margin-left:100px;
+}
+.tabby-tab {
+  flex: 1;
+}
+
+.tabby-tab label {
+  display: block;
+  box-sizing: border-box;
+  /* tab content must clear this */
+    // height: 40px;
+    border:solid 1px rgb(161, 159, 159);
+
+  padding-top: 20px;
+  padding-bottom: 20px !important;
+  text-align: center;
+  background:rgb(255,255,255);
+  color:grey;
+  cursor: pointer;
+  transition:linear 1s ease;
+//   width:180px;
+}
+
+.tabby-tab label:hover {
+  background: rgb(217, 213, 213);
+  color:white
+}
+
+.tabby-content {
+  position: absolute;
+  
+  left: 0; bottom: 0; right: 0;
+  /* clear the tab labels */
+    top: 100px; 
+  padding: 20px;
+//   border-radius: 0 0 8px 8px;
+  background:inherit;
+  
+  transition: 
+    opacity 0.8s ease,
+    transform 0.8s ease   ;
+  
+  /* show/hide */
+    opacity: 0;
+    transform: scale(0.1);
+    transform-origin: top left;
+  
+}
+
+.tabby-content img {
+  float: left;
+  margin-right: 20px;
+//   border-radius: 8px;
+}
+
+
+/* MAKE IT WORK ----- */
+
+.tabby-tab [type=radio] { display: none; }
+[type=radio]:checked ~ label {
+  background:rgb(175,177,179);
+  z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .tabby-content {
+  z-index: 1;
+  
+  /* show/hide */
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* BREAKPOINTS ----- */
+@media screen and (max-width: 767px) {
+  .tabs { min-height: 400px;}
+}
+
+@media screen and (max-width: 480px) {
+  .tabs { min-height: 580px; }
+  .tabby-tab label { 
+    height: 60px;
+  }
+  .tabby-content { top: 60px; }
+  .tabby-content img {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+}
+
+/* ------------------- */
+/* PEN STYLES      -- */
+/* ----------------- */
+
+/* MAKE IT CUTE ----- */

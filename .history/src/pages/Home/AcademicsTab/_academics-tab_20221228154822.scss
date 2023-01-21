@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import "../../../variables";
+@import "../../../shared-styles";
+.academic-tab-container {
+  //   max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  .about-us-after {
+    background-image: url("../../../assets/stripe.png");
+    background-repeat: repeat;
+    background-position: left top !important;
+    background-size: 5px;
+    height: 100px;
+    width: 100%;
+    position: relative !important;
+    margin-bottom:-70px
+    // z-index: -1 !important;
+
+  }
+  img {
+    height: 80px;
+    width: 80px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    filter: grayscale(100%);
+    @media screen and (max-width: 620px) {
+      margin-left: 38%;
+    }
+  }
+  .tabs33 {
+    position: relative;
+    display: flex;
+    min-height: 350px;
+    //   border-radius: 8px 8px 0 0;
+    overflow: hidden;
+  }
+  p {
+    margin: 0 0 15px;
+    line-height: 24px;
+  }
+  .btn1 {
+    margin-left: 152px;
+    @media screen and (max-width: 620px) {
+      margin-left: 20px;
+    }
+  }
+
+  .btn2 {
+    margin-left: 60px;
+
+    @media screen and (max-width: 620px) {
+      margin-right: 20px;
+    }
+  }
+  .btn3 {
+    margin-left: -9px;
+
+    @media screen and (max-width: 620px) {
+      margin-right: 20px;
+    }
+  }
+  .btn4 {
+    margin-left: -79px;
+
+    @media screen and (max-width: 620px) {
+      margin-right: 20px;
+    }
+  }
+  .tabby-tab {
+    flex: 1;
+  }
+
+  .tabby-tab label {
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: $lightblue;
+    cursor: pointer;
+    transition: linear 1s ease;
+    // margin-top: -50px;
+    z-index: 90000000000 !important;
+    position: relative;
+    opacity:1
+  }
+
+  .tabby-tab label:hover {
+    background: $skyblue;
+    color: white;
+  }
+
+  .tabby-content {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* clear the tab labels */
+    top: 100px;
+    padding: 20px;
+    //   border-radius: 0 0 8px 8px;
+    background: inherit;
+
+    transition: opacity 0.8s ease, transform 0.8s ease;
+
+    /* show/hide */
+    // opacity: 0;
+    // transform: scale(0.1);
+    // transform-origin: top left;
+
+    display: none;
+    transform: translateY(100%);
+  }
+
+  /* MAKE IT WORK ----- */
+
+  .tabby-tab [type="radio"] {
+    display: none;
+  }
+  [type="radio"]:checked ~ label {
+    background: $skyblue;
+    z-index: 2;
+    color: #fff;
+  }
+
+  [type="radio"]:checked ~ label ~ .tabby-content {
+    z-index: 1;
+
+    /* show/hide */
+    // opacity: 1;
+    // transform: scale(1);
+    display: block;
+    transform: translateY(0);
+    animation: change 0.49s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  @keyframes change {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  /* BREAKPOINTS ----- */
+  @media screen and (max-width: 767px) {
+    .tabs33 {
+      min-height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .tabs33 {
+      min-height: 480px;
+    }
+    .tabby-tab label {
+      height: 60px;
+    }
+    .tabby-content {
+      top: 60px;
+    }
+  }
+  .tab-btn {
+    margin-left: 0% !important;
+    margin-bottom: 40px;
+    @media screen and (max-width: 620px) {
+      margin-left: 20% !important;
+      height: 100px !important;
+    }
+  }
+}

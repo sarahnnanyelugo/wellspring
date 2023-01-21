@@ -1,0 +1,44 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.banner {
+    height: 600px;
+    margin-bottom: 65px;
+    width: 100%;
+    background:red;
+    background-image: url("../../assets/building-banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center center;
+  
+}
+.prospect{
+  height:210px;
+ background: rgb(0,45,91);
+background: linear-gradient(90deg, rgba(0,45,91,1) 41%, rgba(0,79,156,1) 81%, rgba(0,45,91,1) 81%);
+img{
+  margin-top:-70px;
+ 
+}
+ h1{
+    color:#fff;
+    font-weight:bold;
+    font-size:51px !important;
+    line-height:48px;
+  }
+  h4{
+    text-align:center;color:$yellow;
+  }
+
+  button{
+   background:$deepblue;
+   color:#fff;
+   border:none !important;
+   border-radius:35px;
+   &:hover{
+    background:#fff;
+    color:$deepblue;
+   }
+  }
+}

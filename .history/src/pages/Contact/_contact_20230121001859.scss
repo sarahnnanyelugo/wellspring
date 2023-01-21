@@ -1,0 +1,79 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerC {
+    height: 600px;
+    margin-bottom: 65px;
+    width: 100%;
+    background:$deepblue;
+    background-image: url("../../assets/index2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center center;
+  @media screen and (max-width:620px){
+    height: 300px !important;
+    margin-bottom:100px !important
+  }
+}
+
+.contact-container{
+border: solid 1px #fff;
+border-radius:5px;
+height:fit-content;
+padding:30px;
+box-shadow:0px 0px 2px 2px rgb(246, 243, 243);
+h1{
+  color:$lightblue;
+}
+.link-alteration2{
+  border-bottom:solid 3px $yellow !important;
+  color:rgb(132, 129, 129) !important;
+  text-decoration: none !important;
+  &:hover{
+    color:$lightblue !important;
+  border-bottom:solid 3px $lightblue !important;
+  transition:0.5s ease;
+  }
+}
+img{
+  border-bottom:solid 20px rgb(82,86,89);
+}
+.download-btn button{
+color:rgb(96, 95, 95) !important;
+background:inherit;
+border:none !important;
+border-bottom:solid 2px $yellow !important; 
+&:hover{
+    color:$lightblue !important;
+  border-bottom:solid 2px $lightblue !important;
+  transition:0.5s ease;
+  }
+}.download-btn a{
+color:rgb(96, 95, 95) !important;
+background:inherit;
+text-decoration: none !important;
+border-bottom:solid 2px $yellow !important; 
+&:hover{
+    color:$lightblue !important;
+  border-bottom:solid 2px $lightblue !important;
+  transition:0.5s ease;
+  }
+}
+
+}
+.cardd{
+  border: solid 1px #fff;
+border-radius:5px;
+height:fit-content;
+padding:30px;
+box-shadow:0px 0px 2px 2px rgb(246, 243, 243);
+h2{
+  color:$lightblue;
+}
+a{
+  color:rgb(97, 97, 97);
+  text-decoration: none;
+  border-bottom:solid 2px $yellow;
+}
+}

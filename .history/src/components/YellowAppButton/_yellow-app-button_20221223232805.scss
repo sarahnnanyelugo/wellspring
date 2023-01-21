@@ -1,0 +1,16 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+
+
+
+.app-button-yellow{
+    background:$yellow;
+    border:none !important;
+    padding:10px 80px;
+    &:hover{
+        color:$deepblue;
+        background-color:#fff;
+        transition: all 0.s linear;
+    }
+}

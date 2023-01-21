@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import "../../../variables";
+
+.btc-tab-container {
+
+  height:fit-content;
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-bottom:30px;
+  margin-top:30px;
+  background:#fff;
+  .btn2{
+    margin-left:-250px;
+  }
+  .tabs {
+    position: relative;
+    display: flex;
+    min-height: 670px;
+    overflow: hidden;
+         border:none !important;
+
+  }
+  
+ 
+  
+  
+  .tabby-tab {
+    flex: 1;
+   
+  }
+.link-alteration{
+  margin-left:10px !important;
+}
+  .tabby-tab label {
+    display: block;
+    box-sizing: border-box;
+    border:none;
+font-size:16px;
+    padding-top: 17px;
+    padding-bottom: 8px !important;
+    text-align: center;
+    background: #fff;
+    color: grey;
+    cursor: pointer;
+    transition: linear 2s ease;
+  
+  }
+
+  .tabby-tab label:hover {
+    background: rgb(217, 213, 213);
+    color: white;
+  }
+
+  .tabby-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 95px;
+    padding: 20px;
+    background: #fff;
+border:none !important;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+    display: none;
+        transform: translateY(100%);
+        button{
+          background:rgb(212,215,218);
+          color:#fff;
+          border:none !important;
+          padding:6px 10px;
+          border-radius:5px;
+          margin-left:15px;
+          margin-top:15px;
+          &:hover{
+            background:$deepblue;
+          }
+        }
+        
+  }
+
+  .link-alteration{
+    color:$skyblue !important;
+    font-size:17px !important;
+      &:hover{
+      color:black !important;
+    }
+  }
+
+  /* MAKE IT WORK ----- */
+
+  .tabby-tab [type="radio"] {
+    display: none;
+  }
+  [type="radio"]:checked ~ label {
+    background: rgb(175, 177, 179);
+    z-index: 2;
+    color:#fff;
+  }
+
+  [type="radio"]:checked ~ label ~ .tabby-content {
+    z-index: 1;
+    display: block;
+        transform: translateY(0);
+        animation: change .49s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+@keyframes change {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+  /* BREAKPOINTS ----- */
+  @media screen and (max-width: 767px) {
+    .tabs {
+      min-height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .tabs {
+      min-height: 480px;
+    }
+    .tabby-tab label {
+      height: 60px;
+    }
+    .tabby-content {
+      top: 60px;
+    }
+   
+  }
+  .tab-btn{
+    margin-left:30% !important;
+    margin-bottom:40px; 
+    @media screen and (max-width:620px){
+    margin-left:20% !important;
+    height:100px !important;
+  }
+  }
+  
+}
+

@@ -1,0 +1,95 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.backdropClassName{
+  width:30% !important;
+}	
+
+
+.leaders-profile {
+        text-align: center;
+margin-bottom:50px;
+    h4{
+           color:$lightblue2;
+cursor: pointer;
+&:hover{
+    color:$yellow;
+}
+    }
+    small{color:grey;cursor: pointer;
+}
+    img{
+        height:400px;
+        cursor: pointer;
+        @media screen and (max-width:6)
+    }
+  .profile-name {
+    
+    h6 {
+      color: #fff;
+    // position:;
+    text-align:center;
+      background-color: rgba(24,60,118,0.7);
+      padding: 10px 30px;
+      margin-top:-35px;
+      margin-left:40px;
+      width:80%;
+      position:relative;
+      z-index:3;
+      font-size:12px !important;font-weight:bold;
+    }
+  }
+}
+.offcanvas-profile-name{
+    padding:20px;
+    height:100px;
+    text-align:center;
+    background:rgb(245,245,245);
+    margin-top:0;
+       h2{
+           color:$lightblue2;
+
+    }
+      small{color:grey}
+}
+.offcanvas-leaders-profile{
+    img{
+        height:600px;
+    }
+    .profile-portfolio{
+        
+        h6{
+             color: #fff;
+      background-color: rgba(24,60,118,0.7);
+      padding: 10px 30px;
+    position:relative;
+    text-align:center;
+    margin-top:-35px;
+          font-size:12px !important;font-weight:bold;
+
+        }
+    }
+}
+.offcanvas-body{
+    padding:0 !important;
+}
+.offcanvas-header .btn-close {
+    background:$lightblue !important;
+    margin-bottom:-100px !important;
+    position:relative;
+    z-index:300000;
+}
+.btn-close{
+    color:yellow !important;
+opacity:1 !important;
+ margin-left:90% !important;
+    border-radius:0 !important;
+    font-size:30px !important;
+font-weight:bold !important;
+}
+.profile-body{
+    padding:40px !important;
+    p{
+        line-height:35px;
+    }
+}

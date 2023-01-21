@@ -1,0 +1,37 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.footer-container{
+  .footer-content{
+   background: rgb(24,60,118);
+background: linear-gradient(150deg, rgba(24,60,118,1) 50%, rgba(20,52,104,1) 50%);
+color:#fff;
+height:fit-content;
+padding:100px 0 10px 0;
+
+  }
+  ol li a{
+    text-decoration: none;
+    color:#fff;
+    &:hover{
+      color:$yellow;
+    }
+ 
+  
+  }
+  p{
+    font-size:11px;
+  }
+  button{
+    background:inherit;
+    font-weight:bold;
+    border:solid 2px $yellow;
+    color:#fff;
+    margin-bottom:40px;
+    font-size:
+    &:hover{
+      color:$yellow;
+      transition:0.5s ease;
+    }
+  }
+}

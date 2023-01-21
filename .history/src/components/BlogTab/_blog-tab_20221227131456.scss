@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+.blog-tab-container {
+//   max-width: 960px;
+  height:fit-content;
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-bottom:30px;
+  .tabs {
+    position: relative;
+    display: flex;
+    min-height: 650px;
+    overflow: hidden;
+         border:solid 1px rgb(186, 185, 185) !important;
+
+  }
+  p {
+    margin: 0 0 15px;
+    line-height: 24px;
+  }
+  
+  .tabby-tab {
+    flex: 1;
+   
+  }
+
+  .tabby-tab label {
+    display: block;
+    box-sizing: border-box;
+
+    border: solid 1px rgb(161, 159, 159)none
+font-size:10px;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: grey;
+    cursor: pointer;
+    transition: linear 1s ease;
+  }
+
+  .tabby-tab label:hover {
+    background: rgb(217, 213, 213);
+    color: white;
+  }
+
+  .tabby-content {
+    position: absolute;
+border-top:solid 1px grey;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* clear the tab labels */
+    top: 100px;
+    padding: 20px;
+    //   border-radius: 0 0 8px 8px;
+    background: inherit;
+
+    transition: opacity 0.8s ease, transform 0.8s ease;
+
+    display: none;
+        transform: translateY(100%);
+  }
+
+ 
+
+  /* MAKE IT WORK ----- */
+
+  .tabby-tab [type="radio"] {
+    display: none;
+  }
+  [type="radio"]:checked ~ label {
+    background: rgb(175, 177, 179);
+    z-index: 2;
+    color:#fff;
+  }
+
+  [type="radio"]:checked ~ label ~ .tabby-content {
+    z-index: 1;
+    display: block;
+        transform: translateY(0);
+        animation: change .49s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+@keyframes change {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+  /* BREAKPOINTS ----- */
+  @media screen and (max-width: 767px) {
+    .tabs {
+      min-height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .tabs {
+      min-height: 480px;
+    }
+    .tabby-tab label {
+      height: 60px;
+    }
+    .tabby-content {
+      top: 60px;
+    }
+   
+  }
+  .tab-btn{
+    margin-left:30% !important;
+    margin-bottom:40px; 
+    @media screen and (max-width:620px){
+    margin-left:20% !important;
+    height:100px !important;
+  }
+  }
+  
+}
+

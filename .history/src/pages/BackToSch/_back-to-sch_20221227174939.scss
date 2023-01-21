@@ -1,0 +1,13 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.back-sch-heading{
+    text-align:center;
+    ul li{
+        margin-right:15px;
+        color:$skyblue !important;
+        &:hover{
+            color:black !important;
+        }
+    }
+}

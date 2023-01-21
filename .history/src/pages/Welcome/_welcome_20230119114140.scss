@@ -1,0 +1,17 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.banner {
+    height: 600px;
+    margin-bottom: 65px;
+    width: 100%;
+    background:red;
+    background-image: url("../../assets/building-banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center center;
+  @media screen and (max-width:620px){
+    height: 300px;
+  }
+}

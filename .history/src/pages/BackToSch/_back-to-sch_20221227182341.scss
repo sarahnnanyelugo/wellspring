@@ -1,0 +1,28 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.back-sch-heading{
+    text-align:center;
+    ul li{
+        margin-right:15px;
+        color:$skyblue !important;
+        &:hover{
+            color:rgb(69, 68, 68) !important;
+        }
+    }
+    
+
+
+}
+.values{
+    ul li{
+line-height:39px !important;
+border-bottom:solid 1px rgb(175, 175, 175);
+    }
+    .assignment{
+        color:$skyblue !important;
+        text-decoration: none !important;
+    border-bottom:solid 1px grey !important;
+        
+    }
+}

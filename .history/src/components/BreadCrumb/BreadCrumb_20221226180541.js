@@ -1,0 +1,19 @@
+import Breadcrumb from "react-bootstrap/Breadcrumb";
+import { Link } from "react-router-dom";
+
+export const Breadcrum=(props)=> {
+  return (
+    <Breadcrumb>
+      <Breadcrumb.Item href="#">
+        <Link to={"/"}>
+          <img className="col-md-12 home-icon" src={Home} alt="Scholar" />
+        </Link>
+      </Breadcrumb.Item>
+      <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+        {props.page1}
+      </Breadcrumb.Item>
+      <Breadcrumb.Item active>{props.currentPage}</Breadcrumb.Item>
+    </Breadcrumb>
+  );
+}
+

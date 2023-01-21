@@ -1,0 +1,47 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.dropdown-menu {
+    width:310px;
+    margin-bottom:-15px;
+    border:0 !important;
+    padding-top:0 !important;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  width:  600px !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+
+
+
+.message-head{
+    height:fit-content;
+    padding:40px;
+    text-align: center;
+background:$lightblue2;
+color:#fff;
+}
+
+.btn.show{
+    background-color:#fff;
+        border:0 !important;
+
+  
+}
+.btn{
+     border:0 !important;
+    width:310px !important;
+background-color:rgb(24,61,109);
+border-radius:0;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+position:fixed !important;
+z-index:0
+//  &:hover{
+//     background-color:rgb(24,61,109);
+//    }
+}

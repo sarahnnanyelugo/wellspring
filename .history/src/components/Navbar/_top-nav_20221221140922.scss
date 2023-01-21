@@ -1,0 +1,15 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.top-nav-container{
+    width:100%;
+    background:$yellow;
+    height:35px;
+    ul li {
+        color:black !important;
+        font-size:14px;
+        text-decoration: none !important;
+        margin-right:40px !important;
+        margin-top:40px !important;
+    }
+}
