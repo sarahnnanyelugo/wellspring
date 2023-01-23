@@ -1,0 +1,14 @@
+@import "../../shared-styles";
+@import "../../variables";
+@import "./overides";
+
+form{
+    color:grey;
+    button{
+        border:none;
+        color:#fff;
+background:rgb(28,47,58);
+font-size:14px;
+padding:5px 20px
+    }
+}
