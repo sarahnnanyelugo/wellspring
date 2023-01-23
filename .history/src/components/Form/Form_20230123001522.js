@@ -1,0 +1,56 @@
+import React, {useState} from 'react'
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import SignatureCanvas from 'react-signature-canvas'
+
+import './_form.scss';
+
+export const EnquiryForm=() =>{
+ return (
+   <>
+     <div className="form-section">
+       <Form>
+         <Form.Group className="mb-3 flexy" controlId="formBasicEmail">
+           <Form.Control type="text" placeholder="* Name" />
+           <br />
+           <Form.Control type="email" placeholder="* Email" />
+         </Form.Group>
+         <small>Company Name*</small>
+ <Form.Group className="mb-3 flexy" controlId="formBasicEmail">
+           <Form.Control type="text"  />
+          
+         </Form.Group>
+         <Form.Group className="mb-3 flexy" controlId="formBasicEmail">
+           <Form.Control type="text"  />
+          
+         </Form.Group><Form.Group className="mb-3 flexy" controlId="formBasicEmail">
+           <Form.Control type="text"  />
+          
+         </Form.Group>
+         <FloatingLabel
+           controlId="floatingTextarea2"
+           label="* Message for Admissions
+
+"
+         >
+           <Form.Control
+             as="textarea"
+             placeholder="Leave a comment here"
+             style={{ height: "100px", marginBottom:'30px' }}
+           />
+         </FloatingLabel>
+  <div className="col-md-12 cardd">
+            <SignatureCanvas penColor='grey' onEnd onBegin
+    canvasProps={{width:1000, height: 200, className: 'sigCanvas'}} />
+    <hr />
+        </div>
+         <Button variant="primary" type="submit">
+           Submit
+         </Button>
+       </Form>
+     </div>
+   </>
+ );
+  
+}

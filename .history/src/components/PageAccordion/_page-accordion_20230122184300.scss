@@ -1,0 +1,15 @@
+.accordion-body{
+    ul li{
+        line-height:30px;
+    }
+}
+.accordion-button:not(.collapsed){
+    background:#fff !important;
+}
+.accordion-item{
+    border:none !important;
+}
+
+.accordion-button:focus{
+    border-color:none !important;
+}
