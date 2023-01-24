@@ -1,0 +1,59 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerWS {
+  height: 600px;
+  margin-bottom: 0px;
+  width: 100%;
+  background: $deepblue;
+  background-image: url("../../assets/co-corricular.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  @media screen and (max-width: 620px) {
+    height: 300px !important;
+    margin-bottom: 100px !important;
+  }
+}
+// .wellspring-header {
+//   .page-shadow .after {
+//     height: 680px !important;
+//   }
+// }
+.mission-section {
+  height: 450px;
+  padding: 150px;
+  margin-top: 0 !important;
+  background: $deepblue;
+  background-image: url("../../assets/building2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  h2 {
+    color: $yellow;
+  }
+  p {
+    color: #fff;
+  }
+  .after {
+    padding: 150px;
+    position: absolute;
+    top: 660px;
+    left: 0;
+    width: 100% !important;
+    height: 450px !important;
+    color: #fff;
+    display: block;
+    background: rgba(0, 79, 157, 0.9);
+    mix-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    @media screen and (max-width: 620px) {
+      height: 300px !important;
+      margin-bottom: 100px !important;
+    }
+  }
+}

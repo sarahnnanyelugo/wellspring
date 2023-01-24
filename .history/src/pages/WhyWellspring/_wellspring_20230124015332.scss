@@ -1,0 +1,92 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerWS {
+  height: 600px;
+  margin-bottom: 0px;
+  width: 100%;
+  background: $deepblue;
+  background-image: url("../../assets/co-corricular.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  @media screen and (max-width: 620px) {
+    height: 300px !important;
+    margin-bottom: 100px !important;
+  }
+}
+// .wellspring-header {
+//   .page-shadow .after {
+//     height: 680px !important;
+//   }
+// }
+.mission-section {
+  height: 420px;
+  padding: 150px;
+  margin-top: 0 !important;
+  background: $deepblue;
+  background-image: url("../../assets/building2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  h1 {
+    color: $yellow;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  p {
+    color: #fff;
+    font-size: 23px;
+  }
+  .after {
+    padding: 150px;
+    position: absolute;
+    top: 660px;
+    left: 0;
+    width: 100% !important;
+    height: 420px !important;
+    color: #fff;
+    display: block;
+    background: rgba(0, 79, 157, 0.9);
+    mix-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    @media screen and (max-width: 620px) {
+      height: 300px !important;
+      margin-bottom: 100px !important;
+    }
+  }
+}
+.reasons-container {
+  padding: 40px 0 168px 0;
+
+  p {
+    font-size: 21px;
+  }
+  h2 {
+    color: $deepblue;
+    font-weight: bold;
+
+    span {
+      border-bottom: solid 10px rgb(204, 220, 235);
+      padding-bottom: 30px;
+    }
+  }
+}
+.ten-reasons {
+  background:rgb(245, 245, 245); .lightblue {
+    color: $lightblue;
+  }
+  .lightblue2 {
+    color: $lightblue2;
+  }
+  .skyblue {
+    color: rgb(102, 149, 196);
+  }
+  .deepblue {
+    color: $deepblue;
+  }
+}
