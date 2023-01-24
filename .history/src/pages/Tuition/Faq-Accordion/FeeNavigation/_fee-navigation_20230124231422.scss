@@ -1,0 +1,15 @@
+.fee-navigation-container {
+  background: rgb(103, 149, 196);
+  padding: 20px 0;
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+  ul li {
+    text-align: left;
+  }
+  .fee-links {
+    font-size: 19px;
+    color: rgb(60, 51, 48);
+  }
+}

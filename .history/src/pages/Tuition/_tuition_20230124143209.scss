@@ -1,0 +1,18 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerHT {
+  height: 600px;
+  margin-bottom: 65px;
+  width: 100%;
+  background: $deepblue;
+  background-image: url("../../assets/building2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  @media screen and (max-width: 620px) {
+    height: 300px !important;
+    margin-bottom: 100px !important;
+  }
+}

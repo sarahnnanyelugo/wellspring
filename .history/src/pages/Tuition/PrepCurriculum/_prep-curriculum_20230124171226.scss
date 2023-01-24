@@ -1,0 +1,12 @@
+.prep-container {
+  height: fit-content;
+  .prep-icon {
+    border: solid 1px red;
+
+    span {
+      padding: 0 40px;
+      font-size: 120px;
+      color: rgb(103, 149, 196);
+    }
+  }
+}

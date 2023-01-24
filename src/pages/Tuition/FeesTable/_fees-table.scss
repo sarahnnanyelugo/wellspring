@@ -1,0 +1,10 @@
+.table > :not(caption) > * > * {
+  background-color: #fff !important;
+  padding: 14px 10px;
+  font-size: 20px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  font-size: 20px;
+}

@@ -1,0 +1,53 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+.faq-accordion {
+  .accordion-body {
+    background: $deepblue;
+    color: #fff;
+    text-align: left;
+    span i {
+      font-size: 35px;
+      color: rgb(103, 149, 196);
+      margin-right: 20px;
+    }
+    p {
+      font-size: 18px;
+    }
+    .accordion-link {
+      color: $yellow !important;&:hover{
+        border-bottom:solid 3px 
+      }
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    background: $deepblue !important;
+    color: #fff;
+  }
+  .accordion-item {
+    border: none !important;
+  }
+
+  .accordion-button:focus {
+    background: $deepblue !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .key1-list li {
+    line-height: 45px !important;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .accordion-button {
+    background: $deepblue !important;
+    color: #fff;
+    border-top: dotted 3px rgb(15, 92, 167);
+    padding: 30px 0 !important;
+  }
+  .accordion-button::after {
+    color: #fff !important;
+    content: "";
+    // background-image: var(--bs-accordion-btn-icon);
+  }
+}

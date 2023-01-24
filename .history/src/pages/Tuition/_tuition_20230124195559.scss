@@ -1,0 +1,107 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerTu {
+  height: 600px;
+  width: 100%;
+  background: $deepblue;
+  background-image: url("../../assets/building2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  @media screen and (max-width: 620px) {
+    height: 300px !important;
+    margin-bottom: 100px !important;
+  }
+}
+h1 {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 40px;
+}
+h6 {
+  color: $yellow;
+}
+
+.after2 {
+  padding: 50px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100% !important;
+  height: 600px !important;
+  color: #fff;
+  display: block;
+  background: rgba(0, 79, 157, 0.9);
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  @media screen and (max-width: 620px) {
+    height: fit-content !important;
+    margin-bottom: 100px !important;
+    padding: 20px 20px;
+    top: 320px;
+  }
+}
+
+.icon {
+  small {
+    color: #fff;
+    font-size: 18px;
+  }
+}
+.page-content1 {
+  background: rgb(245, 245, 245);
+  margin: 0;
+  padding-bottom: 250px;
+  .first-section {
+    p {
+      font-size: 19px;
+    }
+    img {
+      margin-top: -60px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+.quote {
+  background: $deepblue;
+  padding-bottom: 100px;
+  height: fit-content;
+  h2 {
+    color: #fff;
+  }
+  span {
+    font-size: 60px;
+    color: rgb(153, 184, 216);
+  }
+  img {
+    margin-top: -60px;
+    position: relative;
+    z-index: 2;
+  }
+}
+.fees-table {
+  background: rgb(204, 220, 235);
+  height: fit-conent;
+  button {
+    background: rgb(50, 114, 177);
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}
+.table-header {
+  background: $yellow;
+  padding: 30px;
+  color:black;
+  border:solid 1
+}
