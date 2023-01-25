@@ -38,6 +38,7 @@ export const Tuition = () => {
     <>
       <section className="col-md-12 flexy page-background ">
         <div className="col-md-12 page-shadow header-wrapper wellspring-header">
+          
           <div className="col-md-12 image1 bannerTu zoominheader">
             <div className="overlay col-md-12">
               <center>

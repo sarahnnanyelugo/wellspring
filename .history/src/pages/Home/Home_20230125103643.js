@@ -31,7 +31,7 @@ export const Home = () => {
           playsinline=""
           src={Video}
         ></video>{" "}
-        <div className=" col-md-12 flexy after overlay">
+        <div className="overlay col-md-12 flexy">
           <div className="col-md-2">&nbsp;</div>
           <div className="col-md-4 logo-div">
             {" "}
