@@ -55,7 +55,7 @@ export const Philosophy = () => {
               {" "}
               <Breadcrum currentPage="About" pageUrl={"/phylosophy"} />
             </div>
-          <div className="page-menu">
+            <div className="page-menu">
               <ul className="list-inline list-unstyled">
                 <li className="list-inline-item">
                   <Link to="#" className="link-alteration">
@@ -164,8 +164,11 @@ export const Philosophy = () => {
                               Diversity
                             </Link>
                           </li>
-                            <li>
-                            <Link to={"/health-safety"} className="link-alteration">
+                          <li>
+                            <Link
+                              to={"/health-safety"}
+                              className="link-alteration"
+                            >
                               Health & Safety
                             </Link>
                           </li>
@@ -175,12 +178,18 @@ export const Philosophy = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/news-stories"} className="link-alteration">
+                            <Link
+                              to={"/news-stories"}
+                              className="link-alteration"
+                            >
                               News & Stories
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/school-board"} className="link-alteration">
+                            <Link
+                              to={"/school-board"}
+                              className="link-alteration"
+                            >
                               School Board
                               <span>
                                 <i class="icofont-caret-down"></i>{" "}
@@ -188,17 +197,26 @@ export const Philosophy = () => {
                             </Link>
                             <ul className="list-unstyled inner-list">
                               <li>
-                                <Link to={"/state-of-the-school"} className="link-alteration">
+                                <Link
+                                  to={"/state-of-the-school"}
+                                  className="link-alteration"
+                                >
                                   State of the School
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/strategic-plan"} className="link-alteration">
+                                <Link
+                                  to={"/strategic-plan"}
+                                  className="link-alteration"
+                                >
                                   Strategic Plan
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/best-practices"} className="link-alteration">
+                                <Link
+                                  to={"/best-practices"}
+                                  className="link-alteration"
+                                >
                                   BEST Practices
                                 </Link>
                               </li>
@@ -218,7 +236,7 @@ export const Philosophy = () => {
               <div className="col-md-9 col-7" style={{ float: "right" }}>
                 <p>
                   {" "}
-                  The First Academy is a Christ-centered, college-preparatory
+                  Wellspring College is a Christ-centered, college-preparatory
                   school serving over 1,200 Central Florida students across four
                   academic divisions – Upper School (9th-12th), Middle School
                   (6th-8th), Lower School (Preschool-5th), and the Extended
@@ -231,14 +249,14 @@ export const Philosophy = () => {
               </div>
             </div>
             <p>
-              Since our opening in 1987, TFA has continued to grow the academic,
-              fine arts, and athletic programs that have elevated its students
-              to the highest levels of achievement. More importantly, though, as
-              a private school TFA has helped develop its students’ strength of
-              character, leading these young men and women to serve others in
-              their own community and across the globe. The First Academy boasts
-              a 100% college acceptance rate for its graduating seniors, who
-              have
+              Since our opening in 1987, Wellspring College has continued to
+              grow the academic, fine arts, and athletic programs that have
+              elevated its students to the highest levels of achievement. More
+              importantly, though, as a private school Wellspring College has
+              helped develop its students’ strength of character, leading these
+              young men and women to serve others in their own community and
+              across the globe. Wellspring College boasts a 100% college
+              acceptance rate for its graduating seniors, who have
             </p>
             <h1 className="page-headings mb3">
               A Vibrant, Gospel-Centered School Culture
@@ -263,12 +281,13 @@ export const Philosophy = () => {
             </p>
 
             <p>
-              The First Academy is a great school. I invite you to experience it
-              for yourself and your family. Please call our Office of Admissions
-              today to schedule a campus visit. Walk the halls, sit in on a
-              class, listen to the conversations of our students and faculty,
-              and I believe you will recognize what makes The First Academy
-              distinctive and a great school for your children and your family.
+              Wellspring College is a great school. I invite you to experience
+              it for yourself and your family. Please call our Office of
+              Admissions today to schedule a campus visit. Walk the halls, sit
+              in on a class, listen to the conversations of our students and
+              faculty, and I believe you will recognize what makes Wellspring
+              College distinctive and a great school for your children and your
+              family.
             </p>
           </div>
         </div>

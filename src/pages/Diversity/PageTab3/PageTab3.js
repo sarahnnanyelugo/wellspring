@@ -162,7 +162,7 @@ export const PageTab3 = () => {
           <div class="tab__content">
             <h2>Fostering an Inclusive Community</h2>
             <p>
-              “The First Academy is committed to providing an inclusive
+              “Wellspring College is committed to providing an inclusive
               community that celebrates God’s design and equips adult and
               student leaders to be relationship builders. We want our Living
               Curriculum Influencers and students to use their diverse
@@ -294,7 +294,7 @@ export const PageTab3 = () => {
             <h2>Completed Action Steps and Future Plans</h2>
             <h6>Additional Resources</h6>
             <p>
-              The First Academy is committed to building a community of
+              Wellspring College is committed to building a community of
               students, faculty, staff, and leaders who reflect and celebrate
               Christ-centered diversity and inclusion. For further information,
               please review the following resources:

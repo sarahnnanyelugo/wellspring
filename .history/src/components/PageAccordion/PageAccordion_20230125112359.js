@@ -325,8 +325,8 @@ const PageAccordion = () => {
         <Accordion.Body>
           <p>
             Wellspring College website and social media pages are intended to be
-            safe, inviting and informative spaces. Please note that Wellspring
-            College does not endorse nor is it responsible for the accuracy of
+            safe, inviting and informative spaces. Please note that The First
+            Academy does not endorse nor is it responsible for the accuracy of
             opinions, claims, advice or other information shared on any of the
             pages by fans, commenters, or third parties.
           </p>

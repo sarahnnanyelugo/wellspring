@@ -169,7 +169,10 @@ export const Faith = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/health-safety"} className="link-alteration">
+                            <Link
+                              to={"/health-safety"}
+                              className="link-alteration"
+                            >
                               Health & Safety
                             </Link>
                           </li>
@@ -179,12 +182,18 @@ export const Faith = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/news-stories"} className="link-alteration">
+                            <Link
+                              to={"/news-stories"}
+                              className="link-alteration"
+                            >
                               News & Stories
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/school-board"} className="link-alteration">
+                            <Link
+                              to={"/school-board"}
+                              className="link-alteration"
+                            >
                               School Board
                               <span>
                                 <i class="icofont-caret-down"></i>{" "}
@@ -192,17 +201,26 @@ export const Faith = () => {
                             </Link>
                             <ul className="list-unstyled inner-list">
                               <li>
-                                <Link to={"/state-of-the-school"} className="link-alteration">
+                                <Link
+                                  to={"/state-of-the-school"}
+                                  className="link-alteration"
+                                >
                                   State of the School
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/strategic-plan"} className="link-alteration">
+                                <Link
+                                  to={"/strategic-plan"}
+                                  className="link-alteration"
+                                >
                                   Strategic Plan
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/best-practices"} className="link-alteration">
+                                <Link
+                                  to={"/best-practices"}
+                                  className="link-alteration"
+                                >
                                   BEST Practices
                                 </Link>
                               </li>
@@ -237,9 +255,12 @@ export const Faith = () => {
               revealed about himself in the world and in his word. Everything
               students participate in will aim at exposing them to the truth of
               God’s word. Whether through explicit study in small groups,
-              <Link to={"/chapel"} className="link-alteration2"> chapel, </Link>and Bible classes or through the normal
-              course of academic and extracurricular activities students will be
-              taught God’s truth.
+              <Link to={"/chapel"} className="link-alteration2">
+                {" "}
+                chapel,{" "}
+              </Link>
+              and Bible classes or through the normal course of academic and
+              extracurricular activities students will be taught God’s truth.
             </p>
             <br />
 
@@ -272,7 +293,7 @@ export const Faith = () => {
               accomplish this primarily through a variety of service
               opportunities, mission experiences, evangelism training, and
               leadership development opportunities while students are enrolled
-              at TFA.
+              at Wellspring College.
             </p>
             <br />
             <h4 className="page-headings">
@@ -299,11 +320,12 @@ export const Faith = () => {
               <p>
                 <em>
                   “When we say our prayers in the evening, we always include our
-                  TFA family. So, I just wanted to let each of you know that you
-                  are appreciated and your dedication to your students and to
-                  TFA does not go unnoticed. Our family is so blessed to be part
-                  of the larger TFA Family. May God continue to bless and
-                  protect each of you.” – TFA Parent
+                  Wellspring College family. So, I just wanted to let each of
+                  you know that you are appreciated and your dedication to your
+                  students and to Wellspring College does not go unnoticed. Our
+                  family is so blessed to be part of the larger Wellspring
+                  College Family. May God continue to bless and protect each of
+                  you.” – Wellspring College Parent
                 </em>
               </p>
             </div>

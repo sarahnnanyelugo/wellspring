@@ -157,7 +157,7 @@ export const Tuition = () => {
                   qualifying families.
                 </p>
                 <p>
-                  As you consider The First Academy, we welcome your questions
+                  As you consider Wellspring College, we welcome your questions
                   about tuition, payment plans, or whatever else comes to mind.
                   Our admissions team is here to help you process this decision,
                   so you can decide which learning environment is best for your
@@ -168,7 +168,7 @@ export const Tuition = () => {
                   application is submitted to a third-party service. After the
                   application is complete and processed, we’ll be able to tell
                   you exactly what your family’s tuition costs will be. Many
-                  families are pleased to find out that a The First Academy
+                  families are pleased to find out that a Wellspring College
                   education is truly affordable to them.{" "}
                 </p>
                 <p>
@@ -202,8 +202,8 @@ export const Tuition = () => {
                   />{" "}
                   <h1 className="col-md-3 mb3">Schedule a Tour</h1>
                   <h3>
-                    We invite you to experience the value of a The First Academy
-                    education for yourself by scheduling a{" "}
+                    We invite you to experience the value of a Wellspring
+                    College education for yourself by scheduling a{" "}
                     <Link to={"#"} className="banner-link">
                       visit to campus.
                     </Link>

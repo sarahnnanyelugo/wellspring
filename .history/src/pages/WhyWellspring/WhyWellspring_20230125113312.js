@@ -65,8 +65,7 @@ export const WhyWellspring = () => {
       <div className="reasons-container">
         <center>
           <p className="col-md-7">
-            Why do so many families from Orlando and Central Florida choose
-            Wellspring College to prepare their child for what’s next?
+            Why do so many families from Orlando and Central Florida choose Wellspring Collge to prepare their child for what’s next?
           </p>
           <p className="col-md-7 ">
             {" "}
@@ -265,19 +264,15 @@ export const WhyWellspring = () => {
       </div>{" "}
       <section>
         <div className="campus-tour col-md-12 flexy">
-          {" "}
-          <div className="col-md-12 image1">
-            {" "}
-            <div className=" col-md-12 after flexy overlay">
-              <div className="col-md-12">
-                <center>
-                  <h1>
-                    <i class="icofont-bulb-alt"></i>
-                  </h1>
-                  <h1>See our academics in action.</h1>
-                  <button>SCHEDULE A CAMPUS TOUR</button>
-                </center>
-              </div>
+          <div className=" col-md-12 after flexy">
+            <div className="col-md-12">
+              <center>
+                <h1>
+                  <i class="icofont-bulb-alt"></i>
+                </h1>
+                <h1>See our academics in action.</h1>
+                <button>SCHEDULE A CAMPUS TOUR</button>
+              </center>
             </div>
           </div>
         </div>

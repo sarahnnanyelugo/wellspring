@@ -1,3 +1,0 @@
-export const YellowAppButton =() =>{
-    return
-}

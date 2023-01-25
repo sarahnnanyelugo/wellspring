@@ -175,8 +175,8 @@ const FaqAccordion = () => {
             <p>
               The Family Empowerment Scholarship Program was enacted in 2019 and
               is designed to give more families access to private school
-              education. The scholarship is accepted for students in Wellspring
-              College day program. To be eligible to receive this scholarship,
+              education. The scholarship is accepted for students in The First
+              Academy day program. To be eligible to receive this scholarship,
               your student must be eligible to enroll in kindergarten or
               enrolled in and in attendance at a Florida public school during
               both the October and February student counts in the year prior to

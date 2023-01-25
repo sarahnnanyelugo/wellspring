@@ -3,7 +3,7 @@ import Read from "../../assets/read2.png";
 import Jersy from "../../assets/mask1.png";
 import Gift from "../../assets/college.png";
 import Video from "../../assets/web-video.mp4";
-import Logo from "../../assets/TFA-Logo.svg";
+import Logo from "../../assets/Logo.svg";
 import Discover from "../../assets/discorver.png";
 import "./_home.scss";
 
@@ -279,7 +279,7 @@ export const Home = () => {
             <Testimonials
               testifierImg={Principal}
               testifier="name of testifier"
-              content="The First Academy is a res students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.The First Academy is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
+              content="Wellspring College is a res students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
             />
           </div>
         </div>
@@ -288,7 +288,7 @@ export const Home = () => {
             <Testimonials
               testifierImg={Principal}
               testifier="name of testifier"
-              content="The s students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.The First Academy is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
+              content="The s students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
             />
           </div>
         </div>
@@ -297,7 +297,7 @@ export const Home = () => {
             <Testimonials
               testifierImg={Principal}
               testifier="name of testifier"
-              content="The First Academy is a private Christia to influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.The First Academy is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
+              content="Wellspring College is a private Christia to influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
             />
           </div>
         </div>
@@ -400,7 +400,7 @@ export const Home = () => {
         />
       </section>
 
-      {/* <AppModal /> */}
+      <AppModal />
     </>
   );
 };

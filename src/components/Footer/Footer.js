@@ -5,7 +5,7 @@ import Educare from "../../assets/educare.png";
 import FB from "../../assets/fb.png";
 import IG from "../../assets/Instagram.png";
 import Twitter from "../../assets/sms.png";
-import Logo from "../../assets/TFA-Logo.svg";
+import Logo from "../../assets/Logo.svg";
 export const Footer = () => {
   return (
     <>
@@ -100,7 +100,7 @@ export const Footer = () => {
               {" "}
               Notice of Nondiscriminatory Policy as to Students:{" "}
             </strong>
-            The First Academy admits students of any race, color, national and
+            Wellspring College admits students of any race, color, national and
             ethnic origin to all the rights, privileges, programs, and
             activities generally accorded or made available to students at the
             school. It does not discriminate on the basis of race, color,

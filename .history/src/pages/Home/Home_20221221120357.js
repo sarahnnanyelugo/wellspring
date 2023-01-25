@@ -1,3 +1,0 @@
-export constHome =()=>{
-    return
-}

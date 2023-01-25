@@ -168,8 +168,11 @@ export const HealthSafety = () => {
                               Diversity
                             </Link>
                           </li>
-                            <li>
-                            <Link to={"/health-safety"} className="link-alteration">
+                          <li>
+                            <Link
+                              to={"/health-safety"}
+                              className="link-alteration"
+                            >
                               Health & Safety
                             </Link>
                           </li>
@@ -179,12 +182,18 @@ export const HealthSafety = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/news-stories"} className="link-alteration">
+                            <Link
+                              to={"/news-stories"}
+                              className="link-alteration"
+                            >
                               News & Stories
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/school-board"} className="link-alteration">
+                            <Link
+                              to={"/school-board"}
+                              className="link-alteration"
+                            >
                               School Board
                               <span>
                                 <i class="icofont-caret-down"></i>{" "}
@@ -192,17 +201,26 @@ export const HealthSafety = () => {
                             </Link>
                             <ul className="list-unstyled inner-list">
                               <li>
-                                <Link to={"/state-of-the-school"} className="link-alteration">
+                                <Link
+                                  to={"/state-of-the-school"}
+                                  className="link-alteration"
+                                >
                                   State of the School
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/strategic-plan"} className="link-alteration">
+                                <Link
+                                  to={"/strategic-plan"}
+                                  className="link-alteration"
+                                >
                                   Strategic Plan
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/best-practices"} className="link-alteration">
+                                <Link
+                                  to={"/best-practices"}
+                                  className="link-alteration"
+                                >
                                   BEST Practices
                                 </Link>
                               </li>
@@ -216,91 +234,108 @@ export const HealthSafety = () => {
               </ul>
             </div>
 
-            <h1 className="page-headings mb3 mt4">Safety and Security Overview
-</h1>
+            <h1 className="page-headings mb3 mt4">
+              Safety and Security Overview
+            </h1>
             <p>
-             The First Academy employs a team of professionals with decades of safety experience
-              providing a safe, world class experience for your children. In addition to a wide-ranging
-              safety team, The First Academy employs Orlando Police officers during all school hours and
-               events.
+              Wellspring College employs a team of professionals with decades of
+              safety experience providing a safe, world class experience for
+              your children. In addition to a wide-ranging safety team,
+              Wellspring College employs Orlando Police officers during all
+              school hours and events.
             </p>
-            <p>In addition to our personnel, our campus is equipped with high-end monitored security, fire, lightning detection and gate systems; as well as advanced camera monitoring. Furthermore, The First Academy requires Tier II Employee Background Checks, as well as background checks for all volunteers, and an ID Based Screening System for all guests.
+            <p>
+              In addition to our personnel, our campus is equipped with high-end
+              monitored security, fire, lightning detection and gate systems; as
+              well as advanced camera monitoring. Furthermore, Wellspring
+              College requires Tier II Employee Background Checks, as well as
+              background checks for all volunteers, and an ID Based Screening
+              System for all guests.
+            </p>
 
-</p>
-
-<h1 className="page-headings mb3 mt4">Safety Reporting</h1>
+            <h1 className="page-headings mb3 mt4">Safety Reporting</h1>
 
             <p>
-              Should you have any questions, please direct your attention to <Link to={"/"} className="link-alteration2">Brian Rose</Link>, Assistant Head of School and Director of Safety & Security.
+              Should you have any questions, please direct your attention to{" "}
+              <Link to={"/"} className="link-alteration2">
+                Brian Rose
+              </Link>
+              , Assistant Head of School and Director of Safety & Security.
             </p>
             <ul className="list-unstyled">
-              <p>To speak with someone regarding a Safety Concern:
-
-</p>
+              <p>To speak with someone regarding a Safety Concern:</p>
               <li>
                 {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" />For Non-Emergency Safety Concerns, please call 407-206-8602
-
-              </li>
-              <li>
-                {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" />For After Hours Non-Emergency Safety Concerns, please call 407-514-4434
-
-              </li>{" "}
-              <li>
-                {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" />For an Emergency, please call 911
-
-              </li>{" "}
-              <li>
-                {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A An A
-                vibrant, award-winning fine arts programClick here to submit a safety and security report
-
-              </li>
-              
-            </ul>
-           <h1 className="page-headings mb3 mt4">Safety Resources
-</h1>
-
-            
-            <ul className="list-unstyled">
-              <p>The following resources are designed with the safety of our students in mind:
-
-
-
-</p>
-              <li>
-                {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" /><Link to={"/"} className="link-alteration2">Classroom Safety Procedures</Link>
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />
+                For Non-Emergency Safety Concerns, please call 407-206-8602
               </li>
               <li>
                 {" "}
                 <img className="col-md-12 dot" src={Blue} alt="Scholar" />
-<Link to={"/"} className="link-alteration2">Standards of Ethical Conduct</Link>
+                For After Hours Non-Emergency Safety Concerns, please call
+                407-514-4434
               </li>{" "}
               <li>
                 {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" /><Link to={"/"} className="link-alteration2">Reporting Professional Misconduct
-</Link>
-
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />
+                For an Emergency, please call 911
               </li>{" "}
               <li>
                 {" "}
-                <img className="col-md-12 dot" src={Blue} alt="Scholar" /><Link to={"/"} className="link-alteration2">Severe Weather Permission Slip (6th-12th)</Link>
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A An A
+                vibrant, award-winning fine arts programClick here to submit a
+                safety and security report
               </li>
-              
             </ul>
-           <h1 className="page-headings mb3 mt4">Communication Procedures
-</h1>
-<p>In the event of a school emergency, we will notify our families via email, text, social media, and both on this page and the homepage of our website. We ask that families follow all instructions communicated by The First Academy during all emergency situations.
+            <h1 className="page-headings mb3 mt4">Safety Resources</h1>
 
-</p>
+            <ul className="list-unstyled">
+              <p>
+                The following resources are designed with the safety of our
+                students in mind:
+              </p>
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />
+                <Link to={"/"} className="link-alteration2">
+                  Classroom Safety Procedures
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />
+                <Link to={"/"} className="link-alteration2">
+                  Standards of Ethical Conduct
+                </Link>
+              </li>{" "}
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />
+                <Link to={"/"} className="link-alteration2">
+                  Reporting Professional Misconduct
+                </Link>
+              </li>{" "}
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />
+                <Link to={"/"} className="link-alteration2">
+                  Severe Weather Permission Slip (6th-12th)
+                </Link>
+              </li>
+            </ul>
+            <h1 className="page-headings mb3 mt4">Communication Procedures</h1>
+            <p>
+              In the event of a school emergency, we will notify our families
+              via email, text, social media, and both on this page and the
+              homepage of our website. We ask that families follow all
+              instructions communicated by Wellspring College during all
+              emergency situations.
+            </p>
 
-
-           <h1 className="page-headings mb3 mt4">Campus Safety and Health Concerns
-<HealthSafetyTab />
-</h1>
+            <h1 className="page-headings mb3 mt4">
+              Campus Safety and Health Concerns
+              <HealthSafetyTab />
+            </h1>
           </div>
         </div>
       </section>

@@ -183,7 +183,7 @@ export const HowToApply = () => {
             </p>
             <h2 className="page-headings mb3">When to Apply</h2>
             <p>
-              The First Academy encourages families to begin the application
+              Wellspring College encourages families to begin the application
               process as soon as possible. The application must be completed and
               supplemental application forms downloaded, completed, and returned
               to the admissions office.{" "}
@@ -230,7 +230,7 @@ export const HowToApply = () => {
             <button className="random-button">START MY APPLICATION</button>
             <h2 className="page-headings mb3 mt3">Adding Students</h2>
             <p>
-              If you currently have a child enrolled at The First Academy,
+              If you currently have a child enrolled at Wellspring College,
               please follow the{" "}
               <Link to={"#"} className="random-link">
                 instructions below{" "}
@@ -265,13 +265,14 @@ export const HowToApply = () => {
             <p>407-206-8602</p>
             <small>
               <em>
-                * The First Academy admits students of any race, color, national
-                and ethnic origin to all the rights, privileges, programs, and
-                activities generally accorded or made available to students at
-                the school. The First Academy does not discriminate on the basis
-                of race, color, national and ethnic origin in administration of
-                its educational policies, admissions policies, tuition
-                assistance, and athletic or other school administered programs.
+                * Wellspring College admits students of any race, color,
+                national and ethnic origin to all the rights, privileges,
+                programs, and activities generally accorded or made available to
+                students at the school. Wellspring College does not discriminate
+                on the basis of race, color, national and ethnic origin in
+                administration of its educational policies, admissions policies,
+                tuition assistance, and athletic or other school administered
+                programs.
               </em>
             </small>
           </div>

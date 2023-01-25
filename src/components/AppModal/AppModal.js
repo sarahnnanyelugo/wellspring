@@ -1,30 +1,30 @@
-import './_app-modal.scss';
+import "./_app-modal.scss";
 
 import ModalImg from "../../assets/read2.png";
-import SampleLogo from "../../assets/TFA-Icon-White.png";
+import SampleLogo from "../../assets/icon-White.png";
 
 import React, { useEffect, useRef, useState } from "react";
 
+export const AppModal = () => {
+  const [showActive, setShowActive] = useState(false);
+  const modalContainer = useRef(null);
+  const bodyTag = useRef(null);
 
-export const AppModal =()=> {
-    const [showActive, setShowActive] = useState(false);
-    const modalContainer = useRef(null);
-    const bodyTag = useRef(null);
-
-    useEffect(() => {
-
-       setTimeout(()=>{
-        // modalContainer.addClass("two");
-        // document.body.addClass("modal-active");
-        setShowActive(true);
-        // modalContainer.click(function () {
-          // setShowActive(false);
-          // this.addClass("out");
-          // document.body.removeClass("modal-active");
-        // });
-       },2000)
-    },[]);
-
+  useEffect(() => {
+    setTimeout(() => {
+      // modalContainer.addClass("two");
+      // document.body.addClass("modal-active");
+      setShowActive(true);
+      // modalContainer.click(function () {
+      // setShowActive(false);
+      // this.addClass("out");
+      // document.body.removeClass("modal-active");
+      // });
+    }, 2000);
+  }, []);
+  const setThisShowActive = () => {
+    setShowActive(!showActive);
+  };
   return (
     <>
       <div
@@ -38,9 +38,9 @@ export const AppModal =()=> {
           id="modal-container"
         >
           <div className="modal-background">
-            <span>
+            <button onClick={setThisShowActive}>
               <i class="icofont-close"></i>
-            </span>
+            </button>
             <div className="modal col-md-12">
               <div className="col-md-12 flexy">
                 <div className="col-md-7 img1 ">
@@ -87,9 +87,7 @@ export const AppModal =()=> {
             </div>
           </div>
         </div>
-        
       </div>
     </>
   );
-}
-
+};

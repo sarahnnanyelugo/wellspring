@@ -129,7 +129,8 @@ export const JobOpenings = () => {
             </p>
             <small>
               <em>
-                Since God’s love extends equally to all people, Wellspring College welcomes and encourages any of His children regardless
+                Since God’s love extends equally to all people, The First
+                Academy welcomes and encourages any of His children regardless
                 of race, color, or nationality to apply for any careers of their
                 choosing.
               </em>
@@ -210,7 +211,8 @@ export const JobOpenings = () => {
             </p>
             <small>
               <em>
-                Since God’s love extends equally to all people, Wellspring College welcomes and encourages any of His children regardless
+                Since God’s love extends equally to all people, The First
+                Academy welcomes and encourages any of His children regardless
                 of race, color, or nationality to apply for any careers of their
                 choosing.
               </em>
@@ -320,7 +322,8 @@ export const JobOpenings = () => {
             </p>
             <small>
               <em>
-                Since God’s love extends equally to all people, Wellspring College welcomes and encourages any of His children regardless
+                Since God’s love extends equally to all people, The First
+                Academy welcomes and encourages any of His children regardless
                 of race, color, or nationality to apply for any careers of their
                 choosing.
               </em>
@@ -377,7 +380,8 @@ export const JobOpenings = () => {
             </p>
             <small>
               <em>
-                Since God’s love extends equally to all people, Wellspring College welcomes and encourages any of His children regardless
+                Since God’s love extends equally to all people, The First
+                Academy welcomes and encourages any of His children regardless
                 of race, color, or nationality to apply for any careers of their
                 choosing.
               </em>

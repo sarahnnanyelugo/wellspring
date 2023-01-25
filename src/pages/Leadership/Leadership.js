@@ -51,7 +51,7 @@ export const Leadership = ({ name, ...props }) => {
               {" "}
               <Breadcrum currentPage="About" pageUrl={"/phylosophy"} />
             </div>
-       <div className="page-menu">
+            <div className="page-menu">
               <ul className="list-inline list-unstyled">
                 <li className="list-inline-item">
                   <Link to="#" className="link-alteration">
@@ -160,8 +160,11 @@ export const Leadership = ({ name, ...props }) => {
                               Diversity
                             </Link>
                           </li>
-                            <li>
-                            <Link to={"/health-safety"} className="link-alteration">
+                          <li>
+                            <Link
+                              to={"/health-safety"}
+                              className="link-alteration"
+                            >
                               Health & Safety
                             </Link>
                           </li>
@@ -171,12 +174,18 @@ export const Leadership = ({ name, ...props }) => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/news-stories"} className="link-alteration">
+                            <Link
+                              to={"/news-stories"}
+                              className="link-alteration"
+                            >
                               News & Stories
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/school-board"} className="link-alteration">
+                            <Link
+                              to={"/school-board"}
+                              className="link-alteration"
+                            >
                               School Board
                               <span>
                                 <i class="icofont-caret-down"></i>{" "}
@@ -184,17 +193,26 @@ export const Leadership = ({ name, ...props }) => {
                             </Link>
                             <ul className="list-unstyled inner-list">
                               <li>
-                                <Link to={"/state-of-the-school"} className="link-alteration">
+                                <Link
+                                  to={"/state-of-the-school"}
+                                  className="link-alteration"
+                                >
                                   State of the School
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/strategic-plan"} className="link-alteration">
+                                <Link
+                                  to={"/strategic-plan"}
+                                  className="link-alteration"
+                                >
                                   Strategic Plan
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/best-practices"} className="link-alteration">
+                                <Link
+                                  to={"/best-practices"}
+                                  className="link-alteration"
+                                >
                                   BEST Practices
                                 </Link>
                               </li>
@@ -214,7 +232,7 @@ export const Leadership = ({ name, ...props }) => {
                   profileInfo="Mr. Will Cohen was born and raised in Orlando and has been serving at The
                    First Academy since June 2012. Mr. Cohen served three years as the Assistant Director 
                    of Athletics and Assistant Baseball Coach and now serves as the Director of Athletics.
-                   Mr. Cohen spent seven years at TFA as a student, graduating with The First Academy’s
+                   Mr. Cohen spent seven years at Wellspring College as a student, graduating with Wellspring College’s
                     Class of 2008. After graduation, Mr. Cohen received his Bachelor of Science in Sports
                      Administration from Samford University in Birmingham, AL. From Mr. Cohen’s experience
                       as a student and staff member; the teachers, coaches, and administrators have had and
@@ -263,4 +281,3 @@ export const Leadership = ({ name, ...props }) => {
     </>
   );
 };
-

@@ -1,1 +1,0 @@
-import "./prep-curriculum.scss";

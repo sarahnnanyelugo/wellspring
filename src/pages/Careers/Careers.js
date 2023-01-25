@@ -213,7 +213,7 @@ export const Careers = () => {
 
             <h1 className="page-headings mb3 mt7">Get Inspired</h1>
             <p>
-              Employees at The First Academy don’t just inspire students — they
+              Employees at Wellspring College don’t just inspire students — they
               create Christian leaders who choose character before career,
               wisdom beyond scholarship, service before self, and participation
               as a way of life. It’s the diversity of those people and their
@@ -221,7 +221,7 @@ export const Careers = () => {
               do.
             </p>
             <h3 className="page-headings mt7">
-              Employees at The First Academy
+              Employees at Wellspring College
             </h3>
             <h4 className="page-headings mb5">
               <em>Living Curriculum Influencers</em>
@@ -273,15 +273,17 @@ export const Careers = () => {
               </div>
             </div>
 
-            <h2 className="page-headings mt4 mb3">Work at TFA</h2>
-            <p>The First Academy is an Equal Opportunity Employer.</p>
+            <h2 className="page-headings mt4 mb3">
+              Work at Wellspring College
+            </h2>
+            <p>Wellspring College is an Equal Opportunity Employer.</p>
             <p>
-              At TFA, we are always seeking qualified talent to join our team.
-              In order to maintain a strong group of potential candidates, we
-              gladly accept resumes and applications at any time from Living
-              Curriculum teachers. Employees of The First Academy not only
-              believe that they have been called by God to work at the school
-              but have been called to minister to students and parents.
+              At Wellspring College, we are always seeking qualified talent to
+              join our team. In order to maintain a strong group of potential
+              candidates, we gladly accept resumes and applications at any time
+              from Living Curriculum teachers. Employees of Wellspring College
+              not only believe that they have been called by God to work at the
+              school but have been called to minister to students and parents.
             </p>
             <p>
               All complete applications will be reviewed by the Human Resources
@@ -294,7 +296,7 @@ export const Careers = () => {
 
             <h2 className="page-headings mt4 mb3">Starting an Application</h2>
             <p>
-              Thank you for your interest in employment at The First Academy.
+              Thank you for your interest in employment at Wellspring College.
               Please take a moment to review the available positions below. When
               you’re ready to apply for a job:
             </p>

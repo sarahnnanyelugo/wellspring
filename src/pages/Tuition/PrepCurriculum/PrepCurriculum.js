@@ -72,7 +72,7 @@ export const PrepCurriculum = () => {
           <div className="col-md-9 prep-box mt3">
             <p>
               With 32 sports and athletic competition starting as early as
-              preschool, The First Academy students have access to exceptional
+              preschool, Wellspring College students have access to exceptional
               facilities, including our athletic complex, stadium, and tennis
               center.
             </p>
@@ -171,7 +171,7 @@ export const PrepCurriculum = () => {
           <div className="col-md-9 prep-box mt3">
             <p>
               With 32 sports and athletic competition starting as early as
-              preschool, The First Academy students have access to exceptional
+              preschool, Wellspring College students have access to exceptional
               facilities, including our athletic complex, stadium, and tennis
               center.
             </p>

@@ -266,20 +266,7 @@ export const WhyWellspring = () => {
       <section>
         <div className="campus-tour col-md-12 flexy">
           {" "}
-          <div className="col-md-12 image1">
-            {" "}
-            <div className=" col-md-12 after flexy overlay">
-              <div className="col-md-12">
-                <center>
-                  <h1>
-                    <i class="icofont-bulb-alt"></i>
-                  </h1>
-                  <h1>See our academics in action.</h1>
-                  <button>SCHEDULE A CAMPUS TOUR</button>
-                </center>
-              </div>
-            </div>
-          </div>
+          <div className="col-md-12 image1"></div>
         </div>
       </section>
       <section className="page-content flexy ">

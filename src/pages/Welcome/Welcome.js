@@ -167,8 +167,11 @@ export const Welcome = () => {
                               Diversity
                             </Link>
                           </li>
-                            <li>
-                            <Link to={"/health-safety"} className="link-alteration">
+                          <li>
+                            <Link
+                              to={"/health-safety"}
+                              className="link-alteration"
+                            >
                               Health & Safety
                             </Link>
                           </li>
@@ -178,12 +181,18 @@ export const Welcome = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/news-stories"} className="link-alteration">
+                            <Link
+                              to={"/news-stories"}
+                              className="link-alteration"
+                            >
                               News & Stories
                             </Link>
                           </li>
                           <li>
-                            <Link to={"/school-board"} className="link-alteration">
+                            <Link
+                              to={"/school-board"}
+                              className="link-alteration"
+                            >
                               School Board
                               <span>
                                 <i class="icofont-caret-down"></i>{" "}
@@ -191,17 +200,26 @@ export const Welcome = () => {
                             </Link>
                             <ul className="list-unstyled inner-list">
                               <li>
-                                <Link to={"/state-of-the-school"} className="link-alteration">
+                                <Link
+                                  to={"/state-of-the-school"}
+                                  className="link-alteration"
+                                >
                                   State of the School
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/strategic-plan"} className="link-alteration">
+                                <Link
+                                  to={"/strategic-plan"}
+                                  className="link-alteration"
+                                >
                                   Strategic Plan
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"/best-practices"} className="link-alteration">
+                                <Link
+                                  to={"/best-practices"}
+                                  className="link-alteration"
+                                >
                                   BEST Practices
                                 </Link>
                               </li>
@@ -221,14 +239,14 @@ export const Welcome = () => {
               <strong>
                 All parents want their child to attend a great school – not just
                 a good school. When my wife and I moved our family to Orlando
-                several years ago, we found a great school in The First Academy.
-                On the first day of the new school year, I watched with
+                several years ago, we found a great school in Wellspring
+                College. On the first day of the new school year, I watched with
                 apprehension from a second-story window as my middle child
                 walked onto a playground crowded with unfamiliar faces. With a
                 lump in my throat, I watched as he stood alone with his hands in
                 his pockets, obviously filled with uncertainty and nearly
                 paralyzed by fear. What happened next told me much about what
-                makes The First Academy a great school. It turns out that I
+                makes Wellspring College a great school. It turns out that I
                 wasn’t the only one observing. His teacher saw the worry on his
                 small, furrowed brow, too. She approached my son, took him by
                 the hand, and walked him toward the monkey bars. I could see her
@@ -255,7 +273,7 @@ export const Welcome = () => {
               apart from all other teachers in Central Florida. We are blessed
               to have these remarkable men and women leading our students.
               <br /> <br />
-              Besides our exemplary teachers, The First Academy is also blessed
+              Besides our exemplary teachers, Wellspring College is also blessed
               with other qualities necessary to be a great school:
               <br /> <br />
             </p>
@@ -292,12 +310,13 @@ export const Welcome = () => {
               </li>
             </ul>
             <p>
-              The First Academy is a great school. I invite you to experience it
-              for yourself and your family. Please call our Office of Admissions
-              today to schedule a campus visit. Walk the halls, sit in on a
-              class, listen to the conversations of our students and faculty,
-              and I believe you will recognize what makes The First Academy
-              distinctive and a great school for your children and your family.
+              Wellspring College is a great school. I invite you to experience
+              it for yourself and your family. Please call our Office of
+              Admissions today to schedule a campus visit. Walk the halls, sit
+              in on a class, listen to the conversations of our students and
+              faculty, and I believe you will recognize what makes Wellspring
+              College distinctive and a great school for your children and your
+              family.
             </p>
           </div>
         </div>
