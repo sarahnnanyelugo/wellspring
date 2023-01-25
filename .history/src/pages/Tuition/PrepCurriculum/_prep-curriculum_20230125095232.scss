@@ -1,0 +1,51 @@
+.prep-container {
+  height: fit-content;
+  @media screen and (max-width: 620px) {
+padding:  }
+  .prep-icon {
+    padding-left: 200px;
+
+    span {
+      font-size: 120px;
+      color: rgb(103, 149, 196);
+    }
+    ul {
+      margin-right: -70px;
+      color: rgb(103, 149, 196);
+      position: relative;
+      z-index: 4;
+      @media screen and (max-width: 620px) {
+        display: none;
+      }
+    }
+  }
+  .prep-icon2 {
+    padding-right: 200px;
+
+    span {
+      font-size: 120px;
+      color: rgb(103, 149, 196);
+    }
+    ul {
+      margin-left: -20px;
+      color: rgb(103, 149, 196);
+      position: relative;
+      z-index: 4;
+    }
+  }
+  .prep-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px;
+  }
+}
+.display-web {
+  @media screen and (max-width: 640px) {
+    display: none;
+  }
+}
+.display-mobile {
+  @media screen and (min-width: 640px) {
+    display: none;
+  }
+}
