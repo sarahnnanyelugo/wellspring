@@ -143,7 +143,7 @@ function NavBar({ sticky }) {
                       onChange={(e) => handleChange(e)}
                     />
                     <label for="hamburger1"></label>
-                    <SearchBar />
+
                     <ul className="nav-links col-md-12 list-unstyled">
                       <li>
                         <MobileAccordion />

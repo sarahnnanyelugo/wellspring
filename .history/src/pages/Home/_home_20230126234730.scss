@@ -16,14 +16,15 @@
   @media screen and (max-width: 620px) {
     height: fit-content;
     background-color: $deepblue;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
   }
   .viddeo {
     @media screen and (max-width: 620px) {
-      height: 800px;
-      transform: translateX(0%) translateY(0%);
+      height: 400px;
+      margin-bottom: 0px;
+
       // height: 1000px;
-      object-fit: cover;
+      // object-fit: cover;
       // position: absolute;
     }
   }
@@ -38,14 +39,14 @@
       margin-top: 20px;
       font-weight: bold;
       @media screen and (max-width: 620px) {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 25px;
       }
     }
     img {
       @media screen and (max-width: 620px) {
-        height: 20% !important;
-        margin-left: -22px !important;
+        height: 15% !important;
+        margin-left: -20px !important;
       }
     }
   }
@@ -85,7 +86,7 @@
     display: flex;
     @media screen and (max-width: 620px) {
       // height: 1000px !important;
-      height: 800px !important;
+      height: 410px !important;
     }
   }
   .overlay {

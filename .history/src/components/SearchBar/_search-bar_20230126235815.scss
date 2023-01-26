@@ -3,9 +3,13 @@
 .search-container {
   position: relative;
   // float: right;
+  @media screen and (max-width: 620px) {
+    left: 90%;
+    top: -30px;
+  }
 }
 
-.searchMenu {
+.menu {
   background: #ffffff;
   //   border-radius: 8px;
   position: absolute;
@@ -17,29 +21,39 @@
   visibility: hidden;
   transform: translateY(-20px);
   transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
-  @media screen and (max-width: 620px) {
-    left: 50%;
-    top: 15px !important;
-  }
 }
 
-.searchMenu.active {
+.menu.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
-.searchMenu-trigger {
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333333;
+  padding: 15px 20px;
+  display: block;
+}
+
+.menu-trigger {
   background: inherit;
   cursor: pointer;
   border: none;
   transition: box-shadow 0.4s ease;
   margin-top: 0 !important;
   color: #fff !important;
-  @media screen and (max-width: 620px) {
-    margin-left: 90%;
-    margin-top: -30px !important;
-  }
+  // float: right;
 }
 .topnav input[type="text"] {
   padding: 6px;

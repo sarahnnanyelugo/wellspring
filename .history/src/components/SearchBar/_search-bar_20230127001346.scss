@@ -17,10 +17,6 @@
   visibility: hidden;
   transform: translateY(-20px);
   transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
-  @media screen and (max-width: 620px) {
-    left: 50%;
-    top: 15px !important;
-  }
 }
 
 .searchMenu.active {
@@ -36,10 +32,6 @@
   transition: box-shadow 0.4s ease;
   margin-top: 0 !important;
   color: #fff !important;
-  @media screen and (max-width: 620px) {
-    margin-left: 90%;
-    margin-top: -30px !important;
-  }
 }
 .topnav input[type="text"] {
   padding: 6px;

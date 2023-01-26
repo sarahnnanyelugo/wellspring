@@ -21,7 +21,7 @@ import TestPage from "../../components/TestPages/TestPage";
 export const Home = () => {
   return (
     <>
-      <div className="col-md-12 col-sm-12  image-container">
+      <section className="col-md-12 col-sm-12  image-container row">
         <div className=" col-md-12">
           <video
             className="viddeo "
@@ -32,7 +32,7 @@ export const Home = () => {
             playsinline=""
             src={Video}
           ></video>{" "}
-          <div className=" col-md-12 flex  after">
+          {/* <div className=" col-md-12 flex  after">
             <div className="col-md-2">&nbsp;</div>
             <div className="col-md-4 logo-div">
               {" "}
@@ -44,11 +44,11 @@ export const Home = () => {
               <button>Learn More</button>
             </div>
             <div className="col-md-1">&nbsp;</div>
-          </div>
+          </div> */}
         </div>
-      </div>
+      </section>
 
-      <section className="col-md-12 flexy prospectus-container1 ">
+      <section className="col-md-12  prospectus-container1 row">
         <div className="col-md-2">&nbsp;</div>
         <div className="col-md-3">
           <h1>WELCOME TO WELLSPRING COLLEGE</h1>

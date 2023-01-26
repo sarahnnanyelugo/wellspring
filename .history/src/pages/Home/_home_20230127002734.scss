@@ -38,14 +38,14 @@
       margin-top: 20px;
       font-weight: bold;
       @media screen and (max-width: 620px) {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 25px;
       }
     }
     img {
       @media screen and (max-width: 620px) {
-        height: 20% !important;
-        margin-left: -22px !important;
+        height: 30% !important;
+        margin-left: -20px !important;
       }
     }
   }

@@ -16,15 +16,13 @@
   @media screen and (max-width: 620px) {
     height: fit-content;
     background-color: $deepblue;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
   }
   .viddeo {
     @media screen and (max-width: 620px) {
-      height: 800px;
-      transform: translateX(0%) translateY(0%);
-      // height: 1000px;
+      height: 100%;
       object-fit: cover;
-      // position: absolute;
+      position: absolute;
     }
   }
   .logo-div {
@@ -38,14 +36,14 @@
       margin-top: 20px;
       font-weight: bold;
       @media screen and (max-width: 620px) {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 25px;
       }
     }
     img {
       @media screen and (max-width: 620px) {
-        height: 20% !important;
-        margin-left: -22px !important;
+        height: 15% !important;
+        margin-left: -20px !important;
       }
     }
   }
@@ -84,8 +82,7 @@
     background-size: cover;
     display: flex;
     @media screen and (max-width: 620px) {
-      // height: 1000px !important;
-      height: 800px !important;
+      height: 1000px !important;
     }
   }
   .overlay {
@@ -110,7 +107,7 @@
   color: #fff;
   @media screen and (max-width: 620px) {
     height: fit-content !important;
-    margin-top: 0px !important;
+    // margin-top: 1000px;
   }
   h1 {
     color: $yellow;
@@ -124,9 +121,7 @@
     position: relative;
     @media screen and (max-width: 620px) {
       margin-left: 0px;
-      margin-top: 0px;
-      height: 70%;
-      width: 70%;
+      margin-top: 1000px;
     }
   }
   h3 {
