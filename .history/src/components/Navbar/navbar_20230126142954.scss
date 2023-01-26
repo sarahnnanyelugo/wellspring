@@ -19,8 +19,7 @@ $nav-links: about, products, media, contact us;
   top: 0px;
   transform: translateY(0);
   @media screen and (max-width: 620px) {
-    height: 100px !important;
-    width: 100%;
+    height: 150px !important;
   }
   &.home {
     background: transparent !important;
@@ -36,14 +35,14 @@ $nav-links: about, products, media, contact us;
   h1 {
     color: #fff !important;
   }
-  ol li {
+  ul li {
     font-size: 12px;
     margin: 10px;
-    @media screen and (max-width: 620px) {
-      margin: 15px 0;
-    }
     .link-alteration {
       color: #fff !important;
+      @media screen and (max-width: 620px) {
+        margin: 0px;
+      }
     }
   }
   .dropdown-menu {

@@ -112,14 +112,6 @@ function NavBar({ sticky }) {
                 <div className="mobile-menu col-md-12 ">
                   {" "}
                   <nav>
-                    <Link to={"/"}>
-                      {" "}
-                      <img
-                        className="col-md-8 col-4 ml2"
-                        src={Logo}
-                        alt="Scholar"
-                      />
-                    </Link>
                     <input type="checkbox" id="hamburger1" />
                     <label for="hamburger1"></label>
 

@@ -3,7 +3,6 @@
 .mobile-accordion {
   width: 100%;
   margin: 0 !important;
-  margin-top: -20px !important;
   .accordion-body {
     .logo-files a {
       font-size: initial !important;
@@ -49,8 +48,5 @@
   .mobile-navs {
     color: $lightblue !important;
     text-decoration: none !important;
-    font-size: 13px !important;
-    font-weight: 400 !important;
-    line-height: 25px !important;
   }
 }

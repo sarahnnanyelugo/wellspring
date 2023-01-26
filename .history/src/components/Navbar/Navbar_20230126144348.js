@@ -115,7 +115,7 @@ function NavBar({ sticky }) {
                     <Link to={"/"}>
                       {" "}
                       <img
-                        className="col-md-8 col-4 ml2"
+                        className="col-md-8 col-1 ml2"
                         src={Logo}
                         alt="Scholar"
                       />

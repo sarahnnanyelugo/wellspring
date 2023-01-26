@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./_mobile-accordion.scss";
 import Accordion from "react-bootstrap/Accordion";
-import { Link } from "react-router-dom";
 
 const people = [
   "Abusive, defamatory or obscene",
@@ -20,42 +19,7 @@ const MobileAccordion = () => {
           <Accordion.Header>
             <small>ABOUT</small>
           </Accordion.Header>
-          <Accordion.Body>
-            <ul className="list-unstyled">
-              <li>
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>
-              </li>
-            </ul>
-          </Accordion.Body>
+          <Accordion.Body>1</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
@@ -73,22 +37,34 @@ const MobileAccordion = () => {
 
         <Accordion.Item eventKey="3">
           <Accordion.Header>
-            <small>ARTS</small>
+            <small>Wellspring College Affiliations</small>
           </Accordion.Header>
           <Accordion.Body>4</Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="4">
           <Accordion.Header>
-            <small>ATHLETICS</small>
+            <small>Wellspring College Affiliations</small>
           </Accordion.Header>
           <Accordion.Body>5</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="5">
           <Accordion.Header>
-            <small>STUDENT LIFE</small>
+            <small>Wellspring College Affiliations</small>
           </Accordion.Header>
           <Accordion.Body>6</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="6">
+          <Accordion.Header>
+            <small>Wellspring College Affiliations</small>
+          </Accordion.Header>
+          <Accordion.Body>7</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="7">
+          <Accordion.Header>
+            <small>Wellspring College Affiliations</small>
+          </Accordion.Header>
+          <Accordion.Body>8</Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </div>

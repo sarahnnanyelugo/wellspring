@@ -25,33 +25,6 @@ const MobileAccordion = () => {
               <li>
                 <Link to={"/welcome"} className="mobile-navs">
                   Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
                 </Link>
               </li>
             </ul>

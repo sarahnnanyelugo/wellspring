@@ -19,8 +19,7 @@ $nav-links: about, products, media, contact us;
   top: 0px;
   transform: translateY(0);
   @media screen and (max-width: 620px) {
-    height: 100px !important;
-    width: 100%;
+    height: 120px !important;
   }
   &.home {
     background: transparent !important;

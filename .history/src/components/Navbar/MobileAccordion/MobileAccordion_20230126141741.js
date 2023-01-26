@@ -23,34 +23,7 @@ const MobileAccordion = () => {
           <Accordion.Body>
             <ul className="list-unstyled">
               <li>
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
+                <Link to={"/welcome"} className="page-headings">
                   Welcome
                 </Link>
               </li>

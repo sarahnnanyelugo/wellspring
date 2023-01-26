@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./_mobile-accordion.scss";
 import Accordion from "react-bootstrap/Accordion";
-import { Link } from "react-router-dom";
 
 const people = [
   "Abusive, defamatory or obscene",
@@ -20,42 +19,7 @@ const MobileAccordion = () => {
           <Accordion.Header>
             <small>ABOUT</small>
           </Accordion.Header>
-          <Accordion.Body>
-            <ul className="list-unstyled">
-              <li>
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>{" "}
-                <Link to={"/welcome"} className="mobile-navs">
-                  Welcome
-                </Link>
-              </li>
-            </ul>
-          </Accordion.Body>
+          <Accordion.Body>1</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
