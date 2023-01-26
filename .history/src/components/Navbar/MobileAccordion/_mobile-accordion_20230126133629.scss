@@ -1,0 +1,54 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.accordion-body {
+  ul li {
+    line-height: 30px;
+  }
+  .small-cross {
+    img {
+      height: 20px;
+    }
+  }
+  a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 3px $yellow;
+    &:hover {
+      color: $lightblue;
+      border-bottom: solid 1px $lightblue2;
+      transition: 0.5s ease;
+    }
+  }
+  .logo-files a {
+    font-size: initial !important;
+  }
+}
+.accordion-button:not(.collapsed) {
+  background: rgb(0, 79, 157) !important;
+}
+.accordion-button:not(.collapsed) {
+  background: rgb(0, 79, 157) !important;
+}
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button:focus {
+  border-color: #fff !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.key1-list li {
+  line-height: 45px !important;
+  span {
+    font-weight: bold;
+  }
+}
+.accordion-button {
+  background: rgb(0, 79, 157) !important;
+  color: #fff;
+  // border-top: dotted 3px rgb(15, 92, 167);
+  // padding: 30px 0 !important;
+}

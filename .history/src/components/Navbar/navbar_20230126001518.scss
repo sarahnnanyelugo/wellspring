@@ -1,0 +1,17 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.navbar-container2 {
+  background: $deepblue !important;
+  box-shadow: none !important;
+  position: absolute;
+  z-index: 200000000000000000000;
+  max-height: 100vh !important;
+  padding: 0px 0;
+  transition: transform 200ms ease-in;
+  top: -130px;
+&}
+
+.ReactPlayground-StyledExample-module--cls2--Z1-mo {
+  border: none !important;
+}
