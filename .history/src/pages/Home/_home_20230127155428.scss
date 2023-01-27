@@ -579,7 +579,7 @@
 .testimonials {
   background-color: $lightblue2;
   height: 550px;
-  padding: 40px 0px 40px 40px;
+  padding: 40px 0;
   // margin-left: 30px;
   @media screen and (max-width: 620px) {
     height: fit-content;
