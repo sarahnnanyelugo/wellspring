@@ -274,7 +274,7 @@ export const Home = () => {
           <p>Read stories from our Welspring family</p>
         </div>
       </div>
-      {/* <div className="col-md-12 flexy testimonials">
+      <div className="col-md-12 flexy testimonials">
         <div className="col-md-4">
           <div className="col-md-11">
             <Testimonials
@@ -302,9 +302,7 @@ export const Home = () => {
             />
           </div>
         </div>
-      </div> */}
-
-      <TestimonialTab />
+      </div>
 
       <div className="col-md-12 news-container">
         <h1>ROYAL NEWS</h1>
@@ -397,6 +395,7 @@ export const Home = () => {
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
         <br />
+        <TestimonialTab />
       </section>
 
       <AppModal />

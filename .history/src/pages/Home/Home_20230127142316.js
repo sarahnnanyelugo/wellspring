@@ -304,8 +304,6 @@ export const Home = () => {
         </div>
       </div> */}
 
-      <TestimonialTab />
-
       <div className="col-md-12 news-container">
         <h1>ROYAL NEWS</h1>
         <div className="col-md-12 flexy news-inner">

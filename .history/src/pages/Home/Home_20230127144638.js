@@ -303,8 +303,9 @@ export const Home = () => {
           </div>
         </div>
       </div> */}
-
-      <TestimonialTab />
+      <div className="testimonials col-md-12">
+        <TestimonialTab />
+      </div>
 
       <div className="col-md-12 news-container">
         <h1>ROYAL NEWS</h1>

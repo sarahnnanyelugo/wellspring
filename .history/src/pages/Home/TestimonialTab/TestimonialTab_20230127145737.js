@@ -1,7 +1,6 @@
 import "./_testimonial-tab.scss";
 import Principal from "../../../assets/principal2.png";
 import Speech from "../../../assets/speech.png";
-import Admin from "../../../assets/admin.png";
 import { Testimonials } from "../../../components/Testimonials/Testimonials";
 
 export const TestimonialTab = () => {
@@ -35,38 +34,6 @@ export const TestimonialTab = () => {
               <div className="col-md-4">
                 <div className="col-md-11">
                   <Testimonials
-                    testifierImg={Speech}
-                    testifier="name of testifier"
-                    content="Wellspring College is a res students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
-                  />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <Testimonials
-                    testifierImg={Admin}
-                    testifier="name of testifier"
-                    content="The s students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
-                  />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <Testimonials
-                    testifierImg={Principal}
-                    testifier="name of testifier"
-                    content="Wellspring College is a private Christia to influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab__content">
-            {" "}
-            <div className="col-md-12 flexy testimonials">
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <Testimonials
                     testifierImg={Principal}
                     testifier="name of testifier"
                     content="Wellspring College is a res students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
@@ -76,7 +43,7 @@ export const TestimonialTab = () => {
               <div className="col-md-4">
                 <div className="col-md-11">
                   <Testimonials
-                    testifierImg={Speech}
+                    testifierImg={Principal}
                     testifier="name of testifier"
                     content="The s students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
                   />
@@ -117,7 +84,7 @@ export const TestimonialTab = () => {
               <div className="col-md-4">
                 <div className="col-md-11">
                   <Testimonials
-                    testifierImg={Speech}
+                    testifierImg={Principal}
                     testifier="name of testifier"
                     content="Wellspring College is a private Christia to influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
                   />
@@ -140,7 +107,7 @@ export const TestimonialTab = () => {
               <div className="col-md-4">
                 <div className="col-md-11">
                   <Testimonials
-                    testifierImg={Admin}
+                    testifierImg={Principal}
                     testifier="name of testifier"
                     content="The s students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
                   />
@@ -163,7 +130,7 @@ export const TestimonialTab = () => {
               <div className="col-md-4">
                 <div className="col-md-11">
                   <Testimonials
-                    testifierImg={Speech}
+                    testifierImg={Principal}
                     testifier="name of testifier"
                     content="Wellspring College is a res students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
                   />
@@ -181,7 +148,39 @@ export const TestimonialTab = () => {
               <div className="col-md-4">
                 <div className="col-md-11">
                   <Testimonials
-                    testifierImg={Admin}
+                    testifierImg={Principal}
+                    testifier="name of testifier"
+                    content="Wellspring College is a private Christia to influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab__content">
+            {" "}
+            <div className="col-md-12 flexy testimonials">
+              <div className="col-md-4">
+                <div className="col-md-11">
+                  <Testimonials
+                    testifierImg={Principal}
+                    testifier="name of testifier"
+                    content="Wellspring College is a res students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
+                  />
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="col-md-11">
+                  <Testimonials
+                    testifierImg={Principal}
+                    testifier="name of testifier"
+                    content="The s students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
+                  />
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="col-md-11">
+                  <Testimonials
+                    testifierImg={Principal}
                     testifier="name of testifier"
                     content="Wellspring College is a private Christia to influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life.Wellspring College is a private Christian school in Orlando, Florida, that prepares students to stand out from their peers and become leaders who influence the world through Christ-like leadership — choosing character before career, wisdom beyond scholarship, service before self, and participation as a way of life."
                   />

@@ -303,7 +303,6 @@ export const Home = () => {
           </div>
         </div>
       </div> */}
-
       <TestimonialTab />
 
       <div className="col-md-12 news-container">

@@ -57,22 +57,25 @@
       border-bottom-left-radius: 0;
     }
     &:checked + label {
-      border-bottom: solid 2px $yellow;
+      background-color: #fff;
+      box-shadow: 0 -1px 0 #fff inset;
       cursor: default;
       &:hover {
-        border-bottom: solid 2px $yellow;
+        box-shadow: 0 -1px 0 #fff inset;
+        background-color: #fff;
       }
     }
     + label {
       cursor: pointer;
       display: block;
       text-decoration: none;
-      color: #fff;
+      color: rgb(157, 153, 153);
       text-align: center;
       user-select: none;
       text-align: center;
       transition: 0.3s background-color ease, 0.3s box-shadow ease;
       padding: 5px;
+
       font-size: 15px;
 
       @media screen and (max-width: 620px) {

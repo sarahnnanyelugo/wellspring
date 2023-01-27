@@ -57,10 +57,12 @@
       border-bottom-left-radius: 0;
     }
     &:checked + label {
-      border-bottom: solid 2px $yellow;
+      background-color: #fff;
+      box-shadow: 0 -1px 0 #fff inset;
       cursor: default;
       &:hover {
-        border-bottom: solid 2px $yellow;
+        box-shadow: 0 -1px 0 #fff inset;
+        background-color: #fff;
       }
     }
     + label {
