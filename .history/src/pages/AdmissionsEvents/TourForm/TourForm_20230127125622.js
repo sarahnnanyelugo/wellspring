@@ -30,9 +30,9 @@ export const TourForm = () => {
             <Form.Control type="text" />
           </Form.Group>
           <p>Add another adult relative to attend?*</p>
-          <input type="radio" id="input1" class="tab " />
+          <input type="radio" id="input1" class="tab " name="time" />
           Yes
-          <input type="radio" id="input1" class="tab ml6 mb6" checked />
+          <input type="radio" id="input1" class="tab ml6 mb6" name="time" />
           No
           <h6>Student's Name:*</h6>
           <Form.Group className="mb-3 flexy" controlId="formBasicEmail">
@@ -63,13 +63,6 @@ export const TourForm = () => {
             {" "}
             <h6 className="mt5">School Year of Interest*</h6>
             <YearSelect />
-            <h6 className="mt5">Student's Interests*</h6>
-            <Form.Group className="mb-3 " controlId="interests">
-              <Form.Control
-                type="text"
-                placeholder="Please list any athletic, art club,or other technology interest"
-              />
-            </Form.Group>
           </Form.Group>
           <Form.Group className="flexy">
             <Form.Group className="mb-3 col-md-8" controlId="formBasicEmail">
@@ -116,6 +109,11 @@ export const TourForm = () => {
           </FloatingLabel>
           <br />
           <small>Use your mouse or finger to draw your signature above</small>
+          <center>
+            <button variant="primary" type="submit">
+              Submit Request
+            </button>
+          </center>
         </Form>
       </div>
     </>

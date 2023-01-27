@@ -268,6 +268,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <TestimonialTab />
       <div className="col-md-12 testimonials-container flexy">
         <div className="col-md-12 testimonials-header">
           <h1>ROYALS UPCLOSE</h1>
@@ -395,7 +396,10 @@ export const Home = () => {
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
         <br />
-        <TestimonialTab />
+        <TestPage
+          heading="This is the first Heading"
+          subheading="This is a parsed subheading"
+        />
       </section>
 
       <AppModal />

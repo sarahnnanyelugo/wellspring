@@ -63,12 +63,9 @@ export const TourForm = () => {
             {" "}
             <h6 className="mt5">School Year of Interest*</h6>
             <YearSelect />
-            <h6 className="mt5">Student's Interests*</h6>
-            <Form.Group className="mb-3 " controlId="interests">
-              <Form.Control
-                type="text"
-                placeholder="Please list any athletic, art club,or other technology interest"
-              />
+            <h6 className="mt5">School Currently Attending: *</h6>
+            <Form.Group className="mb-3 " controlId="formBasicEmail">
+              <Form.Control type="text" />
             </Form.Group>
           </Form.Group>
           <Form.Group className="flexy">
@@ -116,6 +113,11 @@ export const TourForm = () => {
           </FloatingLabel>
           <br />
           <small>Use your mouse or finger to draw your signature above</small>
+          <center>
+            <button variant="primary" type="submit">
+              Submit Request
+            </button>
+          </center>
         </Form>
       </div>
     </>

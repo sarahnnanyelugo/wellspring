@@ -4,7 +4,6 @@ import Jersy from "../../assets/mask1.png";
 import Gift from "../../assets/college.png";
 import Video from "../../assets/web-video.mp4";
 import Logo from "../../assets/yellow-logo.svg";
-import Logo2 from "../../assets/Logo.svg";
 import Discover from "../../assets/discorver.png";
 import "./_home.scss";
 
@@ -18,7 +17,6 @@ import { Prefoooter } from "../../components/Prefooter/Prefooter";
 import { HomeNav } from "./HomeNav/HomeNav";
 import { AppModal } from "../../components/AppModal/AppModal";
 import TestPage from "../../components/TestPages/TestPage";
-import { TestimonialTab } from "./TestimonialTab/TestimonialTab";
 
 export const Home = () => {
   return (
@@ -38,7 +36,7 @@ export const Home = () => {
             <div className="col-md-2">&nbsp;</div>
             <div className="col-md-4 logo-div">
               {" "}
-              <img className="col-md-10 " src={Logo2} alt="Scholar" />
+              <img className="col-md-10 " src={Logo} alt="Scholar" />
               <p>
                 Being Named Central Florida’s Best Private Christian School
                 Reflects Our Commitment to Excellence
@@ -50,7 +48,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="col-md-12 flexy prospectus-container1">
+      <section className="col-md-12 flexy prospectus-container1 ">
         <div className="col-md-2">&nbsp;</div>
         <div className="col-md-3">
           <h1>WELCOME TO WELLSPRING COLLEGE</h1>
@@ -67,7 +65,7 @@ export const Home = () => {
           <p>GET OUR PARENT INFORMATION PACKET!</p>
           <button>Download Now</button>
         </div>
-      </div>
+      </section>
 
       <div className="sections-container flexy">
         <div className="col-md-3 overlay-container col-12">
@@ -395,7 +393,10 @@ export const Home = () => {
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
         <br />
-        <TestimonialTab />
+        <TestPage
+          heading="This is the first Heading"
+          subheading="This is a parsed subheading"
+        />
       </section>
 
       <AppModal />

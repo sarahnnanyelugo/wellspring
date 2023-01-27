@@ -216,11 +216,9 @@ export const AdmissionsEvents = () => {
             </div>
 
             <EventsTab />
-            <center>
-              <button className="submit-form mt7" type="submit">
-                Submit Form
-              </button>
-            </center>
+            <button className="submit-form" type="submit">
+              Submit Form
+            </button>
           </div>
         </div>
       </section>

@@ -18,7 +18,6 @@ import { Prefoooter } from "../../components/Prefooter/Prefooter";
 import { HomeNav } from "./HomeNav/HomeNav";
 import { AppModal } from "../../components/AppModal/AppModal";
 import TestPage from "../../components/TestPages/TestPage";
-import { TestimonialTab } from "./TestimonialTab/TestimonialTab";
 
 export const Home = () => {
   return (
@@ -395,7 +394,10 @@ export const Home = () => {
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
         <br />
-        <TestimonialTab />
+        <TestPage
+          heading="This is the first Heading"
+          subheading="This is a parsed subheading"
+        />
       </section>
 
       <AppModal />

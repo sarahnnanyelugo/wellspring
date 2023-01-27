@@ -116,6 +116,11 @@ export const TourForm = () => {
           </FloatingLabel>
           <br />
           <small>Use your mouse or finger to draw your signature above</small>
+          <center>
+            <button variant="primary" type="submit">
+              Submit Request
+            </button>
+          </center>
         </Form>
       </div>
     </>
