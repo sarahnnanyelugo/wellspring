@@ -1,0 +1,15 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerL {
+    height: 600px;
+    margin-bottom: 65px;
+    width: 100%;
+    background:$deepblue;
+    background-image: url("../../assets/gallery-banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center center;
+  
+}

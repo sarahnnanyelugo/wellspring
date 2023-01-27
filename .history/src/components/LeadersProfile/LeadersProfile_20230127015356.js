@@ -34,7 +34,7 @@ export const LeadersProfile = ({ name, ...props }) => {
         scroll={true}
         className="backdropClassName"
       >
-        <Offcanvas.Header closeButton className="mt7"></Offcanvas.Header>
+        <Offcanvas.Header closeButton></Offcanvas.Header>
 
         <Offcanvas.Body>
           <div className="col-md-12 offcanvas-leaders-profile">

@@ -1,23 +1,23 @@
-import "./_leaders-profile.scss";
+import './_directory-profile.scss'
 
 import Offcanvas from "react-bootstrap/Offcanvas";
 import React, { useState, useRef, useEffect } from "react";
 
-export const LeadersProfile = ({ name, ...props }) => {
-  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
+
+export const DirectoryProfile = ({ name, ...props }) => {
+  
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
   return (
     <>
-      <div className="col-md-12 flexy  leaders-profile">
-        <div className="col-md-12 col-4" onClick={handleShow}>
-          <img
-            className="col-md-11 br col-12 "
-            src={props.profileImg}
-            alt="Scholar"
-          />
+      <div className="col-md-12 flexy  directory-profile">
+        <div className="col-md-12 " onClick={handleShow}>
+          <img className="col-md-11 br col-12 " src={props.profileImg} alt="Scholar" />
           <div className="profile-name ">
             <h6>{props.profilePortfolio}</h6>
           </div>
@@ -34,7 +34,7 @@ export const LeadersProfile = ({ name, ...props }) => {
         scroll={true}
         className="backdropClassName"
       >
-        <Offcanvas.Header closeButton className="mt7"></Offcanvas.Header>
+        <Offcanvas.Header closeButton></Offcanvas.Header>
 
         <Offcanvas.Body>
           <div className="col-md-12 offcanvas-leaders-profile">
