@@ -1,0 +1,17 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.comming-soon-container {
+  height: 1000px;
+  background: $deepblue;
+  @media screen and (max-width: 620px) {
+    padding-top: 180px;
+  }
+  h1 {
+    font-size: 80px !important;
+    color: $yellow;
+    @media screen and (max-width: 620px) {
+      font-size: 70px !important;
+    }
+  }
+}

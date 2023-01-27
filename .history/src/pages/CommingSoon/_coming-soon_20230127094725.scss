@@ -1,0 +1,12 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.comming-soon-container {
+  body {
+    background: $deepblue;
+  }
+  h1 {
+    font-size: 80px !important;
+    color: $yellow;
+  }
+}
