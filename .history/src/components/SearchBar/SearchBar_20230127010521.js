@@ -25,13 +25,13 @@ export const SearchBar = () => {
 
   return (
     <>
-      <div className="search-container">
-        <h6 onClick={onClick} className="menu-trigger">
+      <div id="search-container">
+        <h6 onClick={onClick} className="Menu-trigger">
           <i class="icofont-search-1 cool-link"></i>
         </h6>
         <nav
           ref={dropdownRef}
-          className={`menu ${isActive ? "active" : "inactive"}`}
+          className={`Menu ${isActive ? "active" : "inactive"}`}
         >
           <div className="search-container">
             <form action="/action_page.php">

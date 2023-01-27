@@ -1,11 +1,11 @@
 @import "../../variables";
 
-.search-container {
+.container {
   position: relative;
   // float: right;
 }
 
-.menu {
+.Menu {
   background: #ffffff;
   //   border-radius: 8px;
   position: absolute;
@@ -23,13 +23,13 @@
   }
 }
 
-.menu.active {
+.Menu.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
-.menu-trigger {
+.Menu-trigger {
   background: inherit;
   cursor: pointer;
   border: none;
@@ -50,14 +50,4 @@
 
 .topnav .search-container {
   float: right !important;
-}
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li a {
-  padding: 15px 20px;
-  display: block;
 }

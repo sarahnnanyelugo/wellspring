@@ -126,14 +126,16 @@ function NavBar({ sticky }) {
                 <div className="mobile-menu col-md-12 ">
                   {" "}
                   <nav>
-                    <Link to={"/"}>
-                      {" "}
-                      <img
-                        className="col-md-8 col-4 ml2"
-                        src={Logo}
-                        alt="Scholar"
-                      />
-                    </Link>
+                    <div className={`  ${isHome ? "hide-logo" : ""}`}>
+                      <Link to={"/"}>
+                        {" "}
+                        <img
+                          className="col-md-8 col-4 ml2"
+                          src={Logo}
+                          alt="Scholar"
+                        />
+                      </Link>
+                    </div>
                     <input
                       type="checkbox"
                       id="hamburger1"
@@ -141,7 +143,7 @@ function NavBar({ sticky }) {
                       onChange={(e) => handleChange(e)}
                     />
                     <label for="hamburger1"></label>
-
+                    <SearchBar />
                     <ul className="nav-links col-md-12 list-unstyled">
                       <li>
                         <MobileAccordion />
@@ -179,6 +181,7 @@ function NavBar({ sticky }) {
                   page10Url={"/contact"}
                 />
               </li>
+              {/* <MenuLinks dataset="0"/> */}
               <li className="list-inline-item cool-link3">
                 <MenuLinks
                   pageNav="ADMISSIONS"

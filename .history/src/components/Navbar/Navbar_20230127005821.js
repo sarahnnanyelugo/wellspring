@@ -65,6 +65,22 @@ function NavBar({ sticky }) {
       window.removeEventListener("scroll", (e) => handleNavigation(e));
     };
   }, [y]);
+  const menuLinks = [
+    {
+      menuTitle: "ABOUT",
+      menus: [
+        { submenuTitle: "Welcome", submenuUrl: "/welcome" },
+        { submenuTitle: "Philosopy", submenuUrl: "/philosophy" },
+      ],
+    },
+    {
+      menuTitle: "ADMISSIONS",
+      menus: [
+        { submenuTitle: "Welcome", submenuUrl: "/welcome" },
+        { submenuTitle: "Philosopy", submenuUrl: "/philosophy" },
+      ],
+    },
+  ];
   return (
     <>
       <div
@@ -126,14 +142,16 @@ function NavBar({ sticky }) {
                 <div className="mobile-menu col-md-12 ">
                   {" "}
                   <nav>
-                    <Link to={"/"}>
-                      {" "}
-                      <img
-                        className="col-md-8 col-4 ml2"
-                        src={Logo}
-                        alt="Scholar"
-                      />
-                    </Link>
+                    <div className={`  ${isHome ? "hide-logo" : ""}`}>
+                      <Link to={"/"}>
+                        {" "}
+                        <img
+                          className="col-md-8 col-4 ml2"
+                          src={Logo}
+                          alt="Scholar"
+                        />
+                      </Link>
+                    </div>
                     <input
                       type="checkbox"
                       id="hamburger1"
@@ -141,7 +159,7 @@ function NavBar({ sticky }) {
                       onChange={(e) => handleChange(e)}
                     />
                     <label for="hamburger1"></label>
-
+                    <SearchBar />
                     <ul className="nav-links col-md-12 list-unstyled">
                       <li>
                         <MobileAccordion />

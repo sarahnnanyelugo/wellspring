@@ -284,9 +284,9 @@ function NavBar({ sticky }) {
                   page8Url={"/faqs"}
                 />
               </li>
-              <li className="list-inline-item ">
+              {/* <li className="list-inline-item ">
                 <SearchBar />
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
