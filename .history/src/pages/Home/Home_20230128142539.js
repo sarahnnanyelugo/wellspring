@@ -6,7 +6,7 @@ import Video from "../../assets/web-video.mp4";
 import Logo from "../../assets/yellow-logo.svg";
 import Logo2 from "../../assets/Logo.svg";
 import Discover from "../../assets/discorver.png";
-import Lab from "../../assets/lab3.png";
+import Lab from "../../assets/lab2.png";
 import "./_home.scss";
 
 import { Link, NavLink } from "react-router-dom";
