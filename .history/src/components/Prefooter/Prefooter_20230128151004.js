@@ -7,14 +7,16 @@ export const Prefoooter = () => {
     <>
       {" "}
       <div className="containa col-md-12 ">
-        <center>
-          <div className="col-md-3 flexy">
-            {" "}
-            <h1>
-              See Why We’re the Best Private Christian School to Recon With
-            </h1>
-          </div>
-        </center>
+        <div className="col-md-12 flexy">
+          <center>
+            <div className="col-md-3">
+              {" "}
+              <h1>
+                See Why We’re the Best Private Christian School to Recon With
+              </h1>
+            </div>
+          </center>
+        </div>
         <div className="col-md-12 flexy ">
           <div className="col-md-3">&nbsp;</div>
           <div className="col-md-6 flexy">
