@@ -520,44 +520,33 @@
 }
 .stats-container {
   height: fit-content;
-  padding: 10px 0;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding: 80px 0;
   @media screen and (max-width: 620px) {
     padding: 0px 0;
   }
   h1 {
     color: $lightblue;
     font-size: 60px;
-    font-weight: 400;
     @media screen and (max-width: 620px) {
       padding: 0px 0;
     }
   }
   .stats {
-    padding: 20px 80px;
+    padding: 80px;
     text-align: center;
     @media screen and (max-width: 620px) {
-      padding: 10px 10px;
+      padding: 40px 10px;
     }
   }
   .stats-border {
     border-right: solid 1px $yellow;
-    @media screen and (max-width: 620px) {
-      border: none;
-    }
-  }
-  h6 {
-    color: $deepblue !important;
   }
 }
 
 .actions {
   background: rgb(245, 245, 245);
-  padding: 80px 0;
-
   @media screen and (max-width: 620px) {
-    padding: 40px 40px;
+    padding: 0px 40px;
   }
   .action-box {
     text-align: center;
