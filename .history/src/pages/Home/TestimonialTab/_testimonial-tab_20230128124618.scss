@@ -76,7 +76,7 @@
       font-size: 15px;
 
       @media screen and (max-width: 620px) {
-        // padding: 0 70px 0 120px;
+        padding: 0 70px 0 120px;
         text-align: center !important;
       }
     }
@@ -106,8 +106,5 @@
   }
 }
 .tab3 {
-  margin-left: 40% !important;
-  @media screen and (max-width: 620px) {
-    margin-left: 0 !important;
-  }
+  margin-left: 230px !important;
 }

@@ -10,47 +10,23 @@ export const TestimonialTab = () => {
       <div id="testimonial-tab-container">
         <div class="tab-wrap">
           {" "}
-          <input type="radio" id="tab3" name="tabGroup1" class="tab " checked />
-          <label for="tab3" className="cool-link tab3">
+          <input type="radio" id="tab3" name="tabGroup1" class="tab" checked />
+          <label for="tab3" className="cool-link">
             STUDENTS
           </label>{" "}
-          <input
-            type="radio"
-            id="tab4"
-            name="tabGroup1"
-            class="tab four"
-            checked
-          />
+          <input type="radio" id="tab4" name="tabGroup1" class="tab" checked />
           <label for="tab4" className="cool-link">
             PARENTS
           </label>{" "}
-          <input
-            type="radio"
-            id="tab5"
-            name="tabGroup1"
-            class="tab five"
-            checked
-          />
+          <input type="radio" id="tab5" name="tabGroup1" class="tab" checked />
           <label for="tab5" className="cool-link bod">
             FACULTY STAFF
           </label>{" "}
-          <input
-            type="radio"
-            id="tab6"
-            name="tabGroup1"
-            class="tab six"
-            checked
-          />
+          <input type="radio" id="tab6" name="tabGroup1" class="tab" checked />
           <label for="tab6" className="cool-link">
             ALUMNI
           </label>{" "}
-          <input
-            type="radio"
-            id="tab7"
-            name="tabGroup1"
-            class="tab seven"
-            checked
-          />
+          <input type="radio" id="tab7" name="tabGroup1" class="tab" checked />
           <label for="tab7" className="cool-link">
             VIEW ALL
           </label>

@@ -10,8 +10,14 @@ export const TestimonialTab = () => {
       <div id="testimonial-tab-container">
         <div class="tab-wrap">
           {" "}
-          <input type="radio" id="tab3" name="tabGroup1" class="tab " checked />
-          <label for="tab3" className="cool-link tab3">
+          <input
+            type="radio"
+            id="tab3"
+            name="tabGroup1"
+            class="tab three"
+            checked
+          />
+          <label for="tab3" className="cool-link">
             STUDENTS
           </label>{" "}
           <input

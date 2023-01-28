@@ -65,18 +65,19 @@
     }
     + label {
       cursor: pointer;
-      display: inline;
+      display: inline-flexbox;
       text-decoration: none;
       color: #fff !important;
-      position: relative;
+      //   text-align: center !important;
       user-select: none;
-
+      //   text-align: center;
       transition: 0.3s background-color ease, 0.3s box-shadow ease;
       padding: 5px;
       font-size: 15px;
-
+      //   position: absolute;
+      //   margin-left: 235px;
       @media screen and (max-width: 620px) {
-        // padding: 0 70px 0 120px;
+        padding: 0 70px 0 120px;
         text-align: center !important;
       }
     }
@@ -103,11 +104,6 @@
 
   .cool-link:hover::after {
     width: 100%;
-  }
-}
-.tab3 {
-  margin-left: 40% !important;
-  @media screen and (max-width: 620px) {
-    margin-left: 0 !important;
+    //transition: width .3s;
   }
 }
