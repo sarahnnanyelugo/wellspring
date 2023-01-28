@@ -59,6 +59,7 @@
     margin-left: 30%;
     &:hover {
       background: $deepblue;
+      opacity: 1;
     }
     @media screen and (max-width: 620px) {
       margin-left: 20% !important;
@@ -100,7 +101,7 @@
 
 .prospectus-container1 {
   margin-top: -20px !important;
-  height: 210px;
+  height: 190px;
   text-align: center;
   background: rgb(0, 42, 91);
   background: linear-gradient(
@@ -115,14 +116,13 @@
   }
   h1 {
     color: $yellow;
-    margin-top: 60px;
-    font-weight: 300 !important;
+    margin-top: 30px;
   }
   img {
     margin-top: -50px;
     margin-left: 30px;
     position: absolute;
-    z-index: 1;
+    z-index: 4;
     position: relative;
     @media screen and (max-width: 620px) {
       margin-left: 0px;
