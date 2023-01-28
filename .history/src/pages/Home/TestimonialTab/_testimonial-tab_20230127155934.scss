@@ -67,14 +67,14 @@
       cursor: pointer;
       display: block;
       text-decoration: none;
-      color: #fff !important;
+      color: #fff;
       text-align: center;
       user-select: none;
       text-align: center;
       transition: 0.3s background-color ease, 0.3s box-shadow ease;
       padding: 5px;
       font-size: 15px;
-      //   margin-left: 235px;
+      margin-left: 210px;
       @media screen and (max-width: 620px) {
         padding: 0 70px 0 120px;
         text-align: center !important;

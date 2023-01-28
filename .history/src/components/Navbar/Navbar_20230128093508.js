@@ -126,7 +126,7 @@ function NavBar({ sticky }) {
                 <div className="mobile-menu col-md-12 ">
                   {" "}
                   <nav>
-                    <Link to={"/"} className={`  ${isHome ? "hide-logo" : ""}`}>
+                    <Link to={"/"}>
                       {" "}
                       <img
                         className="col-md-8 col-4 ml2"

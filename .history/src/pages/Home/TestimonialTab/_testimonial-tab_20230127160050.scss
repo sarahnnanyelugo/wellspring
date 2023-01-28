@@ -67,7 +67,7 @@
       cursor: pointer;
       display: block;
       text-decoration: none;
-      color: #fff !important;
+      color: #fff;
       text-align: center;
       user-select: none;
       text-align: center;
@@ -75,6 +75,7 @@
       padding: 5px;
       font-size: 15px;
       //   margin-left: 235px;
+      padding-left: 235px;
       @media screen and (max-width: 620px) {
         padding: 0 70px 0 120px;
         text-align: center !important;
