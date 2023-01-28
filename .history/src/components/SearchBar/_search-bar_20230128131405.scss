@@ -2,7 +2,7 @@
 
 .search-container {
   position: relative;
-
+  // float: right;
   input::placeholder {
     font-style: italic;
     color: $lightblue;
@@ -19,9 +19,6 @@
   input {
     border: none !important;
     padding: 10px 0px 10px 0px;
-  }
-  input:focus {
-    border: none !important;
   }
 }
 

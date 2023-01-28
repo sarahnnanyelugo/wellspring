@@ -35,10 +35,7 @@ export const SearchBar = () => {
         >
           <div className="search-container">
             <form action="/action_page.php">
-              <span>
-                {" "}
-                <i class="icofont-search-1"></i>
-              </span>
+              <i class="icofont-search-1"></i>
               <input
                 type="text"
                 placeholder="What are you looking for?"
