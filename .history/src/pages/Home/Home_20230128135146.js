@@ -76,48 +76,48 @@ export const Home = () => {
       </div>
 
       <div className="sections-container flex-container">
-        <div className="overlay-container" style={{ flexGrow: "1" }}>
-          <img className=" " src={Gift} alt="Scholar" />
+        <div className=" overlay-container col-12">
+          <img className="col-md-12 " src={Gift} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Preschool</h3>
-              <img className=" " src={Logo} alt="Scholar" />
+              <h1>Preschool</h1>
+              <img className="col-md-9 " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>
         <div className=" overlay-container">
-          <img className=" " src={Jersy} alt="Scholar" />
+          <img className="col-md-12 " src={Jersy} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Kindergarten</h3>
-              <img className=" " src={Logo} alt="Scholar" />
+              <h1>Preschool</h1>
+              <img className="col-md-9 " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>
         <div className=" overlay-container">
-          <img className=" " src={Square} alt="Scholar" />
+          <img className="col-md-12 " src={Square} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Lower School</h3>
-              <img className=" " src={Logo} alt="Scholar" />
+              <h1>Preschool</h1>
+              <img className="col-md-9 " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>
         <div className="overlay-container">
-          <img className=" " src={Read} alt="Scholar" />
+          <img className="col-md-12 " src={Read} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Middle School</h3>
-              <img className="" src={Logo} alt="Scholar" />
+              <h1>College</h1>
+              <img className="col-md-9 " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>{" "}
         <div className="overlay-container">
-          <img className=" " src={Read} alt="Scholar" />
+          <img className="col-md-12 " src={Read} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Upper School</h3>
-              <img className=" " src={Logo} alt="Scholar" />
+              <h1>College</h1>
+              <img className="col-md-9 " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>

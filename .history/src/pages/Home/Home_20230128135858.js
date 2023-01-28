@@ -76,47 +76,47 @@ export const Home = () => {
       </div>
 
       <div className="sections-container flex-container">
-        <div className="overlay-container" style={{ flexGrow: "1" }}>
+        <div className=" overlay-container col-12" style={{ flexGrow: "" }}>
           <img className=" " src={Gift} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Preschool</h3>
+              <h1>Preschool</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>
-        <div className=" overlay-container">
+        <div className=" overlay-container" style={{ flexGrow: "1" }}>
           <img className=" " src={Jersy} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Kindergarten</h3>
+              <h1>Preschool</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>
-        <div className=" overlay-container">
+        <div className=" overlay-container" style={{ flexGrow: "1" }}>
           <img className=" " src={Square} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Lower School</h3>
+              <h1>Preschool</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>
-        <div className="overlay-container">
+        <div className="overlay-container" style={{ flexGrow: "1" }}>
           <img className=" " src={Read} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Middle School</h3>
+              <h1>College</h1>
               <img className="" src={Logo} alt="Scholar" />
             </div>
           </div>
         </div>{" "}
-        <div className="overlay-container">
+        <div className="overlay-container" style={{ flexGrow: "1" }}>
           <img className=" " src={Read} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Upper School</h3>
+              <h1>College</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>

@@ -80,7 +80,7 @@ export const Home = () => {
           <img className=" " src={Gift} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Preschool</h3>
+              <h1>Preschool</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
@@ -89,7 +89,7 @@ export const Home = () => {
           <img className=" " src={Jersy} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Kindergarten</h3>
+              <h1>Kindergarten</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
@@ -98,7 +98,7 @@ export const Home = () => {
           <img className=" " src={Square} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Lower School</h3>
+              <h1>Lower School</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
@@ -107,7 +107,7 @@ export const Home = () => {
           <img className=" " src={Read} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Middle School</h3>
+              <h1>Middle School</h1>
               <img className="" src={Logo} alt="Scholar" />
             </div>
           </div>
@@ -116,7 +116,7 @@ export const Home = () => {
           <img className=" " src={Read} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Upper School</h3>
+              <h1>Upper School</h1>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>

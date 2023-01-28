@@ -208,9 +208,6 @@
   &.flex-container {
     display: flex;
     align-items: stretch;
-    @media screen and (max-width: 620px) {
-      display: grid;
-    }
   }
 }
 

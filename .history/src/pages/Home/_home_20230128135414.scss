@@ -186,31 +186,29 @@
 
   .overlay-container:hover .overlay {
     height: 90%;
-    padding-top: 300px;
+    padding-top: 380px;
   }
 
   .text {
     color: white;
     position: absolute;
+    // top: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    h3 {
-      margin-bottom: 50px;
+    h1 {
+      margin-bottom: 30px;
     }
     img {
       height: 80px;
       width: 80px;
     }
   }
-  &.flex-container {
+  .flex-container {
     display: flex;
     align-items: stretch;
-    @media screen and (max-width: 620px) {
-      display: grid;
-    }
   }
 }
 
