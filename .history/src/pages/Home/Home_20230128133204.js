@@ -42,13 +42,10 @@ export const Home = () => {
                 {" "}
                 <img className="col-md-10 " src={Logo2} alt="Scholar" />
               </div>
-              <div className="col-md-10">
-                {" "}
-                <p>
-                  Being Named Central Florida’s Best Private Christian School
-                  Reflects Our Commitment to Excellence
-                </p>
-              </div>
+              <p>
+                Being Named Central Florida’s Best Private Christian School
+                Reflects Our Commitment to Excellence
+              </p>
               <button>Learn More</button>
             </div>
             <div className="col-md-1">&nbsp;</div>
