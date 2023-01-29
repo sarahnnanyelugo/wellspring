@@ -54,13 +54,13 @@ export const Home = () => {
                   <img className="col-md-11 col-8" src={Logo2} alt="Scholar" />
                 </center>
               </div>
-              <div className="col-md-10 ml3 first-heading">
+              <div className="col-md-10">
                 {" "}
                 <center>
-                  <h1>
+                  <p>
                     Being Named Central Florida’s Best Private Christian School
                     Reflects Our Commitment to Excellence
-                  </h1>
+                  </p>
                 </center>
               </div>
               <button>Learn More</button>

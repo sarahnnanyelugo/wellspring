@@ -44,24 +44,19 @@ export const Home = () => {
             src={Video}
           ></video>{" "}
           <div className=" col-md-12 flex  after">
-            <div className="col-md-1">&nbsp;</div>
+            <div className="col-md-2">&nbsp;</div>
             <div className="col-md-4 logo-div">
               {" "}
               <div className="col-md-12">
                 {" "}
-                <center>
-                  {" "}
-                  <img className="col-md-11 col-8" src={Logo2} alt="Scholar" />
-                </center>
+                <img className="col-md-10 col-8" src={Logo2} alt="Scholar" />
               </div>
-              <div className="col-md-10 ml3 first-heading">
+              <div className="col-md-10">
                 {" "}
-                <center>
-                  <h1>
-                    Being Named Central Florida’s Best Private Christian School
-                    Reflects Our Commitment to Excellence
-                  </h1>
-                </center>
+                <p>
+                  Being Named Central Florida’s Best Private Christian School
+                  Reflects Our Commitment to Excellence
+                </p>
               </div>
               <button>Learn More</button>
             </div>

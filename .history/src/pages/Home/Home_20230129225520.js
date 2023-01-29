@@ -54,7 +54,7 @@ export const Home = () => {
                   <img className="col-md-11 col-8" src={Logo2} alt="Scholar" />
                 </center>
               </div>
-              <div className="col-md-10 ml3 first-heading">
+              <div className="col-md-10 ml2">
                 {" "}
                 <center>
                   <h1>
