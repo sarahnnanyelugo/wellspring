@@ -392,7 +392,7 @@ export const Home = () => {
         <div className="containa col-md-12 shaded"></div>
       </section>
 
-      {/* <div className="col-md-12">
+      <div className="col-md-12">
         <Carousel
           show={4}
           slide={1}
@@ -413,7 +413,7 @@ export const Home = () => {
           <h1>2</h1>
           <h1>2</h1>
         </Carousel>
-      </div> */}
+      </div>
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
         <br />

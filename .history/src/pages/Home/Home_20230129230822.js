@@ -391,29 +391,6 @@ export const Home = () => {
       <section className="module1 parallax parallax-3">
         <div className="containa col-md-12 shaded"></div>
       </section>
-
-      {/* <div className="col-md-12">
-        <Carousel
-          show={4}
-          slide={1}
-          autoSwipe={1}
-          transition={0.9}
-          swiping={true}
-          infinite={true}
-          useArrowKeys={true}
-        >
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-          <h1>2</h1>
-        </Carousel>
-      </div> */}
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
         <br />
