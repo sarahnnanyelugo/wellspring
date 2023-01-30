@@ -3,13 +3,13 @@ import Read from "../../assets/read2.png";
 import Jersy from "../../assets/mask1.png";
 import Gift from "../../assets/college.png";
 import Video from "../../assets/web-video.mp4";
-import Logo from "../../assets/yellow-logo.svg";
-// import Logo from "../../assets/logo2.png";
+// import Logo from "../../assets/yellow-logo.svg";
+import Logo from "../../assets/logo2.png";
 
 import ReactDOM from "react-dom";
 
-import Logo2 from "../../assets/Logo.svg";
-// import Logo2 from "../../assets/logo.png";
+// import Logo2 from "../../assets/Logo.svg";
+import Logo2 from "../../assets/logo.png";
 import Discover from "../../assets/discorver.png";
 import Lab from "../../assets/lab3.png";
 import "./_home.scss";
@@ -261,8 +261,8 @@ export const Home = () => {
         <div className="col-md-10 flexy">
           <div
             className="col-md-4 "
-            // data-aos="slide-right"
-            // data-aos-duration="600"
+            data-aos="slide-right"
+            data-aos-duration="600"
           >
             <div className="col-md-11 action-box flexy flexyM">
               <span>
@@ -276,8 +276,8 @@ export const Home = () => {
           </div>
           <div
             className="col-md-4  "
-            // data-aos="slide-up"
-            // data-aos-duration="600"
+            data-aos="slide-up"
+            data-aos-duration="600"
           >
             <div className="col-md-11 action-box flexy flexyM">
               <span>
@@ -289,7 +289,7 @@ export const Home = () => {
               </h5>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 " data-aos="slide-left">
             <div className="col-md-11  action-box flexy flexyM">
               <span>
                 <i class="icofont-pencil-alt-5"></i>

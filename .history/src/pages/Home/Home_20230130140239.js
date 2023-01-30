@@ -261,8 +261,8 @@ export const Home = () => {
         <div className="col-md-10 flexy">
           <div
             className="col-md-4 "
-            // data-aos="slide-right"
-            // data-aos-duration="600"
+            data-aos="slide-right"
+            data-aos-duration="600"
           >
             <div className="col-md-11 action-box flexy flexyM">
               <span>
@@ -276,8 +276,8 @@ export const Home = () => {
           </div>
           <div
             className="col-md-4  "
-            // data-aos="slide-up"
-            // data-aos-duration="600"
+            data-aos="slide-up"
+            data-aos-duration="600"
           >
             <div className="col-md-11 action-box flexy flexyM">
               <span>
@@ -289,7 +289,7 @@ export const Home = () => {
               </h5>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 " data-aos="slide-left">
             <div className="col-md-11  action-box flexy flexyM">
               <span>
                 <i class="icofont-pencil-alt-5"></i>
