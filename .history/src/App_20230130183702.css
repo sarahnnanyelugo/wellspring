@@ -1,0 +1,92 @@
+@font-face {
+    font-family: brother-bold;
+    src: url(./assets/Brother-1816-Font/BB.ttf);
+}
+
+@font-face {
+    font-family:brother-light;
+    src: url(./assets/Brother-1816-Font/BL.ttf);
+}
+
+@font-face {
+    font-family: brother-medium;
+    src: url(./assets/Brother-1816-Font/BM.ttf);
+}
+@font-face {
+    font-family:brother-medium-italic;
+    src: url(./assets/Brother-1816-Font/BMI.ttf);
+}
+@font-face {
+    font-family: brother-regular;
+    src: url(./assets/Brother-1816-Font/BR.ttf);
+}
+@font-face {
+    font-family:brother-regular-italic;
+    src: url(./assets/Brother-1816-Font/BRI.ttf);
+
+
+}
+@font-face {
+    font-family:essonse-bold;
+    src: url(./assets/Essones-font/ESB.ttf);
+}
+@font-face {
+    font-family:essonses-bold-italic;
+    src: url(./assets/Essones-font/ESBI.ttf);
+}
+@font-face {
+    font-family:essones-d-regular;
+    src: url(./assets/Essones-font/ESDR.ttf);
+}
+@font-face {
+    font-family:essones-t-regular;
+    src: url(./assets/Essones-font/ESTR.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
