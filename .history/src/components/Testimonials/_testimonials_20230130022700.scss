@@ -1,0 +1,77 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.testimonial-holder {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+img {
+  width: 100%;
+}
+.testimonial-overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: inherit;
+
+  .writeup {
+    padding: 0 40px 40px 40px;
+    margin-top: -400px;
+    background-color: $deepblue !important;
+    color: #fff !important;
+    text-align: center;
+    @media screen and (max-width: 620px) {
+      margin-top: 300px;
+    }
+    p {
+      text-align: center !important;
+      color: #fff !important;
+    }
+
+    h4 {
+      background: $yellow;
+      padding: 15px 0;
+      color: $deepblue;
+      position: relative;
+      z-index: 4;
+    }
+  }
+}
+
+.testimonial-holder:hover .testimonial-overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  color: white !important;
+  font-size: 20px;
+  // position: absolute;
+  position: relative;
+  top: 220px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  @media screen and (max-width: 620px) {
+    left: 32%;
+    top: 152px;
+  }
+  img {
+    border: solid 7px $yellow;
+    @media screen and (max-width: 620px) {
+      width: 153%;
+    }
+  }
+}

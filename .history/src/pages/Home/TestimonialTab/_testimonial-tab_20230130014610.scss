@@ -1,0 +1,132 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+#testimonial-tab-container {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  > *:not(.tab-wrap) {
+    padding: 0 80px;
+  }
+  p {
+    color: $lightblue !important;
+    font-size: 17px;
+    margin-right: 10px;
+    @media screen and (max-width: 620px) {
+      padding: 0 120px;
+    }
+  }
+
+  $max-tab-count: 12;
+  $tab-wrap-border-radius: 6px;
+  .tab-wrap {
+    transition: 0.3s box-shadow ease;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    background-color: $lightblue;
+    padding: 50px 0 0 0;
+    &:hover {
+    }
+  }
+
+  .tab {
+    display: none;
+    @for $i from 1 through $max-tab-count {
+      &:checked:nth-of-type(#{$i}) ~ .tab__content:nth-of-type(#{$i}) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+      }
+    }
+    &:first-of-type:not(:last-of-type) + label {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    &:not(:first-of-type):not(:last-of-type) + label {
+      border-radius: 0;
+    }
+    &:last-of-type:not(:first-of-type) + label {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    &:checked + label {
+      border-bottom: solid 2px $yellow;
+      cursor: default;
+      &:hover {
+        border-bottom: solid 2px $yellow;
+      }
+    }
+    + label {
+      cursor: pointer;
+      display: inline;
+      text-decoration: none;
+      color: #fff !important;
+      position: relative;
+      user-select: none;
+
+      transition: 0.3s background-color ease, 0.3s box-shadow ease;
+      padding: 5px;
+      font-size: 15px;
+
+      @media screen and (max-width: 620px) {
+        font-size: 13px;
+        text-align: center !important;
+      }
+    }
+    &__content {
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+      opacity: 0;
+      left: 0;
+      transform: translateY(-3px);
+    }
+  }
+
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background: $lightblue !important;
+    transition: width 0.3s;
+    position: relative;
+    z-index: 300000000000000;
+  }
+
+  .cool-link:hover::after {
+    width: 100%;
+  }
+}
+.tab3 {
+  margin-left: 40% !important;
+  @media screen and (max-width: 620px) {
+    margin-left: 0 !important;
+    font-size: 12px;
+  }
+}
+.carousel {
+  position: relative;
+  z-index: -1 !important;
+  transition: all 0.5s linear !important;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  position: relative;
+  z-index: -1 !important;
+  border-radius: 20px !important;
+  min-height: 3100px;
+
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.testimonial-holder {
+  position: relative;
+  .testimonial-content {
+    display: none;
+    padding: 0 40px 40px 40px;
+    background-color: $deepblue !important;
+    @media screen and (max-width: 620px) {
+      padding: 0;
+    }
+    h1 {
+      color: $deepblue;
+      background: $yellow;
+      padding: 10px 0 10px 10px;
+      text-align: center !important;
+      margin-top: -30px;
+      position: relative;
+      z-index: 2;
+    }
+    h6 {
+      color: #fff !important;
+      text-align: center !important;
+      font-weight: 200;
+      line-height: 30px;
+    }
+  }
+  img {
+    &:hover {
+      border: solid 7px $yellow;
+      // transition: 0.5s ease;
+    }
+  }
+}
+.testimonial-holder:hover .testimonial-content {
+  display: block;
+}
