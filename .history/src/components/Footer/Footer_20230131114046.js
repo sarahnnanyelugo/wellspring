@@ -55,7 +55,7 @@ export const Footer = () => {
             <div className="col-md-5 logo-con">
               {" "}
               <center>
-                <img className="col-md-9" src={Logo} alt="Scholar" />
+                <img className="col-md-10" src={Logo} alt="Scholar" />
                 <p>
                   <em>Academics to excel.Faith to inspire.</em>
                 </p>

@@ -11,7 +11,7 @@
   .footer-content {
     color: #fff;
     height: fit-content;
-    padding: 80px 10px 0px 0;
+    padding: 100px 0 50px 0;
     margin-bottom: 0;
     @media screen and (max-width: 620px) {
       padding: 10px 30%;
@@ -56,16 +56,15 @@
     p {
       text-align: center !important;
       font-size: 16px;
-      // margin-right: 45px;
+      margin-right: 45px;
     }
   }
 }
 .post-footer {
   background: $deepblue;
-  padding: 4px 30px;
+  padding: 0px 30px;
   color: #fff;
   margin-top: -17px !important;
-  line-height: 15px !important;
   small {
     font-size: 9px;
     font-weight: 100;

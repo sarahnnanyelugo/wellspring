@@ -207,12 +207,9 @@ export const Home = () => {
 
         <div className="col-md-6">
           <div className="ethos-overlay-container3">
-            <center>
-              {" "}
-              <button>
-                J<span>O</span>Y
-              </button>
-            </center>
+            <button>
+              J<span>O</span>Y
+            </button>
             <div className="ethos-overlay3">
               <div className="text">
                 <h1>JOY</h1>
@@ -228,12 +225,9 @@ export const Home = () => {
             </div>
           </div>
           <div className="ethos-overlay-container4">
-            <center>
-              {" "}
-              <button>
-                CO<span>MMUNI</span>TY
-              </button>
-            </center>
+            <button>
+              CO<span>MMUNI</span>TY
+            </button>
             <div className="ethos-overlay4">
               <div className="text">
                 <h1>COMMUNITY</h1>

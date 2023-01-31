@@ -51,11 +51,11 @@ export const Footer = () => {
                 </li>
               </ol>
             </div>
-            <div className="col-md-1">&nbsp;</div>
-            <div className="col-md-5 logo-con">
+            <div className="col-md-2">&nbsp;</div>
+            <div className="col-md-4 logo-con">
               {" "}
               <center>
-                <img className="col-md-9" src={Logo} alt="Scholar" />
+                <img className="col-md-10 mr2" src={Logo} alt="Scholar" />
                 <p>
                   <em>Academics to excel.Faith to inspire.</em>
                 </p>
