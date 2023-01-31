@@ -272,13 +272,12 @@
   }
   button {
     background: inherit;
-    color: $deepblue2;
+    color: $lightblue;
     font-weight: bold;
     border: solid 2px $yellow;
     padding: 8px 45px;
     margin: 50px 10px;
     font-family: brother-bold;
-    letter-spacing: 1.2px !important;
 
     &:hover {
       background: $lightblue;
@@ -296,12 +295,6 @@
   }
 }
 .ethos-container {
-  h1 {
-    font-family: essones-d-regular;
-  }
-  p {
-    font-family: brother-regular;
-  }
   .ethos-overlay-container {
     position: relative;
     width: 100%;
@@ -324,8 +317,6 @@
       color: #fff;
       border: none;
       font-size: 40px;
-      font-family: essones-d-regular;
-
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -357,8 +348,6 @@
       color: #fff;
       border: none;
       font-size: 40px;
-      font-family: essones-d-regular;
-
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -388,8 +377,6 @@
       padding: 10px 70px;
       color: #fff;
       border: none;
-      font-family: essones-d-regular;
-
       font-size: 40px;
       span {
         border-bottom: solid 3px $yellow;
@@ -421,8 +408,6 @@
       color: #fff;
       border: none;
       font-size: 40px;
-      font-family: essones-d-regular;
-
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -578,8 +563,6 @@
     font-size: 60px;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: brother-regular;
-
     @media screen and (max-width: 620px) {
       padding: 0px 0;
     }
@@ -600,8 +583,6 @@
   }
   h6 {
     color: $deepblue !important;
-    font-family: essones-d-regular;
-    font-weight: 700;
   }
 }
 
@@ -631,8 +612,6 @@
     }
     h5 {
       margin-top: 20px;
-      font-family: essones-d-regular;
-      font-weight: 700;
     }
     span {
       font-size: 50px;
@@ -650,11 +629,6 @@
     text-align: center;
     p {
       text-align: center !important;
-      font-family: brother-regular;
-    }
-    h1 {
-      font-family: brother-medium;
-      font-weight: bold;
     }
   }
 }

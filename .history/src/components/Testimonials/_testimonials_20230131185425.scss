@@ -19,25 +19,21 @@
       position: relative;
       z-index: 2;
       font-style: normal;
-      font-family: brother-regular;
-
       font-size: 1.6rem !important;
       @media screen and (max-width: 620px) {
         // padding: 0 !important;
       }
     }
-    small {
+    h6 {
       color: #fff !important;
       text-align: center !important;
-      // font-weight: 200;
+      font-weight: 200;
       line-height: 30px;
-      font-family: brother-regular-italic;
     }
     i {
       color: #fff;
       font-size: 30px;
       font-weight: 200 !important;
-      font-family: brother-regular;
     }
   }
   img {

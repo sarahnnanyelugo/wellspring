@@ -13,38 +13,34 @@
     h2 {
       color: #004f9d;
       background: $yellow;
-      padding: 1.5rem 0;
+      padding: 2rem 0;
       text-align: center !important;
       margin-top: -30px;
       position: relative;
       z-index: 2;
       font-style: normal;
-      font-family: brother-regular;
-
       font-size: 1.6rem !important;
       @media screen and (max-width: 620px) {
         // padding: 0 !important;
       }
     }
-    small {
+    h6 {
       color: #fff !important;
       text-align: center !important;
-      // font-weight: 200;
+      font-weight: 200;
       line-height: 30px;
-      font-family: brother-regular-italic;
     }
     i {
       color: #fff;
       font-size: 30px;
       font-weight: 200 !important;
-      font-family: brother-regular;
     }
   }
   img {
     width: 100% !important;
     &:hover {
       border: solid 7px $yellow;
-      transition: 0.5s ease;
+      // transition: 0.5s ease;
     }
   }
 }

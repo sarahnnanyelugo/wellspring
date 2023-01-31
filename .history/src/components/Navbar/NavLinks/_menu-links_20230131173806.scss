@@ -52,8 +52,6 @@
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
     .link-alteration {
       color: $lightblue2 !important;
-      font-family: brother-medium;
-
       &:hover {
         color: $lightblue !important;
         border-bottom: none !important;

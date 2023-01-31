@@ -127,13 +127,10 @@
     height: fit-content !important;
     margin-top: 0px !important;
   }
-  h2 {
+  h1 {
     color: $yellow;
     margin-top: 40px;
     font-weight: 300 !important;
-    font-family: essones-t-regular;
-    letter-spacing: 0.58px !important;
-    line-height: 45px;
   }
   h4 {
     font-family: essonses-bold-italic;
@@ -157,7 +154,7 @@
   }
   p {
     font-size: 14px;
-    font-family: brother-medium;
+    font-family: brother-regular;
   }
   button {
     background: inherit;
@@ -165,8 +162,6 @@
     border: solid 2px $yellow;
     padding: 8px 45px;
     margin-top: 10px;
-    font-family: brother-medium;
-
     @media screen and (max-width: 620px) {
       margin-bottom: 30px;
     }
@@ -215,10 +210,7 @@
   .text {
     color: white;
     position: absolute;
-    left: 40%;
-    font-family: brother-regular;
-    justify-items: center;
-
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -253,8 +245,6 @@
   h1 {
     color: $lightblue;
     margin-bottom: 30px;
-    font-family: essones-d-regular;
-    font-weight: 400;
     @media screen and (max-width: 620px) {
       font-size: 45px;
     }
@@ -262,8 +252,7 @@
   p {
     text-align: center !important;
     line-height: 35px;
-    font-size: 16px;
-    font-family: brother-regular;
+    font-size: 15px;
   }
   .bt1 {
     @media screen and (max-width: 620px) {
@@ -272,14 +261,11 @@
   }
   button {
     background: inherit;
-    color: $deepblue2;
+    color: $lightblue;
     font-weight: bold;
     border: solid 2px $yellow;
     padding: 8px 45px;
     margin: 50px 10px;
-    font-family: brother-bold;
-    letter-spacing: 1.2px !important;
-
     &:hover {
       background: $lightblue;
       color: #fff;
@@ -296,12 +282,6 @@
   }
 }
 .ethos-container {
-  h1 {
-    font-family: essones-d-regular;
-  }
-  p {
-    font-family: brother-regular;
-  }
   .ethos-overlay-container {
     position: relative;
     width: 100%;
@@ -324,8 +304,6 @@
       color: #fff;
       border: none;
       font-size: 40px;
-      font-family: essones-d-regular;
-
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -357,8 +335,6 @@
       color: #fff;
       border: none;
       font-size: 40px;
-      font-family: essones-d-regular;
-
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -388,8 +364,6 @@
       padding: 10px 70px;
       color: #fff;
       border: none;
-      font-family: essones-d-regular;
-
       font-size: 40px;
       span {
         border-bottom: solid 3px $yellow;
@@ -421,8 +395,6 @@
       color: #fff;
       border: none;
       font-size: 40px;
-      font-family: essones-d-regular;
-
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -578,8 +550,6 @@
     font-size: 60px;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: brother-regular;
-
     @media screen and (max-width: 620px) {
       padding: 0px 0;
     }
@@ -600,8 +570,6 @@
   }
   h6 {
     color: $deepblue !important;
-    font-family: essones-d-regular;
-    font-weight: 700;
   }
 }
 
@@ -631,8 +599,6 @@
     }
     h5 {
       margin-top: 20px;
-      font-family: essones-d-regular;
-      font-weight: 700;
     }
     span {
       font-size: 50px;
@@ -650,11 +616,6 @@
     text-align: center;
     p {
       text-align: center !important;
-      font-family: brother-regular;
-    }
-    h1 {
-      font-family: brother-medium;
-      font-weight: bold;
     }
   }
 }

@@ -12,15 +12,12 @@ export const Testimonials = (props) => {
           />
           <div className="testimonial-content">
             <h2>{props.testifier}</h2>
-            <center>
-              {" "}
-              <small>
-                <span>
-                  <i class="icofont-quote-left"></i>
-                </span>
-                {props.content}
-              </small>
-            </center>
+            <p>
+              <span>
+                <i class="icofont-quote-left"></i>
+              </span>
+              {props.content}
+            </p>
           </div>
         </div>
       </div>

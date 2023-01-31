@@ -132,7 +132,7 @@ export const Home = () => {
           <img className=" " src={Lab} alt="Scholar" />
           <div className="overlay">
             <div className="text">
-              <h3>Upper School</h3>
+              <p style={{ fontSize: "25px" }}>Upper School</p>
               <img className=" " src={Logo} alt="Scholar" />
             </div>
           </div>
@@ -144,8 +144,8 @@ export const Home = () => {
           <div className="col-md-8">
             <h1>Academics to excel. Faith to inspire.</h1>
             <p>
-              Wellspring College is a private Christian school in Lagos,
-              Nigeria, that prepares students to stand out from their peers and
+              Wellspring College is a private Christian school in Orlando,
+              Florida, that prepares students to stand out from their peers and
               become leaders who influence the world through Christ-like
               leadership — choosing character before career, wisdom beyond
               scholarship, service before self, and participation as a way of
@@ -333,7 +333,7 @@ export const Home = () => {
       </div>
       <div className="col-md-12 testimonials-container flexy">
         <div className="col-md-12 testimonials-header">
-          <h1>ROYALS UP CLOSE</h1>
+          <h1>ROYALS UPCLOSE</h1>
           <p>Read stories from our Welspring family</p>
         </div>
       </div>

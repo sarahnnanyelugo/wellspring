@@ -333,7 +333,7 @@ export const Home = () => {
       </div>
       <div className="col-md-12 testimonials-container flexy">
         <div className="col-md-12 testimonials-header">
-          <h1>ROYALS UP CLOSE</h1>
+          <h1>ROYALS UPCLOSE</h1>
           <p>Read stories from our Welspring family</p>
         </div>
       </div>
