@@ -10,9 +10,9 @@ export const Prefoooter = () => {
         <center>
           <div className="col-md-3 flexy">
             {" "}
-            <h2>
+            <h1>
               See Why We’ re the Best Private Christian School to Consider.
-            </h2>
+            </h1>
           </div>
         </center>
         <div className="col-md-12 ">

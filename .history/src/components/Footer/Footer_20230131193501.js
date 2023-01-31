@@ -16,9 +16,7 @@ export const Footer = () => {
             <div className="col-md-2">
               <h4>Visit Us</h4>
               <p> 25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.</p>
-              <button style={{ fontFamily: " brother-regular" }}>
-                DIRECTIONS
-              </button>
+              <button>DIRECTIONS</button>
               <h4>Connect</h4>
               <p> (+234) 803 395 4138</p>
               <p> info@wellspringcollege.org</p>

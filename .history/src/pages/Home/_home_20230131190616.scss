@@ -696,30 +696,24 @@
     }
     small {
       color: rgb(163, 186, 215);
-      font-size: 16px;
-      font-family: brother-regular;
+      font-size: 18px;
     }
     p {
       margin-top: 40px !important;
-      font-family: brother-regular;
     }
     .recent-news {
       border-left: solid 1px rgb(199, 196, 196);
       padding-left: 50px;
       ul li {
         line-height: 35px;
-        font-family: brother-regular;
-        font-weight: 600;
-        font-size: 1.1rem !important;
       }
       h5 {
         color: $yellow;
-        font-family: brother-bold;
       }
       .link-alteration {
         color: $deepblue2 !important;
         font-weight: bold;
-        font-family: brother-regular;
+        font-size: 1.5;
       }
       .link-alteration2 {
         color: $deepblue2 !important;
@@ -781,9 +775,6 @@
     }
   }
   .news-btn {
-    h6 {
-      font-family: essonse-bold;
-    }
     button {
       padding: 10px;
       background: rgb(0, 42, 91);

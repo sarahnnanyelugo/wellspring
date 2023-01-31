@@ -412,7 +412,7 @@ export const Home = () => {
                 <div className="col-md-12 news-details">
                   <h6>
                     <Link to="#" className="link-alteration">
-                      Book Character Parade
+                      Wellspring Parents Association Meeting
                     </Link>
                   </h6>
                 </div>

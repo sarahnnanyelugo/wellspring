@@ -14,12 +14,12 @@ export const Footer = () => {
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-11 flexy">
             <div className="col-md-2">
-              <h4>Visit Us</h4>
+              <h4>Visit</h4>
               <p> 25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.</p>
-              <button style={{ fontFamily: " brother-regular" }}>
-                DIRECTIONS
-              </button>
-              <h4>Connect</h4>
+              <button>DIRECTIONS</button>
+              <h4>
+                <em>Connect</em>
+              </h4>
               <p> (+234) 803 395 4138</p>
               <p> info@wellspringcollege.org</p>
               <ol className="list-inline list-unstyled">
@@ -54,7 +54,9 @@ export const Footer = () => {
               {" "}
               <center>
                 <img className="col-md-9" src={Logo} alt="Scholar" />
-                <p>Academics to excel.Faith to inspire.</p>
+                <p>
+                  <em>Academics to excel.Faith to inspire.</em>
+                </p>
               </center>
               <br />
             </div>
