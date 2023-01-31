@@ -143,7 +143,7 @@ function NavBar({ sticky }) {
                         checked={showActive}
                         onChange={(e) => handleChange(e)}
                       />
-                      <label for="hamburger1" className="buga"></label>
+                      <label for="hamburger1" className="mt7"></label>
 
                       <ul className="nav-links col-md-12 list-unstyled">
                         <li>

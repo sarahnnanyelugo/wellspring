@@ -7,13 +7,11 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dot from "../../assets/blue.png";
 
-import "./_contact.scss";
+import "./_welcome.scss";
 import { Prefoooter } from "../../components/Prefooter/Prefooter";
 import React, { useState, useRef, useEffect } from "react";
-import Map from "../../assets/campus-map.png";
-import CampusMap from "../../assets/campus-map.pdf";
 
-export const Contact = () => {
+export const Welcome = () => {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
@@ -33,28 +31,14 @@ export const Contact = () => {
     };
   }, [isActive]);
 
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch(CampusMap).then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "campus_map.pdf";
-        alink.click();
-      });
-    });
-  };
   return (
     <>
       <section className="col-md-12 flexy page-background ">
         <div className="col-md-12 page-shadow header-wrapper">
-          <div className="col-md-12 bannerC zoominheader"></div>
+          <div className="col-md-12 banner zoominheader"></div>
           <div className=" col-md-12 after"></div>
           <div className="icon ">
-            <h1>Contact us</h1>
+            <h1>Welcome</h1>
             <h1>
               <i class="icofont-rounded-down"></i>
             </h1>
@@ -64,8 +48,8 @@ export const Contact = () => {
 
       <section className="page-content flexy ">
         <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10 ">
-          <div className="col-md-11">
+        <div className="col-md-10">
+          <div className="col-md-12">
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}
               <Breadcrum
@@ -77,7 +61,7 @@ export const Contact = () => {
             <div className="page-menu">
               <ul className="list-inline list-unstyled">
                 <li className="list-inline-item">
-                  <Link to={"/welcome"} className="link-alteration">
+                  <Link to="#" className="link-alteration">
                     Welcome
                   </Link>
                 </li>
@@ -248,197 +232,92 @@ export const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-12 contact-container flexy mt7">
-              <div className="col-md-4">
-                <h1>Wellspring College</h1>
-                <p>
-                  25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.{" "}
-                  <br />
-                  (+234) 803 395 4138
-                  <br />
-                  <Link to={"/"} className="link-alteration2">
-                    {" "}
-                    info@wellspringcollege.org
-                  </Link>
-                </p>
-                <img
-                  className="col-md-11 "
-                  src={Map}
-                  alt="Scholar"
-                  width="100%"
-                />
-                <ul className="list-unstyled list-inline mt3">
-                  <li className="list-inline-item download-btn">
-                    <a href={CampusMap} target="_blank">
-                      Campus Map
-                    </a>
-                  </li>
-                  <li className="list-inline-item download-btn">
-                    <button onClick={onButtonClick}>Download</button>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-8">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11209.38642107324!2d3.363890335570136!3d6.632441012110957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swellspring%20college!5e0!3m2!1sen!2sng!4v1674254777615!5m2!1sen!2sng"
-                  width="100%"
-                  height="600"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h1>Main Phone</h1>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h1>Human Resources</h1>
-                <h6>Gloria Leeks</h6>
-                <a href="#">glorialeeks@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Lower School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
 
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Head of School Office</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Middle School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Information Technology</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Upper School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Public Relations</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>The Classical School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Assistant Head of School Office</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>The First Hope</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Operations</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Admissions</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Tuition Management</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Athletics</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Marketing</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Business Administration</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Development</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>
+            <h1 className="page-headings mb3">What Makes a Great School?</h1>
+            <h4 className="page-headings">A Message from the Head of School</h4>
+            <p>
+              <strong>
+                All parents want their child to attend a great school – not just
+                a good school. When my wife and I moved our family to Orlando
+                several years ago, we found a great school in Wellspring
+                College. On the first day of the new school year, I watched with
+                apprehension from a second-story window as my middle child
+                walked onto a playground crowded with unfamiliar faces. With a
+                lump in my throat, I watched as he stood alone with his hands in
+                his pockets, obviously filled with uncertainty and nearly
+                paralyzed by fear. What happened next told me much about what
+                makes Wellspring College a great school. It turns out that I
+                wasn’t the only one observing. His teacher saw the worry on his
+                small, furrowed brow, too. She approached my son, took him by
+                the hand, and walked him toward the monkey bars. I could see her
+                bend down and introduce him to several boys who were playing
+                together. Within moments, those boys were welcoming my son into
+                their fold, and they have since become treasured friends. That
+                moment was powerful for me as I observed a great teacher in
+                action. Great teachers understand that true education involves
+                more than just teaching the mind – it begins with reaching the
+                heart. Great teachers understand that students aren’t interested
+                in finding out how much a teacher knows until they find out how
+                much a teacher cares
+              </strong>
+            </p>
+            <img className="col-md-12 mb4" src={Admin} alt="Scholar" />
+            <p>
+              Teachers at Wellspring College are called Living Curriculum
+              Influencers. They are 1) Christ Followers, 2) Prayer Warriors, 3)
+              Servant Leaders, 4) Relationship Builders, 5) Faithful
+              Encouragers, 6) Grateful Communicators, and 7) Engaging
+              Instructors. Though they come in all different shapes and sizes,
+              have varied backgrounds and experiences, and possess unique
+              personality types, I believe these seven characteristics set them
+              apart from all other teachers in Central Florida. We are blessed
+              to have these remarkable men and women leading our students.
+              <br /> <br />
+              Besides our exemplary teachers, Wellspring College is also blessed
+              with other qualities necessary to be a great school:
+              <br /> <br />
+            </p>
+            <ul className="list-unstyled">
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A
+                modern, secure campus with state-of-the-art infrastructure
+                supporting the latest in learning environment technology
+              </li>
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A An
+                award-winning academic curriculum, including our Lower School
+                and Middle School being named to the prestigious list of Blue
+                Ribbon Schools by the U.S. Department of Education
+              </li>{" "}
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A An
+                World-class athletic facilities (Payne Stewart Athletic Complex
+                and the Cramer Family Field House) that are home to numerous
+                state championships
+              </li>{" "}
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A An A
+                vibrant, award-winning fine arts program
+              </li>
+              <li>
+                {" "}
+                <img className="col-md-12 dot" src={Blue} alt="Scholar" />A An A
+                A commitment to character development and service to others
+              </li>
+            </ul>
+            <p>
+              Wellspring College is a great school. I invite you to experience
+              it for yourself and your family. Please call our Office of
+              Admissions today to schedule a campus visit. Walk the halls, sit
+              in on a class, listen to the conversations of our students and
+              faculty, and I believe you will recognize what makes Wellspring
+              College distinctive and a great school for your children and your
+              family.
+            </p>
           </div>
         </div>
       </section>

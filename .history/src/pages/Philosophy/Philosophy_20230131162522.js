@@ -3,17 +3,16 @@ import { Link } from "react-router-dom";
 import Banner from "../../assets/building-banner.png";
 import Admin from "../../assets/admin.png";
 import Blue from "../../assets/blue.png";
+import Badge from "../../assets/badge.png";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-import Dot from "../../assets/blue.png";
+import Merged from "../../assets/merged2.png";
 
-import "./_contact.scss";
+import "./_philosophy.scss";
 import { Prefoooter } from "../../components/Prefooter/Prefooter";
 import React, { useState, useRef, useEffect } from "react";
-import Map from "../../assets/campus-map.png";
-import CampusMap from "../../assets/campus-map.pdf";
 
-export const Contact = () => {
+export const Philosophy = () => {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
@@ -33,28 +32,14 @@ export const Contact = () => {
     };
   }, [isActive]);
 
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch(CampusMap).then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "campus_map.pdf";
-        alink.click();
-      });
-    });
-  };
   return (
     <>
-      <section className="col-md-12 flexy page-background ">
+      <section className="col-md-12 flexy page-background">
         <div className="col-md-12 page-shadow header-wrapper">
-          <div className="col-md-12 bannerC zoominheader"></div>
+          <div className="col-md-12 banner zoominheader"></div>
           <div className=" col-md-12 after"></div>
-          <div className="icon ">
-            <h1>Contact us</h1>
+          <div className="icon">
+            <h1>Philosophy</h1>
             <h1>
               <i class="icofont-rounded-down"></i>
             </h1>
@@ -64,15 +49,11 @@ export const Contact = () => {
 
       <section className="page-content flexy ">
         <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10 ">
+        <div className="col-md-10">
           <div className="col-md-11">
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}
-              <Breadcrum
-                page1="About"
-                currentPage="Welcome"
-                pageUrl={"/philosophy"}
-              />
+              <Breadcrum currentPage="About" pageUrl={"/phylosophy"} />
             </div>
             <div className="page-menu">
               <ul className="list-inline list-unstyled">
@@ -248,200 +229,96 @@ export const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-12 contact-container flexy mt7">
-              <div className="col-md-4">
-                <h1>Wellspring College</h1>
+            <h2 className="page-headings mb3">
+              Definitively Christ-Centered, Distinctly College-Prep
+            </h2>
+            <div className="col-md-12 ">
+              <div className="col-md-9 col-7" style={{ float: "right" }}>
                 <p>
-                  25B Somide Odujinrin Street Omole Phase 2, Ikeja, Lagos.{" "}
-                  <br />
-                  (+234) 803 395 4138
-                  <br />
-                  <Link to={"/"} className="link-alteration2">
-                    {" "}
-                    info@wellspringcollege.org
-                  </Link>
+                  {" "}
+                  Wellspring College is a Christ-centered, college-preparatory
+                  school serving over 1,200 Central Florida students across four
+                  academic divisions – Upper School (9th-12th), Middle School
+                  (6th-8th), Lower School (Preschool-5th), and the Extended
+                  Educational Programs (Homeschool and Special Needs).
                 </p>
-                <img
-                  className="col-md-11 "
-                  src={Map}
-                  alt="Scholar"
-                  width="100%"
-                />
-                <ul className="list-unstyled list-inline mt3">
-                  <li className="list-inline-item download-btn">
-                    <a href={CampusMap} target="_blank">
-                      Campus Map
-                    </a>
-                  </li>
-                  <li className="list-inline-item download-btn">
-                    <button onClick={onButtonClick}>Download</button>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-8">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11209.38642107324!2d3.363890335570136!3d6.632441012110957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swellspring%20college!5e0!3m2!1sen!2sng!4v1674254777615!5m2!1sen!2sng"
-                  width="100%"
-                  height="600"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+                <div className=" float-end">
+                  {" "}
+                  <img className="col-md-12" src={Badge} alt="Scholar" />
+                </div>
               </div>
             </div>
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h1>Main Phone</h1>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h1>Human Resources</h1>
-                <h6>Gloria Leeks</h6>
-                <a href="#">glorialeeks@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Lower School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
+            <p>
+              Since our opening in 1987, Wellspring College has continued to
+              grow the academic, fine arts, and athletic programs that have
+              elevated its students to the highest levels of achievement. More
+              importantly, though, as a private school Wellspring College has
+              helped develop its students’ strength of character, leading these
+              young men and women to serve others in their own community and
+              across the globe. Wellspring College boasts a 100% college
+              acceptance rate for its graduating seniors, who have
+            </p>
+            <h1 className="page-headings mb3">
+              A Vibrant, Gospel-Centered School Culture
+            </h1>
+            <p>
+              The items in the document linked below are designed to bolster the
+              relationship between home, church, and school. These items do not
+              define who is and who is not a Christ-follower. They are not a
+              measure of one’s spiritual maturity. They are simply a set of
+              principles that guide our partnership with parents in raising the
+              next generation of Christian leaders and maintaining a healthy
+              school culture marked by joy, gratitude, and kindness. When
+              someone makes a mistake, we will not judge their relationship with
+              Jesus. Similarly, when certain behaviors require consequences, we
+              will not describe those administering the consequences as
+              “unchristian” or “unkind” for following through as outlined in the
+              school handbook and in this document. We strive to have a healthy
+              culture where what we believe, say, and do all align. Read our
+              full document, The Most Important Elements: Gospel-Centered School
+              Culture.
+              <br /> <br />
+            </p>
 
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Head of School Office</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Middle School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Information Technology</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Upper School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Public Relations</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>The Classical School</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Assistant Head of School Office</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>The First Hope</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Operations</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Admissions</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Tuition Management</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Athletics</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Marketing</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>{" "}
-            <div className="col-md-12 cardd mt3 flexy">
-              <div className="col-md-6">
-                <h2>Business Administration</h2>
-                <h6>Kerry Ann Cole</h6>
-                <a href="#">kerryanncole@wellspringcollege.org</a>
-
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-              <div className="col-md-6">
-                <h2>Development</h2>
-                <h6>Gissel Valois</h6>
-                <a href="#">gisselvalois@wellspringcollege.org</a>
-                <h5>P: 407-206-8600</h5>
-                <h5>P: 407-206-8600</h5>
-              </div>
-            </div>
+            <p>
+              Wellspring College is a great school. I invite you to experience
+              it for yourself and your family. Please call our Office of
+              Admissions today to schedule a campus visit. Walk the halls, sit
+              in on a class, listen to the conversations of our students and
+              faculty, and I believe you will recognize what makes Wellspring
+              College distinctive and a great school for your children and your
+              family.
+            </p>
           </div>
         </div>
       </section>
+      <div className="col-md-12 prospect flexy mt6">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8 flexy">
+          <div className="col-md-4">
+            <img className="col-md-11 " src={Merged} alt="Scholar" />
+          </div>
+          <div className="col-md-4">
+            <h1>
+              <em>
+                {" "}
+                Searching for the Right Private Christian School for Your
+                Family?
+              </em>
+            </h1>
+          </div>
+          <div className="col-md-4 mt5">
+            <div className="col-md-9">
+              <h4>
+                <em>Take a closer look with our Parent Info Packet</em>
+              </h4>
+              <button>
+                <em>DOWNLOAD NOW</em>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <section className="module1 contentt contact-form prefooter-container">
         <Prefoooter />
       </section>

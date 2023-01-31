@@ -22,7 +22,7 @@ $nav-links: about, products, media, contact us;
   @media screen and (max-width: 620px) {
     height: 100px !important;
     width: 100%;
-    padding: 50px 0px !important;
+    padding: 0px 50px !important;
   }
   &.home {
     background: transparent !important;

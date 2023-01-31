@@ -2,7 +2,7 @@
 @import "../../shared-styles";
 
 .banner {
-  height: 400px;
+  height: 600px;
   margin-bottom: 65px;
   width: 100%;
   background: $deepblue;
@@ -13,7 +13,6 @@
   background-position: center center;
   @media screen and (max-width: 620px) {
     // height: 00px !important;
-    margin-top: 40px;
     margin-bottom: 100px !important;
   }
 }

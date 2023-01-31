@@ -14,13 +14,13 @@
 }
 .prospect {
   height: fit-content;
-  padding: 10px;
+  padding: 0;
   background: rgb(0, 45, 91);
   background: linear-gradient(
     90deg,
     rgba(0, 45, 91, 1) 41%,
-    rgba(0, 79, 156, 1) 92%,
-    rgba(0, 45, 91, 1) 92%
+    rgba(0, 79, 156, 1) 81%,
+    rgba(0, 45, 91, 1) 81%
   );
   @media screen and (max-width: 620px) {
     height: fit-content;
@@ -39,7 +39,7 @@
     font-weight: bold;
     font-size: 45px !important;
     line-height: 45px;
-    margin-top: -2px;
+    margin-top: -5px;
     @media screen and (max-width: 620px) {
       font-size: 41px !important;
       line-height: 38px;
