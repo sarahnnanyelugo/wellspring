@@ -250,41 +250,31 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="stats-container flexdy col-md-12">
+      <div className="stats-container flexy">
         {/* <div className="col-md-1">&nbsp;</div> */}
-        <center>
-          <div className="col-md-10 flexy">
+        <div className="col-md-10 flexy">
+          <center>
             <div className="col-md-3 stats stats-border">
-              <center>
-                {" "}
-                <h1>100%</h1>
-                <h6>
-                  COLLEGE <br />
-                  ACCEPTANCE
-                </h6>
-              </center>
+              <h1>100%</h1>
+              <h6>
+                COLLEGE <br />
+                ACCEPTANCE
+              </h6>
             </div>{" "}
             <div className="col-md-3 stats stats-border">
-              <center>
-                <h1>$104M</h1>
-                <h6>COLLEGE SCHOLARSHIPS</h6>
-              </center>
+              <h1>$104M</h1>
+              <h6>COLLEGE SCHOLARSHIPS</h6>
             </div>{" "}
             <div className="col-md-3 stats stats-border">
-              <center>
-                <h1>100%</h1>
-                <h6>OF OUR TEACHERS ARE DEGREED AND CHRIST-FOLLOWERS</h6>
-              </center>
+              <h1>100%</h1>
+              <h6>OF OUR TEACHERS ARE DEGREED AND CHRIST-FOLLOWERS</h6>
             </div>{" "}
             <div className="col-md-3 stats">
-              <center>
-                {" "}
-                <h1>15-1</h1>
-                <h6>STUDENT-TEACHER RATIO</h6>
-              </center>
+              <h1>15-1</h1>
+              <h6>STUDENT-TEACHER RATIO</h6>
             </div>
-          </div>
-        </center>
+          </center>
+        </div>
       </div>
       <div className="actions col-md-12 flexy">
         <div className="col-md-1">&nbsp;</div>

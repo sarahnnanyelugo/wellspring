@@ -113,7 +113,7 @@
     color: $deepblue !important;
     border: none !important;
     padding: 20px 25px !important;
-    margin-top: 200% !important;
+    margin-top: 300% !important;
     &:after {
       content: ">";
     }
@@ -132,12 +132,11 @@
   //   width: 2300px !important;
   // }
   .tb {
-    background: $mainblue;
-    height: 380px !important;
+    background: red;
   }
   .tbc {
-    background: $mainblue;
-    height: 380px !important;
+    background: rgb(1, 71, 141);
+    height: 400px !important;
   }
 }
 .tab3 {

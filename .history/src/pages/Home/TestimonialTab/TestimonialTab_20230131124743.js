@@ -57,7 +57,7 @@ export const TestimonialTab = () => {
           </label>
           <div class="tab__content">
             {" "}
-            <div className="col-md-12 flexy testimonials tb">
+            <div className="col-md-12 flexy testimonials">
               <div className="col-md-4">&nbsp;</div>
               <div className="col-md-4">
                 <div className="col-md-11">
@@ -73,7 +73,7 @@ export const TestimonialTab = () => {
           </div>
           <div class="tab__content">
             {" "}
-            <div className="col-md-12 flexy testimonials tb">
+            <div className="col-md-12 flexy testimonials">
               <div className="col-md-4">&nbsp;</div>
               <div className="col-md-4">
                 <div className="col-md-11">
@@ -89,7 +89,7 @@ export const TestimonialTab = () => {
           </div>
           <div class="tab__content">
             {" "}
-            <div className="col-md-12 flexy testimonials tb">
+            <div className="col-md-12 flexy testimonials">
               <div className="col-md-2">&nbsp;</div>
               <div className="col-md-4">
                 <div className="col-md-11">
@@ -135,7 +135,7 @@ export const TestimonialTab = () => {
               </div>
             </div>
           </div>
-          <div class="tab__content tbc">
+          <div class="tab__content">
             <Carousel
               show={3}
               slide={1}

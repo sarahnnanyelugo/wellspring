@@ -265,23 +265,16 @@ export const Home = () => {
               </center>
             </div>{" "}
             <div className="col-md-3 stats stats-border">
-              <center>
-                <h1>$104M</h1>
-                <h6>COLLEGE SCHOLARSHIPS</h6>
-              </center>
+              <h1>$104M</h1>
+              <h6>COLLEGE SCHOLARSHIPS</h6>
             </div>{" "}
             <div className="col-md-3 stats stats-border">
-              <center>
-                <h1>100%</h1>
-                <h6>OF OUR TEACHERS ARE DEGREED AND CHRIST-FOLLOWERS</h6>
-              </center>
+              <h1>100%</h1>
+              <h6>OF OUR TEACHERS ARE DEGREED AND CHRIST-FOLLOWERS</h6>
             </div>{" "}
             <div className="col-md-3 stats">
-              <center>
-                {" "}
-                <h1>15-1</h1>
-                <h6>STUDENT-TEACHER RATIO</h6>
-              </center>
+              <h1>15-1</h1>
+              <h6>STUDENT-TEACHER RATIO</h6>
             </div>
           </div>
         </center>
