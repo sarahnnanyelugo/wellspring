@@ -1,0 +1,31 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.prefooter-container {
+  height: fit-content;
+  padding: 0px;
+  text-align: center;
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+  }
+  h1 {
+    color: $deepblue2;
+  }
+  button {
+    background: inherit;
+    color: $deepblue2;
+    padding: 10px 70px;
+    border: solid 2px $yellow;
+    margin: 30px;
+    font-weight: bold;
+    @media screen and (max-width: 620px) {
+      width: 100%;
+      margin: 10px 0;
+    }
+    &:hover {
+      background: $lightblue;
+      color: #fff;
+      transition: 0.5s ease;
+    }
+  }
+}
