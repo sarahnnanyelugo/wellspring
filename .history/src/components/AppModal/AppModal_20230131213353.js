@@ -37,7 +37,7 @@ export const AppModal = () => {
           className={`col-md-12 ${showActive ? "two" : ""}`}
           id="modal-container"
         >
-          <div className="modal-background col-md-12">
+          <div className="modal-background">
             <button onClick={setThisShowActive} className="close-btn">
               <i class="icofont-close"></i>
             </button>

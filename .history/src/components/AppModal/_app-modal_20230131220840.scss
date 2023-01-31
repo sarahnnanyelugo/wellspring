@@ -5,7 +5,7 @@
   position: relative;
   z-index: 3000 !important;
   .close-btn {
-    right: 17% !important;
+    right: 20% !important;
 
     position: relative;
     float: right;
@@ -61,7 +61,7 @@
           background: $deepblue !important;
           // height: 630px;
           // width: 830px;
-          width: 68%;
+          width: 60%;
           top: 40px;
           @media screen and (max-width: 620px) {
             height: fit-content;

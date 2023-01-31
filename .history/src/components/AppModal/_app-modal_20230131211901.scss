@@ -3,20 +3,20 @@
 
 .my-app-modal-container {
   position: relative;
-  z-index: 3000 !important;
+  z-index: 300000000000000000000000000000000000;
   .close-btn {
     right: 17% !important;
 
-    position: relative;
+    position: absolute;
     float: right;
     font-size: 20px;
     font-weight: bold;
     color: #fff !important;
-    margin-top: 10px;
+    margin-top: 70px;
 
     background: transparent;
     border: none;
-    z-index: 4000;
+    z-index: 200000000000000000000000000000000000000000000000000000000000000000000000000;
     &:hover {
       color: $lightblue !important;
     }
@@ -59,10 +59,9 @@
           opacity: 0;
           animation: scaleUp 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
           background: $deepblue !important;
-          // height: 630px;
-          // width: 830px;
-          width: 68%;
-          top: 40px;
+          height: 630px;
+          width: 830px;
+          top: 80px;
           @media screen and (max-width: 620px) {
             height: fit-content;
             width: 90%;
