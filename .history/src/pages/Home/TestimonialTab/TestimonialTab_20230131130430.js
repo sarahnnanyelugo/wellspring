@@ -135,7 +135,7 @@ export const TestimonialTab = () => {
               </div>
             </div>
           </div>
-          <div class="tab__content tbc mt2">
+          <div class="tab__content tbc">
             <Carousel
               show={3}
               slide={1}
