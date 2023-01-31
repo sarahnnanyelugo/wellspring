@@ -142,23 +142,21 @@ export const Home = () => {
       </div>
       <div className="col-md-12 flexy about-us-container">
         {/* <div className="col-md-2">&nbsp;</div> */}
-        <center>
-          <div className="col-md-8">
-            <h1>Academics to excel. Faith to inspire.</h1>
-            <p>
-              Wellspring College is a private Christian school in Orlando,
-              Florida, that prepares students to stand out from their peers and
-              become leaders who influence the world through Christ-like
-              leadership — choosing character before career, wisdom beyond
-              scholarship, service before self, and participation as a way of
-              life.
-            </p>
-            <div className="button-container">
-              <button className="">LEARN MORE ABOUT WS</button>
-              <button>SCHEDULE A TOUR</button>
-            </div>
+        <div className="col-md-8">
+          <h1>Academics to excel. Faith to inspire.</h1>
+          <p>
+            Wellspring College is a private Christian school in Orlando,
+            Florida, that prepares students to stand out from their peers and
+            become leaders who influence the world through Christ-like
+            leadership — choosing character before career, wisdom beyond
+            scholarship, service before self, and participation as a way of
+            life.
+          </p>
+          <div className="fledxy button-container">
+            <button className="">LEARN MORE ABOUT WS</button>
+            <button>SCHEDULE A TOUR</button>
           </div>
-        </center>
+        </div>
       </div>
       <div className="col-md-12 flexy ethos-container">
         <div className="col-md-6">

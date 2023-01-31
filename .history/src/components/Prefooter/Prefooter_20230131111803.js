@@ -15,7 +15,7 @@ export const Prefoooter = () => {
             </h1>
           </div>
         </center>
-        <div className="col-md-12 ">
+        <div className="col-md-12 flexy ">
           <center>
             {" "}
             <button>REQUEST INFORMATION</button>

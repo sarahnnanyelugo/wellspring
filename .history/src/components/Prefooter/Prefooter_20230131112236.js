@@ -15,12 +15,15 @@ export const Prefoooter = () => {
             </h1>
           </div>
         </center>
-        <div className="col-md-12 ">
+        <div className="col-md-12 flexy ">
           <center>
             {" "}
-            <button>REQUEST INFORMATION</button>
-            <button>SCHEDULE A TOUR</button>
-            <button>APPLY NOW</button>
+            <div className="col-md-11">
+              {" "}
+              <button>REQUEST INFORMATION</button>
+              <button>SCHEDULE A TOUR</button>
+              <button>APPLY NOW</button>
+            </div>
           </center>
         </div>
       </div>

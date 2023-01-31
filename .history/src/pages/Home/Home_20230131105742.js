@@ -153,7 +153,7 @@ export const Home = () => {
               scholarship, service before self, and participation as a way of
               life.
             </p>
-            <div className="button-container">
+            <div className="fledxy button-container">
               <button className="">LEARN MORE ABOUT WS</button>
               <button>SCHEDULE A TOUR</button>
             </div>
