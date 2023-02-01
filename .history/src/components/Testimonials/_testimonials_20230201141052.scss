@@ -1,0 +1,58 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.testimonial-holder {
+  position: relative;
+  .testimonial-content {
+    display: none;
+    padding: 0 20px 20px 20px;
+    background-color: $deepblue !important;
+    @media screen and (max-width: 620px) {
+      padding: 0 !important;
+    }
+    h2 {
+      color: #004f9d;
+      background: $yellow;
+      padding: 1.5rem 0;
+      text-align: center !important;
+      margin-top: -30px;
+      position: relative;
+      z-index: 2;
+      font-style: normal;
+      font-family: brother-regular;
+
+      font-size: 1.6rem !important;
+      ::after {
+        clip-path: polygon(50% 49%, 100% 50%, 50% 100%, 0% 50%);
+        background: red;
+        height: 60px;
+      }
+      @media screen and (max-width: 620px) {
+        // padding: 0 !important;
+      }
+    }
+    small {
+      color: #fff !important;
+      text-align: center !important;
+      // font-weight: 200;
+      line-height: 30px;
+      font-family: brother-regular-italic;
+    }
+    i {
+      color: #fff;
+      font-size: 30px;
+      font-weight: 200 !important;
+      font-family: brother-regular;
+    }
+  }
+  img {
+    width: 100% !important;
+    &:hover {
+      border: solid 7px $yellow;
+      transition: 0.5s ease;
+    }
+  }
+}
+.testimonial-holder:hover .testimonial-content {
+  display: block;
+}

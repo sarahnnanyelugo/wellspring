@@ -1,0 +1,18 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.faq-accordion-container {
+  .accordion-body {
+  }
+  .accordion-button:not(.collapsed) {
+    background: #fff !important;
+  }
+  .accordion-item {
+    border: none !important;
+  }
+
+  .accordion-button:focus {
+    border-color: #fff !important;
+    outline: none !important;
+  }
+}

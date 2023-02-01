@@ -1,0 +1,14 @@
+.year-select {
+  select {
+    height: 40px !important;
+    margin-left: 0px !important;
+    border: solid 1px rgb(213, 211, 211);
+    color: grey;
+    background: #fff;
+    width: 100% !important;
+    box-shadow: 0 0 3px 3px rgb(220, 218, 218);
+  }
+  select:focus {
+    border: none !important;
+  }
+}
