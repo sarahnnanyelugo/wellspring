@@ -233,7 +233,7 @@ export const Tuition = () => {
                 <div className="col-md-10">
                   {" "}
                   <img
-                    className="col-md-12 yellow-logo"
+                    className="col-md-3 yellow-logo"
                     src={Logo}
                     alt="Scholar"
                   />{" "}

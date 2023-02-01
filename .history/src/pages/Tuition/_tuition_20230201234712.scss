@@ -100,7 +100,7 @@ h6 {
     color: #fff;
     font-family: essonses-bold-italic !important;
     font-size: 24px !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
   }
   small {
     color: $yellow;
@@ -126,9 +126,7 @@ h6 {
     border: none;
     color: #fff;
     padding: 10px 30px;
-    font-size: 40px;
-    font-family: brother-regular;
-    margin-bottom: 20px;
+    font-size: 42px;
   }
   p {
     font-size: 20px;
@@ -159,6 +157,10 @@ h6 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+  .yellow-logo {
+    height: 80px;
+    width: 80x;
   }
 }
 .ready-to-apply {
@@ -201,8 +203,4 @@ h6 {
   h1 {
     color: $yellow;
   }
-}
-.yellow-logo {
-  height: 80px;
-  width: 80px;
 }

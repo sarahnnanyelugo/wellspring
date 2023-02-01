@@ -452,7 +452,14 @@
     font-family: brother-regular;
     font-size: 1.1rem;
   }
-
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: brother-bold !important;
+  }
   ul li {
     font-family: brother-regular;
   }
@@ -470,22 +477,4 @@
     color: $lightblue;
     border-bottom: solid 3px $lightblue;
   }
-}
-h1 {
-  font-family: brother-bold !important;
-}
-h2 {
-  font-family: brother-bold !important;
-}
-h3 {
-  font-family: brother-bold !important;
-}
-h4 {
-  font-family: brother-bold !important;
-}
-h5 {
-  font-family: brother-bold !important;
-}
-h6 {
-  font-family: brother-bold !important;
 }

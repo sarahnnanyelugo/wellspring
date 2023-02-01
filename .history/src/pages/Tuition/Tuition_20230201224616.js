@@ -5,7 +5,7 @@ import Admin from "../../assets/admin.png";
 import Grad from "../../assets/piano.png";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-import Logo from "../../assets/wellspring.png";
+import Logo from "../../assets/yellow-logo.svg";
 
 import "./_tuition.scss";
 import { Prefoooter } from "../../components/Prefooter/Prefooter";
@@ -90,14 +90,14 @@ export const Tuition = () => {
               </div>
             </div>
             <center>
-              <h2 style={{ color: "black" }} className="mt7">
+              <h1 style={{ color: "black" }}>
                 At{" "}
                 <Link to={"#"} className="random-link">
                   Wellspring College <span></span>
                 </Link>
                 we have been ensuring our graduates are prepared for college,
                 careers, and serving their communities. How do we do it?
-              </h2>
+              </h1>
             </center>
             <div>
               {" "}
@@ -117,25 +117,27 @@ export const Tuition = () => {
       </section>{" "}
       <div className="col-md-12 flexy quote ">
         {" "}
-        <div className="col-md-5">
+        <div className="col-md-1">&nbsp;</div>
+        <div className="col-md-4">
           {" "}
           <img className="col-md-10 " src={Grad} alt="Scholar" />
         </div>
-        <div className="col-md-7 mt4">
+        <div className="col-md-6 mt4">
           <center>
             {" "}
             <span>
               <i class="icofont-quote-left"></i>
             </span>
-            <p>
-              {" "}
-              What an excellent school, with its great administration, excellent
-              teachers, top-notch academics and extra curricular activities, TFA
-              is easily our top choice in Central Florida. Our family couldn’t
-              be happier! Yes, it’s an investment, but the return on investment
-              is very high … worth every penny.
-            </p>
-            <small>J. Wheeler, Wellspring College Parent</small>
+            <h2>
+              <em>
+                {" "}
+                There are things a private Christian education can offer your
+                child — academics taught from a biblical perspective, enrichment
+                opportunities to learn, serve, and lead, teachers who model
+                Christian values — and you know that your child’s environment
+                will impact their academic readiness and spiritual
+              </em>
+            </h2>
           </center>
         </div>
       </div>{" "}
@@ -146,48 +148,52 @@ export const Tuition = () => {
         <div className="col-md-12 flexy">
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-10">
-            <p>
-              Affordability is an important consideration for parents, which is
-              why we offer state scholarships, payment plans, and affordability
-              options that are tailored to meet the needs of qualifying
-              families.
-            </p>
-            <p>
-              As you consider Wellspring College, we welcome your questions
-              about tuition, payment plans, or whatever else comes to mind. Our
-              admissions team is here to help you process this decision, so you
-              can decide which learning environment is best for your child with
-              confidence.
-            </p>
-            <p>
-              When you apply, the process is confidential and your application
-              is submitted to a third-party service. After the application is
-              complete and processed, we’ll be able to tell you exactly what
-              your family’s tuition costs will be. Many families are pleased to
-              find out that a Wellspring College education is truly affordable
-              to them.{" "}
-            </p>
-            <p>
-              The 2023-2024 applications are now live. The 2023-2024 Tuition and
-              Fees will be released in early 2023.
-            </p>{" "}
-            <div className="table-header mb2 ">
-              <center>
-                <h5>Preschool-12th Tuition for 2022-23</h5>
-              </center>
-            </div>
-            <FeesTable />
+            <center>
+              <div className="col-md-10">
+                <p>
+                  Affordability is an important consideration for parents, which
+                  is why we offer state scholarships, payment plans, and
+                  affordability options that are tailored to meet the needs of
+                  qualifying families.
+                </p>
+                <p>
+                  As you consider Wellspring College, we welcome your questions
+                  about tuition, payment plans, or whatever else comes to mind.
+                  Our admissions team is here to help you process this decision,
+                  so you can decide which learning environment is best for your
+                  child with confidence.
+                </p>
+                <p>
+                  When you apply, the process is confidential and your
+                  application is submitted to a third-party service. After the
+                  application is complete and processed, we’ll be able to tell
+                  you exactly what your family’s tuition costs will be. Many
+                  families are pleased to find out that a Wellspring College
+                  education is truly affordable to them.{" "}
+                </p>
+                <p>
+                  The 2023-2024 applications are now live. The 2023-2024 Tuition
+                  and Fees will be released in early 2023.
+                </p>{" "}
+                <div className="table-header mb2">
+                  <center>
+                    <h5>Preschool-12th Tuition for 2022-23</h5>
+                  </center>
+                </div>
+                <FeesTable />
+              </div>
+            </center>
           </div>
         </div>
       </div>
       <section>
-        <div className="tour-schedule  col-md-12 flexy mt2">
+        <div className="tour-schedule  col-md-12 flexy">
           {" "}
           <div className="col-md-12 image1">
             <div className="overlay col-md-12">
               <center>
                 {" "}
-                <div className="col-md-10">
+                <div className="col-md-9">
                   {" "}
                   <img
                     className="col-md-12 yellow-logo"
@@ -195,7 +201,7 @@ export const Tuition = () => {
                     alt="Scholar"
                   />{" "}
                   <h1 className="col-md-3 mb3">Schedule a Tour</h1>
-                  <p style={{ fontSize: "25px" }}>
+                  <h3>
                     We invite you to experience the value of a Wellspring
                     College education for yourself by scheduling a{" "}
                     <Link to={"#"} className="banner-link">
@@ -208,7 +214,7 @@ export const Tuition = () => {
                     or request a private tour. We look forward to showing you
                     around and sharing more about the opportunities available
                     for your child here.
-                  </p>
+                  </h3>
                 </div>
               </center>
             </div>
@@ -216,8 +222,8 @@ export const Tuition = () => {
         </div>
       </section>
       <div className="col-md-12 flexy faqs-container">
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8">
           <center>
             <h1>Frequently Asked Questions</h1>
             <FaqAccordion />
@@ -226,11 +232,25 @@ export const Tuition = () => {
       </div>
       <section>
         <div className="ready-to-apply  col-md-12 flexy">
+          {/* <div className=" col-md-12 after flexy">
+            <div className="col-md-12 ">
+              <center>
+                {" "}
+                <img
+                  className="col-md-12 yellow-logo"
+                  src={Logo}
+                  alt="Scholar"
+                />
+                <h1 className="col-md-3 mb3">Ready to Apply?</h1>
+                <button className="random-button">START HERE</button>
+              </center>
+            </div>
+          </div> */}{" "}
           <div className="col-md-12 image1">
             <div className="overlay col-md-12">
               <center>
                 {" "}
-                <div className="col-md-10">
+                <div className="col-md-9">
                   {" "}
                   <img
                     className="col-md-12 yellow-logo"

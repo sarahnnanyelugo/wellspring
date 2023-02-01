@@ -160,6 +160,10 @@ h6 {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  .yellow-logo {
+    height: 80px;
+    width: 80px;
+  }
 }
 .ready-to-apply {
   .overlay {
@@ -201,8 +205,4 @@ h6 {
   h1 {
     color: $yellow;
   }
-}
-.yellow-logo {
-  height: 80px;
-  width: 80px;
 }

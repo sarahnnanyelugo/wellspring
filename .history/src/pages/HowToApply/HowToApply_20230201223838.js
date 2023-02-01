@@ -38,7 +38,7 @@ export const HowToApply = () => {
           <div className="col-md-12 bannerHT zoominheader"></div>
           <div className=" col-md-12 after"></div>
           <div className="icon ">
-            <h1>How to Apply</h1>
+            <h1>How To Apply</h1>
             <h1>
               <i class="icofont-rounded-down"></i>
             </h1>
@@ -53,9 +53,9 @@ export const HowToApply = () => {
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}
               <Breadcrum
-                nav="Admissions"
-                currentPage="How to Apply"
-                pageUrl={"/how-to-apply"}
+                nav="About"
+                currentPage="Welcome"
+                pageUrl={"/philosophy"}
               />
             </div>
             <div className="page-menu mt4">

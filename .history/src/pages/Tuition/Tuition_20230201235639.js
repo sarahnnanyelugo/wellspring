@@ -195,7 +195,7 @@ export const Tuition = () => {
                     alt="Scholar"
                   />{" "}
                   <h1 className="col-md-3 mb3">Schedule a Tour</h1>
-                  <p style={{ fontSize: "25px" }}>
+                  <h3>
                     We invite you to experience the value of a Wellspring
                     College education for yourself by scheduling a{" "}
                     <Link to={"#"} className="banner-link">
@@ -208,7 +208,7 @@ export const Tuition = () => {
                     or request a private tour. We look forward to showing you
                     around and sharing more about the opportunities available
                     for your child here.
-                  </p>
+                  </h3>
                 </div>
               </center>
             </div>
@@ -216,8 +216,8 @@ export const Tuition = () => {
         </div>
       </section>
       <div className="col-md-12 flexy faqs-container">
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8">
           <center>
             <h1>Frequently Asked Questions</h1>
             <FaqAccordion />
@@ -230,7 +230,7 @@ export const Tuition = () => {
             <div className="overlay col-md-12">
               <center>
                 {" "}
-                <div className="col-md-10">
+                <div className="col-md-9">
                   {" "}
                   <img
                     className="col-md-12 yellow-logo"

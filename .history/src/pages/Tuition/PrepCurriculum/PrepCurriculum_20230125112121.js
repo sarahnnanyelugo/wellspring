@@ -5,7 +5,7 @@ export const PrepCurriculum = () => {
       <div className="prep-container mt5 display-web">
         <div className="col-md-12 flexy">
           {/* <div className="col-md-1">&nbsp;</div> */}
-          <div className="col-md-3 prep-icon flexy mt">
+          <div className="col-md-3 prep-icon flexy mt4">
             <span>
               <i class="icofont-trophy"></i>
             </span>
@@ -19,7 +19,7 @@ export const PrepCurriculum = () => {
             </ul>
           </div>
 
-          <div className="col-md-9 prep-box mt">
+          <div className="col-md-9 prep-box mt3">
             <p>
               Our college preparatory curriculum starts building a solid
               foundation in elementary school and culminates in high school
@@ -31,7 +31,7 @@ export const PrepCurriculum = () => {
         <div className="col-md-12 flexy">
           {/* <div className="col-md-1">&nbsp;</div> */}
 
-          <div className="col-md-9 prep-box mt">
+          <div className="col-md-9 prep-box mt3">
             <p>
               Students explore passions and interests through electives, clubs
               and organizations, and extracurriculars. Whether it’s mastering a
@@ -39,7 +39,7 @@ export const PrepCurriculum = () => {
               for exploration.
             </p>
           </div>
-          <div className="col-md-3 prep-icon2 flexy  mr">
+          <div className="col-md-3 prep-icon2 flexy mt4 mr">
             <ul className="list-unstyled list-inline col-md- mt6">
               <li className="list-inline-item">-</li>
               <li className="list-inline-item">-</li>
@@ -55,7 +55,7 @@ export const PrepCurriculum = () => {
         </div>
         <div className="col-md-12 flexy">
           {/* <div className="col-md-1">&nbsp;</div> */}
-          <div className="col-md-3 prep-icon flexy ">
+          <div className="col-md-3 prep-icon flexy mt4">
             <span>
               <i class="icofont-football-alt"></i>{" "}
             </span>
@@ -69,7 +69,7 @@ export const PrepCurriculum = () => {
             </ul>
           </div>
 
-          <div className="col-md-9 prep-box mt">
+          <div className="col-md-9 prep-box mt3">
             <p>
               With 32 sports and athletic competition starting as early as
               preschool, Wellspring College students have access to exceptional
@@ -81,14 +81,14 @@ export const PrepCurriculum = () => {
         <div className="col-md-12 flexy">
           {/* <div className="col-md-1">&nbsp;</div> */}
 
-          <div className="col-md-9 prep-box mt">
+          <div className="col-md-9 prep-box mt3">
             <p>
               Our Living Curriculum teachers are so much more than experienced
               educators — they are also modeling the word of Christ inside and
               outside the classroom.
             </p>
           </div>
-          <div className="col-md-3 prep-icon2 flexy  mr">
+          <div className="col-md-3 prep-icon2 flexy mt4 mr">
             <ul className="list-unstyled list-inline col-md- mt6">
               <li className="list-inline-item">-</li>
               <li className="list-inline-item">-</li>
@@ -104,7 +104,7 @@ export const PrepCurriculum = () => {
         </div>
         <div className="col-md-12 flexy">
           {/* <div className="col-md-1">&nbsp;</div> */}
-          <div className="col-md-3 prep-icon flexy ">
+          <div className="col-md-3 prep-icon flexy mt4">
             <span>
               <i class="icofont-book-alt"></i>{" "}
             </span>
@@ -118,7 +118,7 @@ export const PrepCurriculum = () => {
             </ul>
           </div>
 
-          <div className="col-md-9 prep-box mt">
+          <div className="col-md-9 prep-box mt3">
             <p>
               We guide our students and keep them grounded through our biblical
               worldview and Christ-centered curriculum, weekly chapel, Bible

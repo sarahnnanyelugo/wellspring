@@ -230,7 +230,7 @@ export const Tuition = () => {
             <div className="overlay col-md-12">
               <center>
                 {" "}
-                <div className="col-md-10">
+                <div className="col-md-9">
                   {" "}
                   <img
                     className="col-md-12 yellow-logo"

@@ -88,7 +88,7 @@ export const PrepCurriculum = () => {
               outside the classroom.
             </p>
           </div>
-          <div className="col-md-3 prep-icon2 flexy  mr">
+          <div className="col-md-3 prep-icon2 flexy mt4 mr">
             <ul className="list-unstyled list-inline col-md- mt6">
               <li className="list-inline-item">-</li>
               <li className="list-inline-item">-</li>
@@ -104,7 +104,7 @@ export const PrepCurriculum = () => {
         </div>
         <div className="col-md-12 flexy">
           {/* <div className="col-md-1">&nbsp;</div> */}
-          <div className="col-md-3 prep-icon flexy ">
+          <div className="col-md-3 prep-icon flexy mt4">
             <span>
               <i class="icofont-book-alt"></i>{" "}
             </span>

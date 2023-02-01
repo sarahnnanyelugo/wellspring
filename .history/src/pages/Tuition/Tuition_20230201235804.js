@@ -216,8 +216,8 @@ export const Tuition = () => {
         </div>
       </section>
       <div className="col-md-12 flexy faqs-container">
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8">
           <center>
             <h1>Frequently Asked Questions</h1>
             <FaqAccordion />
@@ -230,7 +230,7 @@ export const Tuition = () => {
             <div className="overlay col-md-12">
               <center>
                 {" "}
-                <div className="col-md-10">
+                <div className="col-md-9">
                   {" "}
                   <img
                     className="col-md-12 yellow-logo"

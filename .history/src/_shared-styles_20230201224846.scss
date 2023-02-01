@@ -208,11 +208,6 @@
   @media screen and (max-width: 620px) {
     top: 30%;
   }
-  small {
-    font-family: brother-light;
-    font-size: 20px !important;
-    font-weight: 300;
-  }
   h1 {
     font-weight: bold;
     font-size: 70px !important;
@@ -224,8 +219,8 @@
   }
   p {
     color: $yellow;
-    font-size: 30px;
-    font-family: brother-regular;
+    font-size: 31px;
+    font-family: brother-light;
   }
   button {
     border: 3px solid $yellow;
@@ -345,6 +340,17 @@
   .page-headings2 {
     color: $deepblue;
   }
+  .random-link {
+    color: black;
+    // font-weight: 300;
+    text-decoration: none;
+    border-bottom: solid 3px $yellow;
+    transition: 0.5s ease;
+    &:hover {
+      color: $lightblue;
+      border-bottom: solid 3px $lightblue;
+    }
+  }
 
   .random-button {
     color: $lightblue2;
@@ -452,40 +458,18 @@
     font-family: brother-regular;
     font-size: 1.1rem;
   }
-
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: brother-bold !important;
+  }
   ul li {
     font-family: brother-regular;
   }
   button {
     font-family: brother-regular;
   }
-}
-.random-link {
-  color: black;
-  // font-weight: 300;
-  text-decoration: none;
-  border-bottom: solid 3px $yellow;
-  transition: 0.5s ease;
-  &:hover {
-    color: $lightblue;
-    border-bottom: solid 3px $lightblue;
-  }
-}
-h1 {
-  font-family: brother-bold !important;
-}
-h2 {
-  font-family: brother-bold !important;
-}
-h3 {
-  font-family: brother-bold !important;
-}
-h4 {
-  font-family: brother-bold !important;
-}
-h5 {
-  font-family: brother-bold !important;
-}
-h6 {
-  font-family: brother-bold !important;
 }
