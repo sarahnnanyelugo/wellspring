@@ -48,10 +48,10 @@ export const WhyWellspring = () => {
       <section>
         <div className="mission-section col-md-12 flexy">
           <div className=" col-md-12 after flexy">
-            {/* <div className="col-md-1">&nbsp;</div> */}
-            <div className="col-md-12 flexy">
-              <h1 className="col-md-3">Our Mission:</h1>
-              <p className="col-md-8">
+            <div className="col-md-1">&nbsp;</div>
+            <div className="col-md-10 flexy">
+              <h1 className="col-md-5">Our Mission:</h1>
+              <p>
                 Wellspring College is a Christ-centered, college preparatory
                 school whose mission is to prepare children for life as
                 Christian leaders who choose character before career, wisdom
