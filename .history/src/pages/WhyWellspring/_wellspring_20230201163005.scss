@@ -17,6 +17,15 @@
 }
 
 .mission-section {
+  height: 420px;
+  padding: 150px;
+  margin-top: 0 !important;
+  background: $deepblue;
+  background-image: url("../../assets/building2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   h1 {
     color: $yellow;
     font-weight: bold;
@@ -26,26 +35,7 @@
     color: #fff;
     font-size: 23px;
   }
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 79, 157, 0.8);
-    color: #fff;
-    padding-top: 60px;
-  }
-  .image1 {
-    width: 100%;
-    height: 350px;
-    margin-top: 0 !important;
-    background: $deepblue;
-    background-image: url("../../assets/building2.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-  }
 }
-
 .campus-tour {
   .overlay {
     width: 100%;

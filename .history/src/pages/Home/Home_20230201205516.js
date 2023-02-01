@@ -390,47 +390,43 @@ export const Home = () => {
         <section className="module1 contentt col-md-12 wellspring-happenings">
           <h1>WELLSPRING HAPPENINGS</h1>
 
-          <div className="col-md-12 flexy">
-            <div className="col-md-1">&nbsp;</div>
-
-            <div className="col-md-10 flexy">
-              <div className="col-md-4 news-btn ">
-                <div className="col-mmd-11">
-                  {" "}
-                  <button>1.12.23</button>
-                  <div className="col-md-12 news-details ">
-                    <p>
-                      <Link to="#" className="link-alteration">
-                        Wellspring Parents Association Meeting
-                      </Link>
-                    </p>
-                    <small>TBD</small>
-                  </div>
+          <div className="col-md-12 flexy" style={{ padding: "10px" }}>
+            <div className="col-md-4 news-btn ">
+              <div className="col-mmd-11">
+                {" "}
+                <button>1.12.23</button>
+                <div className="col-md-12 news-details ">
+                  <h6>
+                    <Link to="#" className="link-alteration">
+                      Wellspring Parents Association Meeting
+                    </Link>
+                  </h6>
+                  <small>TBD</small>
                 </div>
               </div>
-              <div className="col-md-4 news-btn">
-                <div className="col-md-11">
-                  {" "}
-                  <button>1.12.23</button>
-                  <div className="col-md-12 news-details">
-                    <p>
-                      <Link to="#" className="link-alteration">
-                        Book Character Parade
-                      </Link>
-                    </p>
-                  </div>
+            </div>
+            <div className="col-md-4 news-btn">
+              <div className="col-md-11">
+                {" "}
+                <button>1.12.23</button>
+                <div className="col-md-12 news-details">
+                  <h6>
+                    <Link to="#" className="link-alteration">
+                      Book Character Parade
+                    </Link>
+                  </h6>
                 </div>
               </div>
-              <div className="col-md-4 news-btn">
-                <div className="col-md-11">
-                  <button>1.12.23</button>
-                  <div className="col-md-12 news-details">
-                    <p>
-                      <Link to="#" className="link-alteration">
-                        Wellspring Parents Association Meeting
-                      </Link>
-                    </p>
-                  </div>
+            </div>
+            <div className="col-md-4 news-btn">
+              <div className="col-md-11">
+                <button>1.12.23</button>
+                <div className="col-md-12 news-details">
+                  <h6>
+                    <Link to="#" className="link-alteration">
+                      Wellspring Parents Association Meeting
+                    </Link>
+                  </h6>
                 </div>
               </div>
             </div>

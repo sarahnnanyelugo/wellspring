@@ -390,10 +390,8 @@ export const Home = () => {
         <section className="module1 contentt col-md-12 wellspring-happenings">
           <h1>WELLSPRING HAPPENINGS</h1>
 
-          <div className="col-md-12 flexy">
-            <div className="col-md-1">&nbsp;</div>
-
-            <div className="col-md-10 flexy">
+          <div className="col-md-12">
+            <div className="col-md-10 0ffset-md-1 flexy">
               <div className="col-md-4 news-btn ">
                 <div className="col-mmd-11">
                   {" "}
