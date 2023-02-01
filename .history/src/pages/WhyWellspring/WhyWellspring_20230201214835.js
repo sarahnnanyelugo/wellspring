@@ -10,11 +10,8 @@ import Dot from "../../assets/blue.png";
 import "./_wellspring.scss";
 import { Prefoooter } from "../../components/Prefooter/Prefooter";
 import React, { useState, useRef, useEffect } from "react";
-import "aos/dist/aos.css";
-import AOS from "aos";
 
 export const WhyWellspring = () => {
-  AOS.init();
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
@@ -48,6 +45,22 @@ export const WhyWellspring = () => {
           </div>
         </div>
       </section>
+      {/* <section>
+        <div className="mission-section col-md-12 flexy">
+          <div className=" col-md-12 after flexy">
+            <div className="col-md-12 flexy">
+              <h1 className="col-md-3">Our Mission:</h1>
+              <p className="col-md-8">
+                Wellspring College is a Christ-centered, college preparatory
+                school whose mission is to prepare children for life as
+                Christian leaders who choose character before career, wisdom
+                beyond scholarship, service before self, and participation as a
+                way of life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
       <section>
         <div className="mission-section col-md-12 flexy">
           {" "}
@@ -56,7 +69,7 @@ export const WhyWellspring = () => {
             <div className=" col-md-12  overlay">
               <div className="col-md-12 flexy">
                 <h1 className="col-md-2 offset-md-2">Our Mission:</h1>
-                <p className="col-md-7" style={{ padding: "60px" }}>
+                <p className="col-md-8">
                   Wellspring College is a Christ-centered, college preparatory
                   school whose mission is to prepare children for life as
                   Christian leaders who choose character before career, wisdom
@@ -68,40 +81,33 @@ export const WhyWellspring = () => {
           </div>
         </div>
       </section>
-      <div className="reasons-container col-md-12 flexy">
-        <div className="col-md-2">&nbsp;</div>
-        <div className="col-md-8">
-          <p className="col-md-12">
+      <div className="reasons-container">
+        <center>
+          <p className="col-md-7">
             Why do so many families from Orlando and Central Florida choose
             Wellspring College to prepare their child for what’s next?
           </p>
-          <p className="col-md-12 ">
+          <p className="col-md-7 ">
             {" "}
             Maybe it’s because of Wellspring College’s Christ-centered
             community, culture, and curriculum, and how our students graduate
             equipped to excel in all areas of life — academically,
             professionally, spiritually and socially.
           </p>
-          <div className="col-md-12 flexy">
-            <h2 className="col-md-10 offset-md-1">
-              <em>
-                Here are 10 of the many reasons why we’re Central Florida’s
-                first choi<span>ce in private C</span>hristian education:
-              </em>
-            </h2>
-          </div>
-        </div>
+          <h2 className="col-md-5">
+            <em>
+              Here are 10 of the many reasons why we’re Central Florida’s first
+              choi<span>ce in private C</span>hristian education:
+            </em>
+          </h2>
+        </center>
       </div>
       <div className="ten-reasons col-md-12 flexy">
         {" "}
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10 ">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8 ">
           <div className="col-md-12 flexy">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="700"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue">
@@ -116,11 +122,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="800"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -135,11 +137,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="900"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">
@@ -161,11 +159,7 @@ export const WhyWellspring = () => {
             </div>
           </div>{" "}
           <div className="col-md-12 flexy mt7">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1000"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -189,11 +183,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1100"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">
@@ -214,11 +204,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1200"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue2">
@@ -241,11 +227,7 @@ export const WhyWellspring = () => {
             </div>
           </div>
           <div className="col-md-12 flexy mt7">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1300"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -262,11 +244,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1400"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue2">
@@ -281,11 +259,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1500"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">

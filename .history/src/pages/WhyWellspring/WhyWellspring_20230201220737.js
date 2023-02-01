@@ -100,7 +100,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="700"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -116,11 +116,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="800"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -135,11 +131,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="900"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">
@@ -161,11 +153,7 @@ export const WhyWellspring = () => {
             </div>
           </div>{" "}
           <div className="col-md-12 flexy mt7">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1000"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -189,11 +177,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1100"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">
@@ -214,11 +198,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1200"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue2">
@@ -241,11 +221,7 @@ export const WhyWellspring = () => {
             </div>
           </div>
           <div className="col-md-12 flexy mt7">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1300"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -262,11 +238,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1400"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue2">
@@ -281,11 +253,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1500"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">

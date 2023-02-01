@@ -10,11 +10,8 @@ import Dot from "../../assets/blue.png";
 import "./_wellspring.scss";
 import { Prefoooter } from "../../components/Prefooter/Prefooter";
 import React, { useState, useRef, useEffect } from "react";
-import "aos/dist/aos.css";
-import AOS from "aos";
 
 export const WhyWellspring = () => {
-  AOS.init();
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
@@ -94,14 +91,10 @@ export const WhyWellspring = () => {
       </div>
       <div className="ten-reasons col-md-12 flexy">
         {" "}
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10 ">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8 ">
           <div className="col-md-12 flexy">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="700"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue">
@@ -116,11 +109,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="800"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -135,11 +124,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="900"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">
@@ -161,11 +146,7 @@ export const WhyWellspring = () => {
             </div>
           </div>{" "}
           <div className="col-md-12 flexy mt7">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1000"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -189,11 +170,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1100"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">
@@ -214,11 +191,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1200"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue2">
@@ -241,11 +214,7 @@ export const WhyWellspring = () => {
             </div>
           </div>
           <div className="col-md-12 flexy mt7">
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1300"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="deepblue">
@@ -262,11 +231,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1400"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="lightblue2">
@@ -281,11 +246,7 @@ export const WhyWellspring = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="col-md-4"
-              data-aos="slide-up"
-              data-aos-duration="1500"
-            >
+            <div className="col-md-4">
               {" "}
               <div className="col-md-11">
                 <h3 className="skyblue">

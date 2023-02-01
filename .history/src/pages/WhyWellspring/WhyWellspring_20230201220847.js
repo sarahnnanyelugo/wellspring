@@ -100,7 +100,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="700"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -119,7 +119,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="800"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -138,7 +138,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="900"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -164,7 +164,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="1000"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -192,7 +192,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="1100"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -217,7 +217,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="1200"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -244,7 +244,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="1300"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -265,7 +265,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="1400"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
@@ -284,7 +284,7 @@ export const WhyWellspring = () => {
             <div
               className="col-md-4"
               data-aos="slide-up"
-              data-aos-duration="1500"
+              data-aos-duration="600"
             >
               {" "}
               <div className="col-md-11">
