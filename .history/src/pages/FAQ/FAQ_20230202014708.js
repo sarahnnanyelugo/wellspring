@@ -40,8 +40,8 @@ export const FAQ = () => {
           <div className=" col-md-12 after"></div>
           <div className="icon ">
             <h1>FAQs</h1>
-            <p className="banner-p-heading">
-              Learn more about Wellspring College
+            <p>
+              <em>Learn more about Wellspring College</em>
             </p>
             <h1>
               <i class="icofont-rounded-down"></i>

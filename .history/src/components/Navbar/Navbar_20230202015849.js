@@ -132,9 +132,10 @@ function NavBar({ sticky }) {
                       >
                         {" "}
                         <img
-                          className="col-md-2 col-2 ml2 mobile-logo"
+                          className="col-md-2 col-2 ml2"
                           src={Logo}
                           alt="Scholar"
+                          width="100%"
                         />
                       </Link>
                       <input

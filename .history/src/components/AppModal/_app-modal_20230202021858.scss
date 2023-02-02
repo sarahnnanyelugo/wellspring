@@ -5,14 +5,14 @@
   position: relative;
   z-index: 3000 !important;
   .close-btn {
-    right: 26% !important;
+    right: 17% !important;
 
     position: relative;
     float: right;
     font-size: 20px;
     font-weight: bold;
     color: #fff !important;
-    margin-top: -10px;
+    margin-top: 10px;
 
     background: transparent;
     border: none;
@@ -61,9 +61,8 @@
           background: $deepblue !important;
           // height: 630px;
           // width: 830px;
-          width: 50%;
-          height: 90%;
-          top: 20px;
+          width: 58%;
+          top: 40px;
           @media screen and (max-width: 620px) {
             height: fit-content;
             width: 90%;

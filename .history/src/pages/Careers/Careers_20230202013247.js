@@ -43,7 +43,7 @@ export const Careers = () => {
           <div className="icon ">
             <h1>Careers</h1>
             <h2 className="banner-p-heading">
-              Making a difference in Lagos, Nigeria.
+              Making a difference in Central Florida
             </h2>
             <button>VIEW JOBS</button>
 
@@ -60,7 +60,11 @@ export const Careers = () => {
           <div className="col-md-11">
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}
-              <Breadcrum nav="About" currentPage="Careers" />
+              <Breadcrum
+                page1="About"
+                currentPage="Welcome"
+                pageUrl={"/philosophy"}
+              />
             </div>
             <center>
               {" "}

@@ -287,7 +287,7 @@ export const Contact = () => {
             </div>
             <div className="col-md-12 cardd mt3 flexy">
               <div className="col-md-6">
-                <h2>Main Phone</h2>
+                <h1>Main Phone</h1>
                 <h5>P: 407-206-8600</h5>
                 <h5>P: 407-206-8600</h5>
               </div>

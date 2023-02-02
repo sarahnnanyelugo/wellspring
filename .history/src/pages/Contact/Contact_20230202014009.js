@@ -287,12 +287,12 @@ export const Contact = () => {
             </div>
             <div className="col-md-12 cardd mt3 flexy">
               <div className="col-md-6">
-                <h2>Main Phone</h2>
+                <h1>Main Phone</h1>
                 <h5>P: 407-206-8600</h5>
                 <h5>P: 407-206-8600</h5>
               </div>
               <div className="col-md-6">
-                <h2>Human Resources</h2>
+                <h1>Human Resources</h1>
                 <h6>Gloria Leeks</h6>
                 <a href="#">glorialeeks@wellspringcollege.org</a>
                 <h5>P: 407-206-8600</h5>

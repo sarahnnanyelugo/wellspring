@@ -135,6 +135,7 @@ function NavBar({ sticky }) {
                           className="col-md-2 col-2 ml2 mobile-logo"
                           src={Logo}
                           alt="Scholar"
+                          width="100%"
                         />
                       </Link>
                       <input
