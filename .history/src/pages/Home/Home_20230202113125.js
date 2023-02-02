@@ -29,8 +29,6 @@ import { TestimonialTab } from "./TestimonialTab/TestimonialTab";
 import CountUp from "react-countup";
 
 export const Home = () => {
-  const [count, setCount] = useState(0);
-
   // useEffect(() => {
   AOS.init();
   // }, []);
@@ -93,6 +91,7 @@ export const Home = () => {
         </div>
         {/* <div className="col-md-1">&nbsp;</div> */}
       </div>
+      <CountUp end={100} />
 
       <div className="sections-container flex-container">
         <div className="overlay-container" style={{ flexGrow: "1" }}>
@@ -258,16 +257,7 @@ export const Home = () => {
             <div className="col-md-3 stats stats-border">
               <center>
                 {" "}
-                <h1>
-                  {" "}
-                  <CountUp
-                    start={0}
-                    end={100}
-                    duration={3}
-                    suffix="% "
-                    enableScrollSpy={true}
-                  />
-                </h1>
+                <h1>100%</h1>
                 <h6>
                   COLLEGE <br />
                   ACCEPTANCE
@@ -276,47 +266,20 @@ export const Home = () => {
             </div>{" "}
             <div className="col-md-3 stats stats-border">
               <center>
-                <h1>
-                  <CountUp
-                    start={0}
-                    end={104}
-                    duration={3}
-                    prefix="$ "
-                    suffix="M"
-                    enableScrollSpy={true}
-                  />
-                </h1>
+                <h1>$104M</h1>
                 <h6>COLLEGE SCHOLARSHIPS</h6>
               </center>
             </div>{" "}
             <div className="col-md-3 stats stats-border">
               <center>
-                <h1>
-                  {" "}
-                  <CountUp
-                    start={0}
-                    end={100}
-                    duration={3}
-                    suffix="% "
-                    enableScrollSpy={true}
-                  />
-                </h1>
+                <h1>100%</h1>
                 <h6>OF OUR TEACHERS ARE DEGREED AND CHRIST-FOLLOWERS</h6>
               </center>
             </div>{" "}
             <div className="col-md-3 stats">
               <center>
                 {" "}
-                <h1>
-                  {" "}
-                  <CountUp
-                    start={0}
-                    end={15}
-                    suffix={-1}
-                    duration={3}
-                    enableScrollSpy={true}
-                  />
-                </h1>
+                <h1>15-1</h1>
                 <h6>STUDENT-TEACHER RATIO</h6>
               </center>
             </div>

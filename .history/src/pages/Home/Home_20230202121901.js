@@ -264,7 +264,9 @@ export const Home = () => {
                     start={0}
                     end={100}
                     duration={3}
-                    suffix="% "
+                    prefix="% "
+                    onEnd={() => console.log("Ended! 👏")}
+                    onStart={() => console.log("Started! 💨")}
                     enableScrollSpy={true}
                   />
                 </h1>
@@ -283,6 +285,8 @@ export const Home = () => {
                     duration={3}
                     prefix="$ "
                     suffix="M"
+                    onEnd={() => console.log("Ended! 👏")}
+                    onStart={() => console.log("Started! 💨")}
                     enableScrollSpy={true}
                   />
                 </h1>
@@ -291,32 +295,14 @@ export const Home = () => {
             </div>{" "}
             <div className="col-md-3 stats stats-border">
               <center>
-                <h1>
-                  {" "}
-                  <CountUp
-                    start={0}
-                    end={100}
-                    duration={3}
-                    suffix="% "
-                    enableScrollSpy={true}
-                  />
-                </h1>
+                <h1>100%</h1>
                 <h6>OF OUR TEACHERS ARE DEGREED AND CHRIST-FOLLOWERS</h6>
               </center>
             </div>{" "}
             <div className="col-md-3 stats">
               <center>
                 {" "}
-                <h1>
-                  {" "}
-                  <CountUp
-                    start={0}
-                    end={15}
-                    suffix={-1}
-                    duration={3}
-                    enableScrollSpy={true}
-                  />
-                </h1>
+                <h1>15-1</h1>
                 <h6>STUDENT-TEACHER RATIO</h6>
               </center>
             </div>

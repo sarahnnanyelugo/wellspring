@@ -311,9 +311,9 @@ export const Home = () => {
                   {" "}
                   <CountUp
                     start={0}
-                    end={15}
-                    suffix={-1}
+                    end={15-1}
                     duration={3}
+                    
                     enableScrollSpy={true}
                   />
                 </h1>

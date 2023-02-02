@@ -7610,9 +7610,9 @@ react-bootstrap@^2.7.0:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
-react-countup@^6.4.0:
+react-countup@^6.4.1:
   version "6.4.1"
-  resolved "https://registry.npmjs.org/react-countup/-/react-countup-6.4.1.tgz"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.4.1.tgz#cbbda64a64065cb12376eff23e5aa084665e6c4d"
   integrity sha512-FxQ7qaNnnbA+Px9RebOZY4Tbawa1bhgpVPlUqRemZb90mh3f3OqyHVgr1SZqnJgaRxR3uEYqgkszgkDgFVCeEw==
   dependencies:
     "@rollup/plugin-babel" "^6.0.2"
