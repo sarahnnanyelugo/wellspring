@@ -33,7 +33,7 @@ export const AdmissionsEvents = () => {
           <div className="col-md-12 bannerEvents zoominheader"></div>
           <div className=" col-md-12 after"></div>
           <div className="icon events-icon">
-            <h1>Admissions Events</h1>
+            <h2>Admissions Events</h2>
             <p>Schedule your Wellspring College Experience today!</p>
             {/* <button className="">RSVP TODAY</button> */}
             <span>RSVP NOW</span>
@@ -45,8 +45,8 @@ export const AdmissionsEvents = () => {
       </section>
 
       <section className="page-content flexy ">
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8">
           <div className="col-md-11">
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}

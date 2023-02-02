@@ -45,8 +45,8 @@ export const AdmissionsEvents = () => {
       </section>
 
       <section className="page-content flexy ">
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10">
+        <div className="col-md-2">&nbsp;</div>
+        <div className="col-md-8">
           <div className="col-md-11">
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}

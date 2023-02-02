@@ -133,6 +133,9 @@
     &:after {
       content: "\276F";
       color: $deepblue !important;
+      &:hover {
+        color: white !important;
+      }
     }
   }
 

@@ -91,10 +91,7 @@ export default function MenuLinks(props) {
               {props.extLink ? (
                 <li>
                   <a
-                    href={
-                      "https://drive.google.com/file/d/1Qp8VmcJ126zeJfj0QTFZLuvqtCAlhKzD/view"
-                    }
-                    target="_blank"
+                    href={`${props.estLinkUrl}`}
                     className="link-alteration cool-link"
                   >
                     {props.extLink}

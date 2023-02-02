@@ -205,7 +205,7 @@ function NavBar({ sticky }) {
                   page1="Diversity"
                   page1Url={"/diversity"}
                   page2="Health & Safety"
-                  page2Url={"/health-safety"}
+                  page2Url={"/health-diversity"}
                   page3="Calendar"
                   page3Url={"/calendar"}
                   page4="Careers"

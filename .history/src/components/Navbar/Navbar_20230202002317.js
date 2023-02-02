@@ -205,7 +205,7 @@ function NavBar({ sticky }) {
                   page1="Diversity"
                   page1Url={"/diversity"}
                   page2="Health & Safety"
-                  page2Url={"/health-safety"}
+                  page2Url={"/health-diversity"}
                   page3="Calendar"
                   page3Url={"/calendar"}
                   page4="Careers"
@@ -230,7 +230,10 @@ function NavBar({ sticky }) {
               </li>
               <li className="list-inline-item cool-link3">
                 <MenuLinks
-                  extLink="Admissions Checklist"
+                  page1="Admissions Checklist"
+                  page1Url={
+                    "/https:/drive.google.com/file/d/1Qp8VmcJ126zeJfj0QTFZLuvqtCAlhKzD/view?usp=sharing"
+                  }
                   page2="FAQs"
                   page2Url={"/faqs"}
                   page3="New Family Information"
