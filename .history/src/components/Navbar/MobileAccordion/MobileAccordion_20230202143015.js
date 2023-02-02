@@ -21,7 +21,7 @@ const MobileAccordion = () => {
     <div className="col-md-12 mobile-accordion ">
       <Accordion>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>
+          <Accordion.Header style={{ marginTop: "30px" }}>
             <small>ABOUT</small>
           </Accordion.Header>
           <Accordion.Body>

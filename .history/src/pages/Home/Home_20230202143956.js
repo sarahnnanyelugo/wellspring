@@ -333,7 +333,7 @@ export const Home = () => {
           <div
             className="col-md-4 "
             data-aos="slide-right"
-            data-aos-duration="4000"
+            data-aos-duration="1000"
           >
             <div className="col-md-11 action-box flexy flexyM">
               <span>
@@ -348,7 +348,7 @@ export const Home = () => {
           <div
             className="col-md-4  "
             data-aos="slide-up"
-            data-aos-duration="4000"
+            data-aos-duration="1000"
           >
             <div className="col-md-11 action-box flexy flexyM">
               <span>
@@ -363,7 +363,7 @@ export const Home = () => {
           <div
             className="col-md-4 "
             data-aos="slide-left"
-            data-aos-duration="4000"
+            data-aos-duration="1000"
           >
             <div className="col-md-11  action-box flexy flexyM">
               <span>

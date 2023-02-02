@@ -19,7 +19,7 @@ const MobileAccordion = () => {
   // }, [location]);
   return (
     <div className="col-md-12 mobile-accordion ">
-      <Accordion>
+      <Accordion style={{ paddingTop: "30px" }}>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <small>ABOUT</small>

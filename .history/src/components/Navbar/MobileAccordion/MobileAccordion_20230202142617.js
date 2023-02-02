@@ -18,11 +18,11 @@ const MobileAccordion = () => {
   //   setThisShowActive();
   // }, [location]);
   return (
-    <div className="col-md-12 mobile-accordion ">
+    <div className="col-md-12 mobile-accordion">
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <small>ABOUT</small>
+            <small className="mt3">ABOUT</small>
           </Accordion.Header>
           <Accordion.Body>
             <ul className="list-unstyled">

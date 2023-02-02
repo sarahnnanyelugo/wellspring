@@ -22,7 +22,7 @@ const MobileAccordion = () => {
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <small>ABOUT</small>
+            <small style={{ paddingTop: "30px" }}>ABOUT</small>
           </Accordion.Header>
           <Accordion.Body>
             <ul className="list-unstyled">
