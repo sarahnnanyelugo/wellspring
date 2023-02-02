@@ -512,11 +512,11 @@
 // h6 {
 //   font-family: brother-bold !important;
 // }
-// ul li {
-//   ::before {
-//     content: "";
-//     height: 5px;
-//     width: 5px;
-//     background: $lightblue;
-//   }
-// }
+ul li {
+  ::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: $lightblue;
+  }
+}

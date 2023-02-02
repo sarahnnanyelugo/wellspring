@@ -1,6 +1,9 @@
 @import "./variables";
 
 @media screen and (max-width: 620px) {
+  body {
+    overflow: hidden !important;
+  }
   .flexyM {
     display: flex !important;
   }
@@ -511,12 +514,4 @@
 // }
 // h6 {
 //   font-family: brother-bold !important;
-// }
-// ul li {
-//   ::before {
-//     content: "";
-//     height: 5px;
-//     width: 5px;
-//     background: $lightblue;
-//   }
 // }

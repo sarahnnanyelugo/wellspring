@@ -1,0 +1,27 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.bannerNF {
+  height: 600px;
+  margin-bottom: 65px;
+  width: 100%;
+  background: $deepblue;
+  background-image: url("../../assets/facility2-banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  @media screen and (max-width: 620px) {
+    height: 300px !important;
+    margin-bottom: 100px !important;
+  }
+}
+.new-fam-events {
+  background: rgb(237, 239, 240);
+  border-radius: 3px;
+  padding: 20px 0;
+  h1 {
+    font-family: brother-bold;
+    color: rgb(212, 208, 208);
+  }
+}

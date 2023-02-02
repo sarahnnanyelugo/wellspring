@@ -325,9 +325,7 @@
       border: none;
       font-size: 40px;
       font-family: essones-d-regular;
-      @media screen and (max-width: 620px) {
-        padding: 7px 50px;
-      }
+
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -389,7 +387,7 @@
     }
     button {
       background-color: rgba(0, 79, 157, 0.9);
-      padding: 10px 70px;
+
       color: #fff;
       border: none;
       font-family: essones-d-regular;
@@ -426,9 +424,7 @@
       border: none;
       font-size: 40px;
       font-family: essones-d-regular;
-      @media screen and (max-width: 620px) {
-        padding: 7px 50px;
-      }
+
       span {
         border-bottom: solid 3px $yellow;
       }

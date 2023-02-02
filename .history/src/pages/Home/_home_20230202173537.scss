@@ -315,7 +315,7 @@
     // padding-left: 25%;
     @media screen and (max-width: 620px) {
       padding-left: 0px !important;
-      margin-left: 5px;
+      // margin-left: 5px;
     }
 
     button {
@@ -325,9 +325,7 @@
       border: none;
       font-size: 40px;
       font-family: essones-d-regular;
-      @media screen and (max-width: 620px) {
-        padding: 7px 50px;
-      }
+
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -360,9 +358,7 @@
       border: none;
       font-size: 40px;
       font-family: essones-d-regular;
-      @media screen and (max-width: 620px) {
-        padding: 7px 60px;
-      }
+
       span {
         border-bottom: solid 3px $yellow;
       }
@@ -426,9 +422,7 @@
       border: none;
       font-size: 40px;
       font-family: essones-d-regular;
-      @media screen and (max-width: 620px) {
-        padding: 7px 50px;
-      }
+
       span {
         border-bottom: solid 3px $yellow;
       }
