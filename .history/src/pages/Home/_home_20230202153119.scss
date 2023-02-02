@@ -28,6 +28,9 @@
 .logo-div {
   margin-top: -70px !important;
   // margin-left: 5%;
+  center {
+    width: 100%;
+  }
 }
 #outer {
   text-align: center;
@@ -105,7 +108,6 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  text-align: center !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;

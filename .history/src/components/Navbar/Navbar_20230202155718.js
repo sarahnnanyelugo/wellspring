@@ -281,29 +281,20 @@ function NavBar({ sticky }) {
               <li className="list-inline-item cool-link3">
                 <MenuLinks
                   pageNav="STUDENT LIFE"
-                  // page1="Lower School"
-                  // page1Url={"/sl-lower-school"}
-                  // page2="Middle School"
-                  // page2Url={"/sl-middle-school"}
-                  // page3="Upper School"
-                  // page3Url={"/sl-upper-school"}
-                  // page4="After School Program"
-                  // page4Url={"/after-school-program"}
-                  // page5="Spiritual Growth"
-                  // page5Url={"/spiritual-growth"}
-                  // page6="Summer Camps"
-                  // page6Url={"/summer-camps"}
-                  // page7="The Academics"
-                  // page7Url={"/the-academics"}
-                  extLink="Admissions Checklist"
-                  page2="FAQs"
-                  page2Url={"/faqs"}
-                  page3="New Family Information"
-                  page3Url={"/faqs"}
-                  page4="Media"
-                  page4Url={"/media"}
-                  page5="Health & Safety"
-                  page5Url={"/health-safety"}
+                  page1="Lower School"
+                  page1Url={"/sl-lower-school"}
+                  page2="Middle School"
+                  page2Url={"/sl-middle-school"}
+                  page3="Upper School"
+                  page3Url={"/sl-upper-school"}
+                  page4="After School Program"
+                  page4Url={"/after-school-program"}
+                  page5="Spiritual Growth"
+                  page5Url={"/spiritual-growth"}
+                  page6="Summer Camps"
+                  page6Url={"/summer-camps"}
+                  page7="The Academics"
+                  page7Url={"/the-academics"}
                 />
               </li>
               <li className="list-inline-item mr1">

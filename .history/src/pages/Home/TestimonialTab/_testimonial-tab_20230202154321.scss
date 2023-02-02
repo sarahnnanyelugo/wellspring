@@ -80,9 +80,9 @@
       font-family: brother-light;
 
       @media screen and (max-width: 620px) {
-        font-size: 12px;
+        font-size: 13px;
         text-align: center !important;
-        margin: 0px 0px;
+        margin: 0px 5px;
       }
     }
     &__content {
@@ -119,9 +119,6 @@
     margin-top: 200px !important;
     height: 65px;
     width: 65px;
-    @media screen and (max-width: 620px) {
-      margin-top: 320px !important;
-    }
   }
   .styles-module_carousel-arrow__26sRw[data-direction="left"] {
     margin-right: -40px;
@@ -136,9 +133,6 @@
     margin-left: -80px;
     position: relative;
     z-index: 2;
-    @media screen and (max-width: 620px) {
-      margin-left: -60px;
-    }
     &:after {
       content: "\276F";
       color: $deepblue !important;

@@ -49,7 +49,7 @@ export const Home = () => {
           ></video>
           <div className=" col-md-12 flexy" id="home-text">
             <div className="col-md-1">&nbsp;</div>
-            <div className="col-md-5 logo-div col-12 col-sm-12">
+            <div className="col-md-5 logo-div col-12">
               <div className="col-md-12 ">
                 {" "}
                 <center>

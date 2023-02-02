@@ -136,9 +136,6 @@
     margin-left: -80px;
     position: relative;
     z-index: 2;
-    @media screen and (max-width: 620px) {
-      margin-left: -60px;
-    }
     &:after {
       content: "\276F";
       color: $deepblue !important;

@@ -52,10 +52,7 @@ export const Home = () => {
             <div className="col-md-5 logo-div col-12 col-sm-12">
               <div className="col-md-12 ">
                 {" "}
-                <center>
-                  {" "}
-                  <img className="col-md-7 col-12" src={Logo2} alt="Scholar" />
-                </center>
+                <img className="col-md-7 col-12" src={Logo2} alt="Scholar" />
               </div>
               <div className="col-md-12  first-heading mt">
                 {" "}

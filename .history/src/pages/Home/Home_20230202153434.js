@@ -60,7 +60,7 @@ export const Home = () => {
               <div className="col-md-12  first-heading mt">
                 {" "}
                 <center>
-                  <h1>
+                  <h1 className="col-12">
                     Being Named One of the Best Private Schools in Lagos,
                     Nigeria, Reflects Our Commitment to Excellence
                   </h1>
