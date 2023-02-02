@@ -50,7 +50,7 @@ export const AdmissionsEvents = () => {
           <div className="col-md-11">
             <div className="breadcrum" style={{ marginTop: "-30px" }}>
               {" "}
-              <Breadcrum nav="Admissions" currentPage="Admissions Events" />
+              <Breadcrum nav="About" currentPage="Welcome" />
             </div>
             <div className="page-menu mt4">
               <ul className="list-inline list-unstyled">
