@@ -76,7 +76,7 @@ function NavBar({ sticky }) {
           <h1 className={`  ${isHome ? "hide-logo" : ""}`}>
             <Link to={"/"}>
               {" "}
-              <img className="col-md-4 col-1 ml6" src={Logo} alt="Scholar" />
+              <img className="col-md-4 col-1 ml3" src={Logo} alt="Scholar" />
             </Link>
           </h1>
         </div>

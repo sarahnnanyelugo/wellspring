@@ -195,7 +195,7 @@
   background-size: cover;
   display: flex;
   @media screen and (max-width: 620px) {
-    height: 75%;
+    // height: 545px !important;
   }
 }
 .icon {
@@ -449,7 +449,7 @@
   }
 }
 .zoominheader {
-  min-height: 600px !important;
+  // min-height: 600px !important;
   @media screen and (max-width: 620px) {
     width: 100%;
     // height: 300px;

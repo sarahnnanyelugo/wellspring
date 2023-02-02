@@ -76,15 +76,15 @@ $nav-links: about, products, media, contact us;
     transform: translateY(0);
   }
   .loggo-div {
-    margin-top: -30px;
+    margin-top: -37px;
     @media screen and (max-width: 620px) {
       margin-left: 0 !important;
       margin-top: -100px;
     }
     img {
       @media screen and (max-width: 620px) {
-        // height: 10px !important;
-        // width: 10px;
+        height: 10px !important;
+        width: 10px;
         display: none;
       }
     }

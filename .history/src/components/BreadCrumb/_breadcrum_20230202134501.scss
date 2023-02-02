@@ -2,8 +2,8 @@
 
 .breadcrumb-container {
   background: rgb(251, 251, 217);
-  width: 230px;
-  padding-left: 10px;
+  // width: 250px;
+  padding: 5px 10px;
   .breadcrumb-item.active {
     color: $lightblue !important;
     opacity: 0.7 !important;

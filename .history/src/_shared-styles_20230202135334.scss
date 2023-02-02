@@ -195,7 +195,8 @@
   background-size: cover;
   display: flex;
   @media screen and (max-width: 620px) {
-    height: 75%;
+    // h  min-height: 600px !important;
+    eight: 545px !important;
   }
 }
 .icon {

@@ -29,7 +29,7 @@
     display: none;
   }
   .breadcrum {
-    margin-top: 350px !important;
+    margin-top: 250px !important;
   }
 }
 @media screen and (min-width: 620px) {
@@ -195,7 +195,7 @@
   background-size: cover;
   display: flex;
   @media screen and (max-width: 620px) {
-    height: 75%;
+    height: 545px !important;
   }
 }
 .icon {
@@ -249,19 +249,14 @@
 
 .page-menu {
   ul li {
-    margin: 10px 40px;
-    font-size: 18px !important;
-    @media screen and (max-width: 620px) {
-      margin: 10px 10px;
-      font-size: 15px !important;
-    }
+    margin: 5px 20px;
     :hover {
       color: $deepblue !important;
     }
   }
   .link-alteration {
     color: grey !important;
-    font-family: brother-medium;
+    font-family: brother-bold;
 
     span i {
       color: $lightblue;
@@ -301,9 +296,6 @@
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
     height: fit-content;
     z-index: 30000000;
-    @media screen and (max-width: 620px) {
-      margin-left: 20px;
-    }
     .link-alteration {
       color: #fff !important;
       font-weight: bold;
@@ -343,18 +335,10 @@
     border: none;
     margin-top: 0 !important;
     color: $lightblue2;
-    font-family: brother-bold;
-    font-size: 18px !important;
-    @media screen and (max-width: 620px) {
-      margin-left: 20px;
-    }
   }
 }
 .page-content {
   margin-left: 80px;
-  @media screen and (max-width: 620px) {
-    margin-left: 0px;
-  }
   .dot {
     height: 10px;
     width: 10px;

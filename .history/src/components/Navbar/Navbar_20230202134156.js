@@ -206,8 +206,8 @@ function NavBar({ sticky }) {
                   page1Url={"/diversity"}
                   page2="Health & Safety"
                   page2Url={"/health-safety"}
-                  page3="Calendar"
-                  page3Url={"/calendar"}
+                  // page3="Calendar"
+                  // page3Url={"/calendar"}
                   page4="Careers"
                   page4Url={"/careers"}
                   page5="Contact Us"
