@@ -362,7 +362,7 @@ export const Home = () => {
           </div>
           <div
             className="col-md-4 "
-            data-aos="slide-left"
+            data-aos="slide-right"
             data-aos-duration="600"
           >
             <div className="col-md-11  action-box flexy flexyM">
