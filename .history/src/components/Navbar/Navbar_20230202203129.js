@@ -209,7 +209,7 @@ function NavBar({ sticky }) {
                   page2="Health & Safety"
                   page2Url={"/health-safety"}
                   page3="Calendar"
-                  page3Url={"/admissions-events"}
+                  page3Url={"/admission-events"}
                   page4="Careers"
                   page4Url={"/careers"}
                   page5="Contact Us"
