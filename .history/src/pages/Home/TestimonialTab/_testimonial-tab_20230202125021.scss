@@ -116,11 +116,13 @@
     border: none !important;
     padding: 0 !important;
     margin-top: 200px !important;
-    height: 65px;
-    width: 65px;
+    // height: 60px;
+    // width: 60px;
+    height: 100px;
+    width: 100px;
   }
   .styles-module_carousel-arrow__26sRw[data-direction="left"] {
-    margin-right: -40px;
+    margin-right: -60px;
     position: relative;
     z-index: 2;
     &:after {
@@ -129,7 +131,7 @@
     }
   }
   .styles-module_carousel-arrow__26sRw[data-direction="right"] {
-    margin-left: -80px;
+    margin-left: -60px;
     position: relative;
     z-index: 2;
     &:after {
