@@ -11,11 +11,8 @@ export const TestimonialTab = () => {
   const [isMobile, setMobile] = useState(window.innerWidth <= 768);
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
-    setMobile(window.innerWidth <= 768);
-  }
-  function setMobileOnly() {
-    setMobile(window.innerWidth <= 768);
-    console.log("ismobile:", isMobile, widthM, window.innerWidth);
+
+    console.log("ismobile:", isMobile, widthM);
   }
   useEffect(() => {
     window.addEventListener("resize", handleWindowSizeChange);
@@ -23,10 +20,9 @@ export const TestimonialTab = () => {
       window.removeEventListener("resize", handleWindowSizeChange);
     };
   }, []);
-
   useEffect(() => {
-    setMobileOnly();
-  }, [window.innerWidth]);
+    setMobile(widthM <= 768);
+  }, [widthM]);
 
   // const isMobile = width <= 768;
   return (
@@ -160,7 +156,7 @@ export const TestimonialTab = () => {
           </div>
           <div class="tab__content tbc mt2">
             <Carousel
-              show={isMobile ? 1 : 3}
+              show={3}
               slide={1}
               autoSwipe={0}
               transition={0.9}

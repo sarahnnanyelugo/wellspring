@@ -11,7 +11,7 @@ export const TestimonialTab = () => {
   const [isMobile, setMobile] = useState(window.innerWidth <= 768);
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
-    setMobile(window.innerWidth <= 768);
+    setMobile(widthM <= 768);
   }
   function setMobileOnly() {
     setMobile(window.innerWidth <= 768);
@@ -160,7 +160,7 @@ export const TestimonialTab = () => {
           </div>
           <div class="tab__content tbc mt2">
             <Carousel
-              show={isMobile ? 1 : 3}
+              show={3}
               slide={1}
               autoSwipe={0}
               transition={0.9}

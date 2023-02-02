@@ -4,31 +4,8 @@ import Speech from "../../../assets/speech.png";
 import Admin from "../../../assets/admin.png";
 import { Testimonials } from "../../../components/Testimonials/Testimonials";
 import { Carousel } from "@trendyol-js/react-carousel";
-import { useEffect, useState } from "react";
 
 export const TestimonialTab = () => {
-  const [widthM, setWidth] = useState(window.innerWidth);
-  const [isMobile, setMobile] = useState(window.innerWidth <= 768);
-  function handleWindowSizeChange() {
-    setWidth(window.innerWidth);
-    setMobile(window.innerWidth <= 768);
-  }
-  function setMobileOnly() {
-    setMobile(window.innerWidth <= 768);
-    console.log("ismobile:", isMobile, widthM, window.innerWidth);
-  }
-  useEffect(() => {
-    window.addEventListener("resize", handleWindowSizeChange);
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange);
-    };
-  }, []);
-
-  useEffect(() => {
-    setMobileOnly();
-  }, [window.innerWidth]);
-
-  // const isMobile = width <= 768;
   return (
     <>
       <div id="testimonial-tab-container">
@@ -160,13 +137,14 @@ export const TestimonialTab = () => {
           </div>
           <div class="tab__content tbc mt2">
             <Carousel
-              show={isMobile ? 1 : 3}
+              show={3}
               slide={1}
               autoSwipe={0}
               transition={0.9}
               swiping={true}
               infinite={true}
               useArrowKeys={true}
+              dynamic={true}
             >
               <div className="col-md-11">
                 {" "}

@@ -20,7 +20,7 @@ function NavBar({ sticky }) {
   const setThisHome = () => {
     // console.log(location.pathname === "/");
     setIsHome(location.pathname === "/" && scrollPosition <= 200);
-    // console.log(isHome);
+    console.log(isHome);
   };
   const setThisShowActive = () => {
     setShowActive(false);
@@ -39,7 +39,7 @@ function NavBar({ sticky }) {
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
-    // console.log(scrollPosition);
+    console.log(scrollPosition);
   };
   const handleChange = (e) => {
     let isChecked = e.target.checked;
@@ -50,10 +50,10 @@ function NavBar({ sticky }) {
   const handleNavigation = (e) => {
     const window = e.currentTarget;
     if (y > window.scrollY) {
-      // console.log("scrolling up");
+      console.log("scrolling up");
       setScrollDirection(1);
     } else if (y < window.scrollY) {
-      // console.log("scrolling down");
+      console.log("scrolling down");
       setScrollDirection(-1);
     }
     setY(window.scrollY);

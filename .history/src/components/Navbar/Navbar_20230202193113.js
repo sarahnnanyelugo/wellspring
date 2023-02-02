@@ -50,10 +50,10 @@ function NavBar({ sticky }) {
   const handleNavigation = (e) => {
     const window = e.currentTarget;
     if (y > window.scrollY) {
-      // console.log("scrolling up");
+      console.log("scrolling up");
       setScrollDirection(1);
     } else if (y < window.scrollY) {
-      // console.log("scrolling down");
+      console.log("scrolling down");
       setScrollDirection(-1);
     }
     setY(window.scrollY);
